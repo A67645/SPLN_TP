@@ -15,24 +15,29 @@ def listarPessoas(link):
     reID = re.compile("pessoas.php\?id=+[0-9]+") # pattern to check if is person entry
     reLink =re.compile("[0-9]+\-[0-9]+") # pattern to check if is a index entry
     findID = re.compile("[0-9]+") # get ID from string
-    findLink = re.compile() # get Link from String
+    findLink = re.compile('(?<=")(.*?)(?=<\/a>)') # get Link from String
 
+    # definir lista de users /links para lista de users
+    lista = []
+    lista_links = []
 
     # parse the first page
     for a in soup.find_all('a', href=True):
-        if re.search(reID, a):
-            id = re.match(findID,re.match(reID, a))
+        data = a.decode()
+        if re.search(reID, data):
+            id = re.search(findID, data).group(0) # ,re.match(reID, data)
             lista.append(id)
-        elif re.search(reList, a)
-            lista_links.append("href")
+        elif re.search(reLink, data):
+            links = re.search(findLink, data).group(0).replace('">',"")
+            lista_links.append(links)
     # parse the aditional indexes pages to get all the ids
     for i in lista_links:
-        print("Parsing do index" + i+2)
         for a in soup.find_all('a', href=True):
-            if a == "regexParaVerseTemID":
-                lista.append("RegexDeID")
+            data = a.decode()
+            if re.search(reID, data):
+                id = re.search(findID, data).group(0) # ,re.match(reID, data)
+                lista.append(id)
     return lista
-    print("Terminado parsing das pessoas")
     # daqui precisamos de uma lista com id apenas
 
 
@@ -64,6 +69,8 @@ def main():
     lista_pessoas = listarPessoas(link_pessoa)
     #print("Parisng the families index")
     #lista_familia = listarFamilias(link_famila)
+    print(lista_pessoas)
+
 
 
 
