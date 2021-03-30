@@ -1,0 +1,20 @@
+{
+   "familia":"nomedafamilia",
+   "nome":"Jose",
+   "datadenascimento": "31/07/1784",
+   "pais":{
+      "pai":"Jose",
+      "mae":"Maria",
+    },
+   "casamentos":{
+      "casamento1":{
+          "local": "Quinta da Beira",
+          "data": "31/07/1794",
+          "conjuge": "Maria Eduarda"
+        }
+    },
+   "filhos":{
+       "1":"filho1",
+       "2":"filho2"
+   }
+}

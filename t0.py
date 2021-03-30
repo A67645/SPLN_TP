@@ -38,19 +38,16 @@ def listarPessoas(link):
                 id = re.search(findID, data).group(0) # ,re.match(reID, data)
                 lista.append(id)
     return lista
-    # daqui precisamos de uma lista com id apenas
 
 
 # definir função para extrair dados de pag de user
 
 
-# definir função para definir dados de pag de cada familia.
-
 
 def main():
     # read main webpage
     content = requests.get("http://pagfam.geneall.net/3418/").content
-
+    #change this, why download the html when we can get all from bsf directly?
     with open("file.html","wb") as f:
         f.write(content)
     f.close()
@@ -59,11 +56,9 @@ def main():
         soup = BeautifulSoup(b, features = "html.parser")
     b.close()
 
-    #get links for family and people directory
+    #get links from the people directory
     link_pessoa = 'http://pagfam.geneall.net/3418/' + soup.find_all("option", string = "Pessoas")[0]['value']
-    link_famila = 'http://pagfam.geneall.net/3418/' + soup.find_all("option", string = "Famílias")[0]['value']
-
-    print("Found the people and families indexes")
+    #link_famila = 'http://pagfam.geneall.net/3418/' + soup.find_all("option", string = "Famílias")[0]['value']
 
     print("Parsing the people index")
     lista_pessoas = listarPessoas(link_pessoa)
