@@ -5,9 +5,6 @@ from bs4 import BeautifulSoup
 import re
 
 
-# definir função para ler todas as familias
-
-
 # definir função para ler todas as pessoas
 def listarPessoas(link):
     soup = BeautifulSoup(requests.get(link).text, 'html.parser')
@@ -41,7 +38,11 @@ def listarPessoas(link):
 
 
 # definir função para extrair dados de pag de user
+def parsePage(link_id):
+    print("Outputs dictionary with the existing info")
 
+def createJson(dic):
+    print("Outputs Json file") #not needed probably, serialize only
 
 
 def main():
@@ -58,15 +59,20 @@ def main():
 
     #get links from the people directory
     link_pessoa = 'http://pagfam.geneall.net/3418/' + soup.find_all("option", string = "Pessoas")[0]['value']
-    #link_famila = 'http://pagfam.geneall.net/3418/' + soup.find_all("option", string = "Famílias")[0]['value']
 
-    print("Parsing the people index")
+    print("Parsing the people index...")
     lista_pessoas = listarPessoas(link_pessoa)
     #print("Parisng the families index")
     #lista_familia = listarFamilias(link_famila)
-    print(lista_pessoas)
+    print("Parsing individuals...")
+    for i in lista_pessoas:
+        indvData = parsePage('http://pagfam.geneall.net/3418//pessoas.php?id=' + id)
+        output.append(createJson(indvData))
 
+    with open("output.json","w") as f:
+        f.write(ouput)
+    f.close()
 
-
+    print("Created Json List with {} obs.".format(lista_pessoas.len()))
 
 main()
