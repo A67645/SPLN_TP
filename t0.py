@@ -39,11 +39,43 @@ def listarPessoas(link):
 
 # definir função para extrair dados de pag de user
 def parsePage(link_id):
+
+    re_data = re.compile("[0-9][0-9].[0-9][0-9].[0-9][0-9][0-9][0-9]?)")
+    re_local = re.compile("\[*|+] (.+?)[0-9]")
+
     print("Outputs dictionary with the existing info")
+    for i in link_id:
+        url = "http://pagfam.geneall.net/3418/pessoas.php?id={}".format(i)
+        soup = BeautifulSoup(requests.get(url).text, 'html.parser')
+
+        # get users general info
+        name = soup.title.name
+        familia = soup.find("div", {"class" : "head2"}).text
+        local_nasc = re.search(re_local,birth_death_list[0]).group(0)
+        local_morte = re.search(re_local,birth_death_list[1]).group(0)
+        data_nasc = re.search(re_data,birth_death_list[0]).group(0)
+        data_morte = re.search(re_data,birth_death_list[1]).group(0)
+
+        # get parents info
+
+        # get marriage info
+
+        # get heritage info
+
 
 def createJson(dic):
     print("Outputs Json file") #not needed probably, serialize only
 
+# definir função para validar output do bs4
+def brith_death_validator(string):
+    if '+' in string && '*' in string:
+        return string.split("+",2)
+    elif '+' in string && '*' not in string:
+        list = ["null",string]
+        return list
+    elif '*' in string && '+' not in string:
+        list = [string, "null"]
+        return list
 
 def main():
     # read main webpage
