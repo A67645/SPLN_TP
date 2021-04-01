@@ -1,4 +1,5 @@
-[
+{
+"familias" : [
 {
    "familia":"Macieira",
    "nome":"Jose",
@@ -41,3 +42,4 @@
    }
 }
 ]
+}
