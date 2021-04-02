@@ -14,7 +14,7 @@ def listarPessoas(link):
     findID = re.compile("[0-9]+") # get ID from string
     findLink = re.compile('(?<=")(.*?)(?=<\/a>)') # get Link from String
 
-    # definir lista de users /links para lista de users
+    # definir lista de users/links para lista de users
     lista = []
     lista_links = []
 
@@ -36,12 +36,23 @@ def listarPessoas(link):
                 lista.append(id)
     return lista
 
+# definir função para validar output do bs4
+def birth_death_validator(string):
+    if '+' in string and '*' in string:
+        return string.split("+",2)
+    elif '+' in string and '*' not in string:
+        list = ["null",string]
+        return list
+    elif '*' in string and '+' not in string:
+        list = [string, "null"]
+        return list
+
 
 # definir função para extrair dados de pag de user
 def parsePage(link_id):
 
-    re_data = re.compile("[0-9][0-9].[0-9][0-9].[0-9][0-9][0-9][0-9]?)")
-    re_local = re.compile("\[*|+] (.+?)[0-9]")
+    re_data = re.compile("([0-9][0-9].[0-9][0-9].[0-9][0-9][0-9][0-9]?)")
+    re_local = re.compile("[*|+] (.+?)[0-9]")
 
     print("Outputs dictionary with the existing info")
     for i in link_id:
@@ -51,14 +62,42 @@ def parsePage(link_id):
         # get users general info
         name = soup.title.name
         familia = soup.find("div", {"class" : "head2"}).text
+
+        # get the first block of information
+        main_info = soup.find("div", {"align": "center", "class": "head1"}).next_element.next_element.next_element
+        main_info = str(text2).replace("<nobr>","")
+        main_info = str(text2).replace("</nobr>","")
+        main_info = str(text2).replace('<div align="center">',"")
+        main_info = str(text2).replace('</div>',"")
+        birth_death_list = birth_death_validator(main_info)
+
         local_nasc = re.search(re_local,birth_death_list[0]).group(0)
         local_morte = re.search(re_local,birth_death_list[1]).group(0)
         data_nasc = re.search(re_data,birth_death_list[0]).group(0)
         data_morte = re.search(re_data,birth_death_list[1]).group(0)
 
         # get parents info
+        text_parents = soup.find_all("b")
+        pai_string = text_parents[0].next_element.next_element.next_element
+        mae_string = text_parents[1].next_element.next_element.next_element
+
+        parents_pai = re.search("[0-9]+",pai_string).group(0)
+        parents_mae = re.search("[0-9]+",mae_string).group(0)
 
         # get marriage info
+        paragraph = soup2.find("div", {"class": "txt2", "align": "center"})
+        temp = str(paragraph).split("Casamentos",2)
+        lista_casamentos = temp[1].split("Casamento")
+        for i in lista_casamentos:
+                str(i).replace("</div>","")
+                str(i).replace('</div><div align="center"><b>',"")
+                str(i).replace("<b>","")
+                str(i).replace("</b>","")
+                str(i).replace("<nobr>","")
+                str(i).replace("</nobr>","")
+                str(i).replace("<a>","")
+                str(i).replace("</a>","")
+                str(i).replace('<div align="center" style="margin-bottom: 15px',"")
 
         # get heritage info
 
@@ -66,16 +105,6 @@ def parsePage(link_id):
 def createJson(dic):
     print("Outputs Json file") #not needed probably, serialize only
 
-# definir função para validar output do bs4
-def brith_death_validator(string):
-    if '+' in string && '*' in string:
-        return string.split("+",2)
-    elif '+' in string && '*' not in string:
-        list = ["null",string]
-        return list
-    elif '*' in string && '+' not in string:
-        list = [string, "null"]
-        return list
 
 def main():
     # read main webpage
