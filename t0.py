@@ -43,18 +43,23 @@ def birth_death_validator(string):
         local_nasc, data_nasc = check_local_data(split[0])
         local_morte, data_morte = check_local_data(split[1])
     elif '+' in string and '*' not in string:
-        local_nasc, data_nasc = "null"
-        local_morte, data_morte = check_local_data(string)
+        local_nasc = "null"
+        data_nasc = "null"
+        local_morte = check_local_data(string)
+        data_morte = check_local_data(string)
         return list
     elif '*' in string and '+' not in string:
-        local_nasc, data_nasc = check_local_data(string)
-        local_morte, data_morte = "null"
+        local_nasc = check_local_data(string)
+        data_nasc = check_local_data(string)
+        local_morte = "null"
+        data_morte = "null"
     return local_nasc, data_nasc, local_morte, data_morte
 
 # perceber se temos local e data em cada main_info
 def check_local_data(string): # confirm regex .search and .match
     re_local = re.compile("[*|+] (.+?)[0-9]")
     re_data = re.compile("([0-9][0-9].[0-9][0-9].[0-9][0-9][0-9][0-9]?)")
+    data = "null"
     if re.match(re_data,string):
         local = re.search(re_local, string)
         data = re.search(re_data, string)
@@ -62,11 +67,43 @@ def check_local_data(string): # confirm regex .search and .match
         local = string
     return local, data
 
+# percber que campos temos disponiveis dentro do casamento
+def check_casamento(string):
+    re_data = re.compile("([0-9][0-9].[0-9][0-9].[0-9][0-9][0-9][0-9]?)")
+    re_local = re.compile("[*|+] (.+?)[0-9]")
+    re_id = re.compile("[0-9]+")
+    data = ""
+    local = ""
+    id = ""
+    if re.match(re_data, string):
+        data = re.search(re_data, string)
+    if re.match(re_local, string):
+        local = re.search(re_local, string)
+    if re.match(re_id, string):
+        id = re.search(re_id, string)
+    return id, local, data
+
 # confirmar se existem casamentos na pagina
 def exists_casamento(sopa):
     temp = sopa.find_all("div", { "class": "marcadorP" , "style": "margin-top: 10px;"})
     for i in temp:
         if 'Casamentos' in i:
+            return True
+        else:
+            return False
+
+def exists_parents(sopa):
+    temp = sopa.find_all("div", { "class": "marcadorP" , "style": "margin-top: 10px;"})
+    for i in temp:
+        if 'Pais' in i:
+            return True
+        else:
+            return False
+
+def exists_filhos(sopa):
+    temp = sopa.find_all("div", { "class": "marcadorP" , "style": "margin-top: 10px;"})
+    for i in temp:
+        if 'Filhos' in i:
             return True
         else:
             return False
@@ -87,27 +124,30 @@ def parsePage(link_id):
     main_info = str(main_info).replace("</nobr>","")
     main_info = str(main_info).replace('<div align="center">',"")
     main_info = str(main_info).replace('</div>',"")
-    print("Pre função")
-    print(main_info)
     local_nasc, data_nasc, local_morte, data_morte = birth_death_validator(main_info)
 
-    print(data_nasc + "--------" + local_nasc + "--------" + data_morte + "--------" + local_morte)
+    print("main info parsed")
     # get parents info
-    if exists_casamento(soup):
+    if exists_parents(soup):
         text_parents = soup.find_all("b")
         pai_string = text_parents[0].next_element.next_element.next_element
         mae_string = text_parents[1].next_element.next_element.next_element
-
-        parents_pai = re.search("[0-9]+",pai_string).group(0)
-        parents_mae = re.search("[0-9]+",mae_string).group(0)
-
-        # get marriage info
-        paragraph = soup2.find("div", {"class": "txt2", "align": "center"})
+        parents_pai = re.search("[0-9]+",str(pai_string)).group(0)
+        parents_mae = re.search("[0-9]+",str(mae_string)).group(0)
+        print("parents info parsed")
+    # get marriage info
+    if exists_casamento(soup):
+        paragraph = soup.find("td", {"width": "100%"})
         temp = str(paragraph).split("Casamentos",2)
-        lista_casamentos = temp[1].split("Casamento")
+        temp = temp[1]
+        if exists_filhos:
+            temp = temp.split("Filhos",2)
+            temp = temp[0]
+        lista_casamentos = temp.split("Casamento")
         l_lista_casamentos = []
         l_lista_temp = []
         for i in lista_casamentos:
+            print("chegou aquI!!!")
             # prepare string for parsing
             string = str(i)
             string = string.replace("</div>","")
@@ -125,13 +165,14 @@ def parsePage(link_id):
             string = string.split(";")
             l_lista_temp.append(string)
         l_lista_temp = [x for x in l_lista_temp if x != ['']]
+        print(l_lista_temp)
         for l in l_lista_temp:
-            data = re.search("[0-9][0-9].[0-9][0-9].[0-9][0-9][0-9][0-9]",l[0]).group(0)
-            local = re.search("   (.+?)(?=[0-9])",l[0]).group(0)
-            conjuge = re.search("[0-9]+",l[1]).group(0)
+            conjuge, local, data = check_casamento(str(l))
             l_lista_casamentos.append([conjuge,local,data])
-    print(l_lista_casamentos)
+        print(l_lista_casamentos)
         # get heritage info
+    if exists_parents(soup):
+        print("Filhos")
 
 
 def createJson(dic):
