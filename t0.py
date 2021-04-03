@@ -39,44 +39,61 @@ def listarPessoas(link):
 # definir função para validar output do bs4
 def birth_death_validator(string):
     if '+' in string and '*' in string:
-        return string.split("+",2)
+        split = string.split("+",2)
+        local_nasc, data_nasc = check_local_data(split[0])
+        local_morte, data_morte = check_local_data(split[1])
     elif '+' in string and '*' not in string:
-        list = ["null",string]
+        local_nasc, data_nasc = "null"
+        local_morte, data_morte = check_local_data(string)
         return list
     elif '*' in string and '+' not in string:
-        list = [string, "null"]
-        return list
+        local_nasc, data_nasc = check_local_data(string)
+        local_morte, data_morte = "null"
+    return local_nasc, data_nasc, local_morte, data_morte
 
+# perceber se temos local e data em cada main_info
+def check_local_data(string): # confirm regex .search and .match
+    re_local = re.compile("[*|+] (.+?)[0-9]")
+    re_data = re.compile("([0-9][0-9].[0-9][0-9].[0-9][0-9][0-9][0-9]?)")
+    if re.match(re_data,string):
+        local = re.search(re_local, string)
+        data = re.search(re_data, string)
+    else:
+        local = string
+    return local, data
+
+# confirmar se existem casamentos na pagina
+def exists_casamento(sopa):
+    temp = sopa.find_all("div", { "class": "marcadorP" , "style": "margin-top: 10px;"})
+    for i in temp:
+        if 'Casamentos' in i:
+            return True
+        else:
+            return False
 
 # definir função para extrair dados de pag de user
 def parsePage(link_id):
+    print(link_id)
+    url = f"http://pagfam.geneall.net/3418/pessoas.php?id={link_id}"
+    soup = BeautifulSoup(requests.get(url).text, 'html.parser')
 
-    re_data = re.compile("([0-9][0-9].[0-9][0-9].[0-9][0-9][0-9][0-9]?)")
-    re_local = re.compile("[*|+] (.+?)[0-9]")
+    # get users general info
+    name = soup.title.name
+    familia = soup.find("div", {"class" : "head2"}).text
 
-    print("Outputs dictionary with the existing info")
-    for i in link_id:
-        url = "http://pagfam.geneall.net/3418/pessoas.php?id={}".format(i)
-        soup = BeautifulSoup(requests.get(url).text, 'html.parser')
+    # get the first block of information
+    main_info = soup.find("div", {"align": "center", "class": "head1"}).next_element.next_element.next_element
+    main_info = str(main_info).replace("<nobr>","")
+    main_info = str(main_info).replace("</nobr>","")
+    main_info = str(main_info).replace('<div align="center">',"")
+    main_info = str(main_info).replace('</div>',"")
+    print("Pre função")
+    print(main_info)
+    local_nasc, data_nasc, local_morte, data_morte = birth_death_validator(main_info)
 
-        # get users general info
-        name = soup.title.name
-        familia = soup.find("div", {"class" : "head2"}).text
-
-        # get the first block of information
-        main_info = soup.find("div", {"align": "center", "class": "head1"}).next_element.next_element.next_element
-        main_info = str(text2).replace("<nobr>","")
-        main_info = str(text2).replace("</nobr>","")
-        main_info = str(text2).replace('<div align="center">',"")
-        main_info = str(text2).replace('</div>',"")
-        birth_death_list = birth_death_validator(main_info)
-
-        local_nasc = re.search(re_local,birth_death_list[0]).group(0)
-        local_morte = re.search(re_local,birth_death_list[1]).group(0)
-        data_nasc = re.search(re_data,birth_death_list[0]).group(0)
-        data_morte = re.search(re_data,birth_death_list[1]).group(0)
-
-        # get parents info
+    print(data_nasc + "--------" + local_nasc + "--------" + data_morte + "--------" + local_morte)
+    # get parents info
+    if exists_casamento(soup):
         text_parents = soup.find_all("b")
         pai_string = text_parents[0].next_element.next_element.next_element
         mae_string = text_parents[1].next_element.next_element.next_element
@@ -88,17 +105,32 @@ def parsePage(link_id):
         paragraph = soup2.find("div", {"class": "txt2", "align": "center"})
         temp = str(paragraph).split("Casamentos",2)
         lista_casamentos = temp[1].split("Casamento")
+        l_lista_casamentos = []
+        l_lista_temp = []
         for i in lista_casamentos:
-                str(i).replace("</div>","")
-                str(i).replace('</div><div align="center"><b>',"")
-                str(i).replace("<b>","")
-                str(i).replace("</b>","")
-                str(i).replace("<nobr>","")
-                str(i).replace("</nobr>","")
-                str(i).replace("<a>","")
-                str(i).replace("</a>","")
-                str(i).replace('<div align="center" style="margin-bottom: 15px',"")
-
+            # prepare string for parsing
+            string = str(i)
+            string = string.replace("</div>","")
+            string = string.replace('</div><div align="center"><b>',"")
+            string = string.replace("<b>","")
+            string = string.replace("</b>","")
+            string = string.replace("<nobr>","")
+            string = string.replace("</nobr>","")
+            string = string.replace("<a>","")
+            string = string.replace("</a>","")
+            string = string.replace('<div align="center" style="margin-bottom: 15px',"")
+            string = string.replace('<div align="center">',"")
+            string = string.replace('"><a',"")
+            string = string.replace('>',";")
+            string = string.split(";")
+            l_lista_temp.append(string)
+        l_lista_temp = [x for x in l_lista_temp if x != ['']]
+        for l in l_lista_temp:
+            data = re.search("[0-9][0-9].[0-9][0-9].[0-9][0-9][0-9][0-9]",l[0]).group(0)
+            local = re.search("   (.+?)(?=[0-9])",l[0]).group(0)
+            conjuge = re.search("[0-9]+",l[1]).group(0)
+            l_lista_casamentos.append([conjuge,local,data])
+    print(l_lista_casamentos)
         # get heritage info
 
 
@@ -123,17 +155,18 @@ def main():
 
     print("Parsing the people index...")
     lista_pessoas = listarPessoas(link_pessoa)
+    print(lista_pessoas)
     #print("Parisng the families index")
     #lista_familia = listarFamilias(link_famila)
     print("Parsing individuals...")
     for i in lista_pessoas:
-        indvData = parsePage('http://pagfam.geneall.net/3418//pessoas.php?id=' + id)
-        output.append(createJson(indvData))
+        indvData = parsePage(i)
+        #output.append(createJson(indvData))
 
-    with open("output.json","w") as f:
-        f.write(ouput)
-    f.close()
+    #with open("output.json","w") as f:
+    #    f.write(ouput)
+    #f.close()
 
-    print("Created Json List with {} obs.".format(lista_pessoas.len()))
+    #print("Created Json List with {} obs.".format(lista_pessoas.len()))
 
 main()
