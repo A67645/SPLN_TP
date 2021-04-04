@@ -1,0 +1,45 @@
+{
+"familias" : [
+{
+   "familia":"Macieira",
+   "nome":"Jose",
+   "datadenascimento": "31/07/1784",
+   "pais":{
+      "pai":"Jose",
+      "mae":"Maria"
+    },
+   "casamentos":{
+      "casamento1":{
+          "local": "Quinta da Beira",
+          "data": "31/07/1794",
+          "conjuge": "Maria Eduarda"
+        }
+    },
+   "filhos":{
+       "1":"filho1",
+       "2":"filho2"
+   }
+},
+
+{
+   "familia":"Pereira",
+   "nome":"Manel",
+   "datadenascimento": "31/07/1984",
+   "pais":{
+      "pai":"Erasmo Carlos",
+      "mae":"Constança"
+    },
+   "casamentos":{
+      "casamento1":{
+          "local": "Quinta de Longe",
+          "data": "31/07/2000",
+          "conjuge": "Antonieta Soares"
+        }
+    },
+   "filhos":{
+       "1":"Joaquim Maria",
+       "2":"Maria Joaquina"
+   }
+}
+]
+}
