@@ -38,6 +38,11 @@ def listarPessoas(link):
 
 # definir função para validar output do bs4
 def birth_death_validator(string):
+    local_nasc = ""
+    data_morte = ""
+    data_nasc = ""
+    local_morte = ""
+    print("Entrou na funcao")
     if '+' in string and '*' in string:
         split = string.split("+",2)
         local_nasc, data_nasc = check_local_data(split[0])
@@ -45,9 +50,7 @@ def birth_death_validator(string):
     elif '+' in string and '*' not in string:
         local_nasc = "null"
         data_nasc = "null"
-        local_morte = check_local_data(string)
-        data_morte = check_local_data(string)
-        return list
+        local_morte, data_morte = check_local_data(string)
     elif '*' in string and '+' not in string:
         local_nasc = check_local_data(string)
         data_nasc = check_local_data(string)
@@ -65,6 +68,8 @@ def check_local_data(string): # confirm regex .search and .match
         data = re.search(re_data, string)
     else:
         local = string
+    print(local)
+    print(data)
     return local, data
 
 # percber que campos temos disponiveis dentro do casamento
@@ -124,6 +129,7 @@ def parsePage(link_id):
     main_info = str(main_info).replace("</nobr>","")
     main_info = str(main_info).replace('<div align="center">',"")
     main_info = str(main_info).replace('</div>',"")
+    print(main_info)
     local_nasc, data_nasc, local_morte, data_morte = birth_death_validator(main_info)
 
     print("main info parsed")
