@@ -67,7 +67,7 @@ def pessoa(nome_pessoa, dict_pessoas):
         if((dict_pessoa["familia"]==sobrenome)and(dict_pessoa["nome"]==nome)):
             pessoa = dict_pessoa
             break
-    print(pessoa)
+    return pessoa
 
 def familia(nome_familia, dict_pessoas):
     pessoas = dict_pessoas["familias"]
@@ -75,7 +75,7 @@ def familia(nome_familia, dict_pessoas):
     for pessoa in pessoas:
         if(pessoa["familia"] == nome_familia):
             familia.append(pessoa["nome"])
-    print(familia)
+    return familia
 
 def casamentos(nome_pessoa, dict_pessoas):
     pessoas = dict_pessoas["familias"]
@@ -85,48 +85,53 @@ def casamentos(nome_pessoa, dict_pessoas):
     for dict_pessoa in pessoas:
         if((dict_pessoa["familia"]==sobrenome)and(dict_pessoa["nome"]==nome)):
             casamentos.append(dict_pessoa["casamentos"])
-    print(casamentos)
+    return casamentos
 
 def filhos(nome_pessoa, dict_pessoas):
     pessoas = dict_pessoas["familias"]
     nome = nome_pessoa.split(' ')[0]
     sobrenome =  nome_pessoa.split(' ')[1]
+    filhos = []
     for dict_pessoa in pessoas:
         if((dict_pessoa["familia"]==sobrenome)and(dict_pessoa["nome"]==nome)):
-            print(dict_pessoa["filhos"])
+            filhos.append(dict_pessoa["filhos"])
+    return filhos
 
 def pais(nome_pessoa, dict_pessoas):
     pessoas = dict_pessoas["familias"]
     nome = nome_pessoa.split(' ')[0]
     sobrenome =  nome_pessoa.split(' ')[1]
+    pais = []
     for dict_pessoa in pessoas:
         if((dict_pessoa["familia"]==sobrenome)and(dict_pessoa["nome"]==nome)):
-            print(dict_pessoa["pais"])
+            pais.append(dict_pessoa["pais"])
+    return pais
 
 def nascimento(nome_pessoa, dict_pessoas):
     pessoas = dict_pessoas["familias"]
     nome = nome_pessoa.split(' ')[0]
     sobrenome =  nome_pessoa.split(' ')[1]
+    nascimento = ""
     for dict_pessoa in pessoas:
         if((dict_pessoa["familia"]==sobrenome)and(dict_pessoa["nome"]==nome)):
-            print(dict_pessoa["datadenascimento"])
+            nascimento = dict_pessoa["datadenascimento"]
+    return nascimento
 
 def main():
 
     dict_pessoas = load()
 
+    sg.theme('LightBlue2')
     layout_menu = [[sg.Text("Search Engine for geneallogical tree")],
-                [
-                    sg.Button("Search the information of a person"), 
-                    sg.Button("Search the information of a family"),
-                    sg.Button("Search the weddings of a person"),
-                    sg.Button("Search the descendants of a person"),
-                    sg.Button("Search the progenitors of a person"),
-                    sg.Button("Search the birthday of a person"),
-                    sg.Button("EXIT")
-                ]
+                    [sg.Button("Search the information of a person"), 
+                    sg.Button("Search the patriarch of a family")],
+                    [sg.Button("Search the weddings of a person"),
+                    sg.Button("Search the descendants of a person")],
+                    [sg.Button("Search the progenitors of a person"),
+                    sg.Button("Search the birthday of a person")],
+                    [sg.Button("EXIT")]
             ]
-    window_menu = sg.Window("Search Engine", layout_menu)
+    window_menu = sg.Window("Search Engine", layout_menu, size = (600,400))
 
     while True:
         event_menu, values_menu = window_menu.read()
@@ -147,24 +152,24 @@ def main():
                 if event_q1 == "EXIT" or event_q1 == sg.WIN_CLOSED:
                     break
                 elif event_q1 == "Submit" and values_q1[0] != "" and values_q1[1] != "":
-                    pessoa(values_q1[0] + " " + values_q1[1], dict_pessoas)
+                    sg.popup('Information of target person', pessoa(values_q1[0] + " " + values_q1[1], dict_pessoas))
             window_q1.close()
 
-        elif event_menu == "Search the information of a family":
+        elif event_menu == "Search the patriarch of a family":
             layout_q2 = [
                             [sg.Text("Enter the surname of the family")],
                             [sg.Text("Surname"), sg.InputText()],
                             [sg.Button("Submit"), sg.Button("EXIT")]
                         ]
 
-            window_q2 = sg.Window("Search the information of a family", layout_q2)
+            window_q2 = sg.Window("Search the patriarch of a family", layout_q2)
 
             while True:
                 event_q2, values_q2 = window_q2.read()
                 if event_q2 == "EXIT" or event_q2 == sg.WIN_CLOSED:
                     break
                 elif event_q2 == "Submit" and values_q2[0] != "":
-                    familia(values_q2[0], dict_pessoas)
+                    sg.popup('Information of target family', familia(values_q2[0], dict_pessoas))
             window_q2.close()
 
         elif event_menu == "Search the weddings of a person":
@@ -182,7 +187,7 @@ def main():
                 if event_q3 == "EXIT" or event_q3 == sg.WIN_CLOSED:
                     break
                 elif event_q3 == "Submit" and values_q3[0] != "" and values_q3[1] != "":
-                    casamentos(values_q3[0] + " " + values_q3[1], dict_pessoas)
+                    sg.popup('Weddings of target person', casamentos(values_q3[0] + " " + values_q3[1], dict_pessoas))
             window_q3.close()
 
         elif event_menu == "Search the descendants of a person":
@@ -200,7 +205,7 @@ def main():
                 if event_q4 == "EXIT" or event_q4 == sg.WIN_CLOSED:
                     break
                 elif event_q4 == "Submit" and values_q4[0] != "" and values_q4[1] != "":
-                    filhos(values_q4[0] + " " + values_q4[1], dict_pessoas)
+                    sg.popup('Descendants of target person', filhos(values_q4[0] + " " + values_q4[1], dict_pessoas))
             window_q4.close()
 
         elif event_menu == "Search the progenitors of a person":
@@ -218,7 +223,7 @@ def main():
                 if event_q5 == "EXIT" or event_q5 == sg.WIN_CLOSED:
                     break
                 elif event_q5 == "Submit" and values_q5[0] != "" and values_q5[1] != "":
-                    pais(values_q5[0] + " " + values_q5[1], dict_pessoas)
+                    sg.popup('Progenitors of target person', pais(values_q5[0] + " " + values_q5[1], dict_pessoas))
             window_q5.close()
 
         elif event_menu == "Search the birthday of a person":
@@ -236,7 +241,7 @@ def main():
                 if event_q6 == "EXIT" or event_q6 == sg.WIN_CLOSED:
                     break
                 elif event_q6 == "Submit" and values_q6[0] != "" and values_q6[1] != "":
-                    nascimento(values_q6[0] + " " + values_q6[1], dict_pessoas)
+                    sg.popup('Birthday of target person', nascimento(values_q6[0] + " " + values_q6[1], dict_pessoas))
             window_q6.close()
 
 
