@@ -3,7 +3,7 @@
 import requests
 from bs4 import BeautifulSoup
 import re
-
+import json
 
 # definir função para ler todas as pessoas
 def listarPessoas(link):
@@ -141,20 +141,24 @@ def parsePage(link_id):
         parents_pai = re.search("[0-9]+",str(pai_string)).group(0)
         parents_mae = re.search("[0-9]+",str(mae_string)).group(0)
         print("parents info parsed")
+    else :
+        parents_pai="null"
+        parents_mae="null"
     # get marriage info
     if exists_casamento(soup):
+        print("existe casamentos")
         paragraph = soup.find("td", {"width": "100%"})
-        temp = str(paragraph).split("Casamentos",2)
+        temp = str(paragraph).split('<div class="marcadorP" style="margin-top: 10px;">Casamentos',2)
         temp = temp[1]
         if exists_filhos(soup):
-            temp = temp.split("Filhos",2)
-            temp = temp[0]
-        lista_casamentos = temp.split("Casamento")
-        l_lista_casamentos = []
+            temp = temp.split('<div class="marcadorP" style="margin-top: 10px;">Filhos',2)
+            temp= temp[0]
+        # acrescentar check para ver quantos casamentos é que há:
+        lista_casamentos = [temp]
+        if "Casamento" in temp:
+            lista_casamentos = lista_casamentos.split("Casamento")
         l_lista_temp = []
         for i in lista_casamentos:
-            print("chegou aquI!!!")
-            # prepare string for parsing
             string = str(i)
             string = string.replace("</div>","")
             string = string.replace('</div><div align="center"><b>',"")
@@ -167,31 +171,50 @@ def parsePage(link_id):
             string = string.replace('<div align="center" style="margin-bottom: 15px',"")
             string = string.replace('<div align="center">',"")
             string = string.replace('"><a',"")
-            string = string.replace('>',";")
-            string = string.split(";")
             l_lista_temp.append(string)
-        l_lista_temp = [x for x in l_lista_temp if x != ['']]
-        print(l_lista_temp)
+        dict_casamentos = {}
         for l in l_lista_temp:
-            conjuge, local, data = check_casamento(str(l))
-            l_lista_casamentos.append([conjuge,local,data])
-        print(l_lista_casamentos)
+            a = 1
+            conjuge, casamento_local, casamento_data =check_casamento(str(l))
+            dict_temp = { "conjuge": conjuge, "local": casamento_local, "data": casamento_data}
+            dict_casamentos[a] =  dict_temp
+            a + 1
+    else:
+        dict_casamentos = {}
         # get heritage info
     if exists_filhos(soup):
         paragraph = soup.find("td", {"width": "100%"})
         temp = str(paragraph).split('<div class="marcadorP" style="margin-top: 10px;">Filhos</div>',2)
         temp = temp[-1]
         filhos_list = re.findall('<a href="pessoas\.php\?id=[0-9]+',temp[-1])
-        list_filhos = []
+        dic_filhos = {}
         for i in filhos_list:
             l = []
             a = 1
             id_filhos = re.search('[0-9]+', i).group(0)
-            dic = {a : id_filhos}
-            dic_copy = dic.copy()
-            list_filhos.append(dic_copy)
+            dic_filhos[a] = id_filhos
             a + 1
+    else:
+        dic_filhos = {}
+    # output dictionary with all info
 
+    index_dic = {
+        "id" : link_id,
+        "familia": familia,
+        "nome": name,
+        "datadenascimento": data_nasc,
+        "localNascimento": local_nasc,
+        "dataMorte": data_morte,
+        "localMorte": local_morte,
+        "pais":{
+            "pai": parents_pai,
+            "mae": parents_mae
+        },
+        "casamentos": dict_casamentos,
+        "filhos": dic_filhos
+    }
+
+    return index_dic
 
 def createJson(dic):
     print("Outputs Json file") #not needed probably, serialize only
@@ -214,14 +237,15 @@ def main():
 
     print("Parsing the people index...")
     lista_pessoas = listarPessoas(link_pessoa)
-    print(lista_pessoas)
-    #print("Parisng the families index")
-    #lista_familia = listarFamilias(link_famila)
     print("Parsing individuals...")
     for i in lista_pessoas:
+        output = []
         indvData = parsePage(i)
-        #output.append(createJson(indvData))
-
+        output.append(indvData)
+        with open('output.json', 'a') as file:
+            file.write(json.dumps(indvData))
+            file.write("\n")
+        file.close()
     #with open("output.json","w") as f:
     #    f.write(ouput)
     #f.close()
