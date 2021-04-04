@@ -1,150 +1,3032 @@
-{"id": "1086999", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": [" * Guimar\u00e3es, Gondomar, Lugar do Carvalho   ", "null"], "localNascimento": [" * Guimar\u00e3es, Gondomar, Lugar do Carvalho   ", "null"], "dataMorte": "null", "localMorte": "null", "pais": {"pai": "null", "mae": "null"}, "casamentos": {"1": {"conjuge": "", "local": "", "data": ""}}, "filhos": {}}
-{"id": "1076286", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": [" * Braga, S\u00e3o L\u00e1zaro, Rua dos Congregados  18.12.1890 ", "null"], "localNascimento": [" * Braga, S\u00e3o L\u00e1zaro, Rua dos Congregados  18.12.1890 ", "null"], "dataMorte": "null", "localMorte": "null", "pais": {"pai": "1076115", "mae": "1076116"}, "casamentos": {}, "filhos": {}}
-{"id": "1076276", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": [" * Guimar\u00e3es, Briteiros (Salvador)  01.12.1874 ", "null"], "localNascimento": [" * Guimar\u00e3es, Briteiros (Salvador)  01.12.1874 ", "null"], "dataMorte": "null", "localMorte": "null", "pais": {"pai": "1076115", "mae": "1076116"}, "casamentos": {}, "filhos": {}}
-{"id": "1079212", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": [" * Vila Verde - Prado -S. Miguel   ", "null"], "localNascimento": [" * Vila Verde - Prado -S. Miguel   ", "null"], "dataMorte": "null", "localMorte": "null", "pais": {"pai": "null", "mae": "null"}, "casamentos": {"1": {"conjuge": "", "local": "", "data": ""}}, "filhos": {}}
-{"id": "1076013", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": [" * Guimar\u00e3es, Donim  14.05.1757 ", "null"], "localNascimento": [" * Guimar\u00e3es, Donim  14.05.1757 ", "null"], "dataMorte": "null", "localMorte": "null", "pais": {"pai": "1075781", "mae": "1075782"}, "casamentos": {}, "filhos": {}}
-{"id": "1077961", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": [" * Braga  12.05.1974 ", "null"], "localNascimento": [" * Braga  12.05.1974 ", "null"], "dataMorte": "null", "localMorte": "null", "pais": {"pai": "null", "mae": "null"}, "casamentos": {"1": {"conjuge": "", "local": "", "data": ""}}, "filhos": {}}
-{"id": "1076019", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "null", "localNascimento": "null", "dataMorte": "null", "localMorte": "  + Guimar\u00e3es, Donim, Casa de Sande  06.03.1860", "pais": {"pai": "1076020", "mae": "1076021"}, "casamentos": {}, "filhos": {}}
-{"id": "1075943", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": [" * Braga, S\u00e3o Jo\u00e3o do Souto  16.05.1963 ", "null"], "localNascimento": [" * Braga, S\u00e3o Jo\u00e3o do Souto  16.05.1963 ", "null"], "dataMorte": "null", "localMorte": "null", "pais": {"pai": "1075942", "mae": "1075944"}, "casamentos": {}, "filhos": {}}
-{"id": "1077957", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "", "localNascimento": "", "dataMorte": "", "localMorte": "", "pais": {"pai": "null", "mae": "null"}, "casamentos": {"1": {"conjuge": "", "local": "", "data": ""}}, "filhos": {}}
-{"id": "1076282", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "null", "localNascimento": " * Guimar\u00e3es, Briteiros (Salvador)  30.05.1883  ", "dataMorte": "null", "localMorte": " Braga, S\u00e3o L\u00e1zaro  22.02.1912", "pais": {"pai": "1076115", "mae": "1076116"}, "casamentos": {}, "filhos": {}}
-{"id": "1078572", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "null", "localNascimento": " * Amares, Dornelas  28.09.1850  ", "dataMorte": "null", "localMorte": "  c. 1894", "pais": {"pai": "1079209", "mae": "1079210"}, "casamentos": {}, "filhos": {}}
-{"id": "1079211", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "null", "localNascimento": " * Amares - Dornelas    ", "dataMorte": "null", "localMorte": "  16.12.1823", "pais": {"pai": "null", "mae": "null"}, "casamentos": {"1": {"conjuge": "", "local": "", "data": ""}}, "filhos": {}}
-{"id": "1087002", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "", "localNascimento": "", "dataMorte": "", "localMorte": "", "pais": {"pai": "null", "mae": "null"}, "casamentos": {"1": {"conjuge": "", "local": "", "data": ""}}, "filhos": {}}
-{"id": "1079209", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "null", "localNascimento": " * Sequiade  24.11.1796  ", "dataMorte": "null", "localMorte": "  17.01.1878", "pais": {"pai": "1079213", "mae": "1079214"}, "casamentos": {}, "filhos": {}}
-{"id": "1078336", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": [" * Granja de Alij\u00f3   ", "null"], "localNascimento": [" * Granja de Alij\u00f3   ", "null"], "dataMorte": "null", "localMorte": "null", "pais": {"pai": "null", "mae": "null"}, "casamentos": {"1": {"conjuge": "", "local": "", "data": ""}}, "filhos": {}}
-{"id": "1076852", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": [" *  03.06.1995 ", "null"], "localNascimento": [" *  03.06.1995 ", "null"], "dataMorte": "null", "localMorte": "null", "pais": {"pai": "1076119", "mae": "1076848"}, "casamentos": {}, "filhos": {}}
-{"id": "1079224", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "null", "localNascimento": "null", "dataMorte": "null", "localMorte": "  + Guimar\u00e3es, Gondomar  24.08.1787", "pais": {"pai": "1086995", "mae": "1086996"}, "casamentos": {}, "filhos": {}}
-{"id": "1087000", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "", "localNascimento": "", "dataMorte": "", "localMorte": "", "pais": {"pai": "null", "mae": "null"}, "casamentos": {"1": {"conjuge": "", "local": "", "data": ""}}, "filhos": {}}
-{"id": "1075780", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "null", "localNascimento": "null", "dataMorte": "null", "localMorte": "  + Guimar\u00e3es, Donim, lugar de Requeixo  1744", "pais": {"pai": "null", "mae": "null"}, "casamentos": {"1": {"conjuge": "", "local": "", "data": ""}}, "filhos": {}}
-{"id": "1086996", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "", "localNascimento": "", "dataMorte": "", "localMorte": "", "pais": {"pai": "1087001", "mae": "1087002"}, "casamentos": {}, "filhos": {}}
-{"id": "1076285", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": [" * Braga, S\u00e3o L\u00e1zaro, Ruados Congregados  03.06.1889 ", "null"], "localNascimento": [" * Braga, S\u00e3o L\u00e1zaro, Ruados Congregados  03.06.1889 ", "null"], "dataMorte": "null", "localMorte": "null", "pais": {"pai": "1076115", "mae": "1076116"}, "casamentos": {}, "filhos": {}}
-{"id": "1076104", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": [" * Brazil, Pernambuco   ", "null"], "localNascimento": [" * Brazil, Pernambuco   ", "null"], "dataMorte": "null", "localMorte": "null", "pais": {"pai": "null", "mae": "null"}, "casamentos": {"1": {"conjuge": "", "local": "", "data": ""}}, "filhos": {}}
-{"id": "1075983", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "null", "localNascimento": " * Guimar\u00e3es, Sande (S\u00e3o Martinho), Casal da Ribeira  13.08.1735  ", "dataMorte": "null", "localMorte": " Guimar\u00e3es, Sande (S\u00e3o Martinho)  18.10.1794", "pais": {"pai": "1075984", "mae": "1075985"}, "casamentos": {}, "filhos": {}}
-{"id": "1078766", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "", "localNascimento": "", "dataMorte": "", "localMorte": "", "pais": {"pai": "null", "mae": "null"}, "casamentos": {"1": {"conjuge": "", "local": "", "data": ""}}, "filhos": {}}
-{"id": "1079218", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": [" * Guimar\u00e3es, Gondomar   ", "null"], "localNascimento": [" * Guimar\u00e3es, Gondomar   ", "null"], "dataMorte": "null", "localMorte": "null", "pais": {"pai": "1079224", "mae": "1079225"}, "casamentos": {}, "filhos": {}}
-{"id": "1086998", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "", "localNascimento": "", "dataMorte": "", "localMorte": "", "pais": {"pai": "null", "mae": "null"}, "casamentos": {"1": {"conjuge": "", "local": "", "data": ""}}, "filhos": {}}
-{"id": "1079217", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": [" * Guimar\u00e3es, Gondomar, Lugar da Lage  04.09.1759 ", "null"], "localNascimento": [" * Guimar\u00e3es, Gondomar, Lugar da Lage  04.09.1759 ", "null"], "dataMorte": "null", "localMorte": "null", "pais": {"pai": "1079219", "mae": "1079220"}, "casamentos": {}, "filhos": {}}
-{"id": "1079229", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "", "localNascimento": "", "dataMorte": "", "localMorte": "", "pais": {"pai": "null", "mae": "null"}, "casamentos": {"1": {"conjuge": "", "local": "", "data": ""}}, "filhos": {}}
-{"id": "1076073", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "null", "localNascimento": " *  10.05.1796  ", "dataMorte": "null", "localMorte": "  26.05.1796", "pais": {"pai": "1076014", "mae": "1076019"}, "casamentos": {}, "filhos": {}}
-{"id": "1076074", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "null", "localNascimento": " *  23.01.1798  ", "dataMorte": "null", "localMorte": "  21.11.1805", "pais": {"pai": "1076014", "mae": "1076019"}, "casamentos": {}, "filhos": {}}
-{"id": "1086999", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": [" * Guimar\u00e3es, Gondomar, Lugar do Carvalho   ", "null"], "localNascimento": [" * Guimar\u00e3es, Gondomar, Lugar do Carvalho   ", "null"], "dataMorte": "null", "localMorte": "null", "pais": {"pai": "null", "mae": "null"}, "casamentos": {"1": {"conjuge": "", "local": "", "data": ""}}, "filhos": {}}
-{"id": "1076286", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": [" * Braga, S\u00e3o L\u00e1zaro, Rua dos Congregados  18.12.1890 ", "null"], "localNascimento": [" * Braga, S\u00e3o L\u00e1zaro, Rua dos Congregados  18.12.1890 ", "null"], "dataMorte": "null", "localMorte": "null", "pais": {"pai": "1076115", "mae": "1076116"}, "casamentos": {}, "filhos": {}}
-{"id": "1076276", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": [" * Guimar\u00e3es, Briteiros (Salvador)  01.12.1874 ", "null"], "localNascimento": [" * Guimar\u00e3es, Briteiros (Salvador)  01.12.1874 ", "null"], "dataMorte": "null", "localMorte": "null", "pais": {"pai": "1076115", "mae": "1076116"}, "casamentos": {}, "filhos": {}}
-{"id": "1079212", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": [" * Vila Verde - Prado -S. Miguel   ", "null"], "localNascimento": [" * Vila Verde - Prado -S. Miguel   ", "null"], "dataMorte": "null", "localMorte": "null", "pais": {"pai": "null", "mae": "null"}, "casamentos": {"1": {"conjuge": "", "local": "", "data": ""}}, "filhos": {}}
-{"id": "1076013", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": [" * Guimar\u00e3es, Donim  14.05.1757 ", "null"], "localNascimento": [" * Guimar\u00e3es, Donim  14.05.1757 ", "null"], "dataMorte": "null", "localMorte": "null", "pais": {"pai": "1075781", "mae": "1075782"}, "casamentos": {}, "filhos": {}}
-{"id": "1077961", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": [" * Braga  12.05.1974 ", "null"], "localNascimento": [" * Braga  12.05.1974 ", "null"], "dataMorte": "null", "localMorte": "null", "pais": {"pai": "null", "mae": "null"}, "casamentos": {"1": {"conjuge": "", "local": "", "data": ""}}, "filhos": {}}
-{"id": "1076019", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "null", "localNascimento": "null", "dataMorte": "null", "localMorte": "  + Guimar\u00e3es, Donim, Casa de Sande  06.03.1860", "pais": {"pai": "1076020", "mae": "1076021"}, "casamentos": {}, "filhos": {}}
-{"id": "1075943", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": [" * Braga, S\u00e3o Jo\u00e3o do Souto  16.05.1963 ", "null"], "localNascimento": [" * Braga, S\u00e3o Jo\u00e3o do Souto  16.05.1963 ", "null"], "dataMorte": "null", "localMorte": "null", "pais": {"pai": "1075942", "mae": "1075944"}, "casamentos": {}, "filhos": {}}
-{"id": "1077957", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "", "localNascimento": "", "dataMorte": "", "localMorte": "", "pais": {"pai": "null", "mae": "null"}, "casamentos": {"1": {"conjuge": "", "local": "", "data": ""}}, "filhos": {}}
-{"id": "1076282", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "null", "localNascimento": " * Guimar\u00e3es, Briteiros (Salvador)  30.05.1883  ", "dataMorte": "null", "localMorte": " Braga, S\u00e3o L\u00e1zaro  22.02.1912", "pais": {"pai": "1076115", "mae": "1076116"}, "casamentos": {}, "filhos": {}}
-{"id": "1078572", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "null", "localNascimento": " * Amares, Dornelas  28.09.1850  ", "dataMorte": "null", "localMorte": "  c. 1894", "pais": {"pai": "1079209", "mae": "1079210"}, "casamentos": {}, "filhos": {}}
-{"id": "1079211", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "null", "localNascimento": " * Amares - Dornelas    ", "dataMorte": "null", "localMorte": "  16.12.1823", "pais": {"pai": "null", "mae": "null"}, "casamentos": {"1": {"conjuge": "", "local": "", "data": ""}}, "filhos": {}}
-{"id": "1087002", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "", "localNascimento": "", "dataMorte": "", "localMorte": "", "pais": {"pai": "null", "mae": "null"}, "casamentos": {"1": {"conjuge": "", "local": "", "data": ""}}, "filhos": {}}
-{"id": "1079209", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "null", "localNascimento": " * Sequiade  24.11.1796  ", "dataMorte": "null", "localMorte": "  17.01.1878", "pais": {"pai": "1079213", "mae": "1079214"}, "casamentos": {}, "filhos": {}}
-{"id": "1078336", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": [" * Granja de Alij\u00f3   ", "null"], "localNascimento": [" * Granja de Alij\u00f3   ", "null"], "dataMorte": "null", "localMorte": "null", "pais": {"pai": "null", "mae": "null"}, "casamentos": {"1": {"conjuge": "", "local": "", "data": ""}}, "filhos": {}}
-{"id": "1076852", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": [" *  03.06.1995 ", "null"], "localNascimento": [" *  03.06.1995 ", "null"], "dataMorte": "null", "localMorte": "null", "pais": {"pai": "1076119", "mae": "1076848"}, "casamentos": {}, "filhos": {}}
-{"id": "1079224", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "null", "localNascimento": "null", "dataMorte": "null", "localMorte": "  + Guimar\u00e3es, Gondomar  24.08.1787", "pais": {"pai": "1086995", "mae": "1086996"}, "casamentos": {}, "filhos": {}}
-{"id": "1087000", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "", "localNascimento": "", "dataMorte": "", "localMorte": "", "pais": {"pai": "null", "mae": "null"}, "casamentos": {"1": {"conjuge": "", "local": "", "data": ""}}, "filhos": {}}
-{"id": "1075780", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "null", "localNascimento": "null", "dataMorte": "null", "localMorte": "  + Guimar\u00e3es, Donim, lugar de Requeixo  1744", "pais": {"pai": "null", "mae": "null"}, "casamentos": {"1": {"conjuge": "", "local": "", "data": ""}}, "filhos": {}}
-{"id": "1086996", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "", "localNascimento": "", "dataMorte": "", "localMorte": "", "pais": {"pai": "1087001", "mae": "1087002"}, "casamentos": {}, "filhos": {}}
-{"id": "1076285", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": [" * Braga, S\u00e3o L\u00e1zaro, Ruados Congregados  03.06.1889 ", "null"], "localNascimento": [" * Braga, S\u00e3o L\u00e1zaro, Ruados Congregados  03.06.1889 ", "null"], "dataMorte": "null", "localMorte": "null", "pais": {"pai": "1076115", "mae": "1076116"}, "casamentos": {}, "filhos": {}}
-{"id": "1076104", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": [" * Brazil, Pernambuco   ", "null"], "localNascimento": [" * Brazil, Pernambuco   ", "null"], "dataMorte": "null", "localMorte": "null", "pais": {"pai": "null", "mae": "null"}, "casamentos": {"1": {"conjuge": "", "local": "", "data": ""}}, "filhos": {}}
-{"id": "1075983", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "null", "localNascimento": " * Guimar\u00e3es, Sande (S\u00e3o Martinho), Casal da Ribeira  13.08.1735  ", "dataMorte": "null", "localMorte": " Guimar\u00e3es, Sande (S\u00e3o Martinho)  18.10.1794", "pais": {"pai": "1075984", "mae": "1075985"}, "casamentos": {}, "filhos": {}}
-{"id": "1078766", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "", "localNascimento": "", "dataMorte": "", "localMorte": "", "pais": {"pai": "null", "mae": "null"}, "casamentos": {"1": {"conjuge": "", "local": "", "data": ""}}, "filhos": {}}
-{"id": "1079218", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": [" * Guimar\u00e3es, Gondomar   ", "null"], "localNascimento": [" * Guimar\u00e3es, Gondomar   ", "null"], "dataMorte": "null", "localMorte": "null", "pais": {"pai": "1079224", "mae": "1079225"}, "casamentos": {}, "filhos": {}}
-{"id": "1086998", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "", "localNascimento": "", "dataMorte": "", "localMorte": "", "pais": {"pai": "null", "mae": "null"}, "casamentos": {"1": {"conjuge": "", "local": "", "data": ""}}, "filhos": {}}
-{"id": "1079217", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": [" * Guimar\u00e3es, Gondomar, Lugar da Lage  04.09.1759 ", "null"], "localNascimento": [" * Guimar\u00e3es, Gondomar, Lugar da Lage  04.09.1759 ", "null"], "dataMorte": "null", "localMorte": "null", "pais": {"pai": "1079219", "mae": "1079220"}, "casamentos": {}, "filhos": {}}
-{"id": "1079229", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "", "localNascimento": "", "dataMorte": "", "localMorte": "", "pais": {"pai": "null", "mae": "null"}, "casamentos": {"1": {"conjuge": "", "local": "", "data": ""}}, "filhos": {}}
-{"id": "1076073", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "null", "localNascimento": " *  10.05.1796  ", "dataMorte": "null", "localMorte": "  26.05.1796", "pais": {"pai": "1076014", "mae": "1076019"}, "casamentos": {}, "filhos": {}}
-{"id": "1076074", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "null", "localNascimento": " *  23.01.1798  ", "dataMorte": "null", "localMorte": "  21.11.1805", "pais": {"pai": "1076014", "mae": "1076019"}, "casamentos": {}, "filhos": {}}
-{"id": "1086999", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": [" * Guimar\u00e3es, Gondomar, Lugar do Carvalho   ", "null"], "localNascimento": [" * Guimar\u00e3es, Gondomar, Lugar do Carvalho   ", "null"], "dataMorte": "null", "localMorte": "null", "pais": {"pai": "null", "mae": "null"}, "casamentos": {"1": {"conjuge": "", "local": "", "data": ""}}, "filhos": {}}
-{"id": "1076286", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": [" * Braga, S\u00e3o L\u00e1zaro, Rua dos Congregados  18.12.1890 ", "null"], "localNascimento": [" * Braga, S\u00e3o L\u00e1zaro, Rua dos Congregados  18.12.1890 ", "null"], "dataMorte": "null", "localMorte": "null", "pais": {"pai": "1076115", "mae": "1076116"}, "casamentos": {}, "filhos": {}}
-{"id": "1076276", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": [" * Guimar\u00e3es, Briteiros (Salvador)  01.12.1874 ", "null"], "localNascimento": [" * Guimar\u00e3es, Briteiros (Salvador)  01.12.1874 ", "null"], "dataMorte": "null", "localMorte": "null", "pais": {"pai": "1076115", "mae": "1076116"}, "casamentos": {}, "filhos": {}}
-{"id": "1079212", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": [" * Vila Verde - Prado -S. Miguel   ", "null"], "localNascimento": [" * Vila Verde - Prado -S. Miguel   ", "null"], "dataMorte": "null", "localMorte": "null", "pais": {"pai": "null", "mae": "null"}, "casamentos": {"1": {"conjuge": "", "local": "", "data": ""}}, "filhos": {}}
-{"id": "1076013", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": [" * Guimar\u00e3es, Donim  14.05.1757 ", "null"], "localNascimento": [" * Guimar\u00e3es, Donim  14.05.1757 ", "null"], "dataMorte": "null", "localMorte": "null", "pais": {"pai": "1075781", "mae": "1075782"}, "casamentos": {}, "filhos": {}}
-{"id": "1077961", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": [" * Braga  12.05.1974 ", "null"], "localNascimento": [" * Braga  12.05.1974 ", "null"], "dataMorte": "null", "localMorte": "null", "pais": {"pai": "null", "mae": "null"}, "casamentos": {"1": {"conjuge": "", "local": "", "data": ""}}, "filhos": {}}
-{"id": "1076019", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "null", "localNascimento": "null", "dataMorte": "null", "localMorte": "  + Guimar\u00e3es, Donim, Casa de Sande  06.03.1860", "pais": {"pai": "1076020", "mae": "1076021"}, "casamentos": {}, "filhos": {}}
-{"id": "1075943", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": [" * Braga, S\u00e3o Jo\u00e3o do Souto  16.05.1963 ", "null"], "localNascimento": [" * Braga, S\u00e3o Jo\u00e3o do Souto  16.05.1963 ", "null"], "dataMorte": "null", "localMorte": "null", "pais": {"pai": "1075942", "mae": "1075944"}, "casamentos": {}, "filhos": {}}
-{"id": "1077957", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "", "localNascimento": "", "dataMorte": "", "localMorte": "", "pais": {"pai": "null", "mae": "null"}, "casamentos": {"1": {"conjuge": "", "local": "", "data": ""}}, "filhos": {}}
-{"id": "1076282", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "null", "localNascimento": " * Guimar\u00e3es, Briteiros (Salvador)  30.05.1883  ", "dataMorte": "null", "localMorte": " Braga, S\u00e3o L\u00e1zaro  22.02.1912", "pais": {"pai": "1076115", "mae": "1076116"}, "casamentos": {}, "filhos": {}}
-{"id": "1078572", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "null", "localNascimento": " * Amares, Dornelas  28.09.1850  ", "dataMorte": "null", "localMorte": "  c. 1894", "pais": {"pai": "1079209", "mae": "1079210"}, "casamentos": {}, "filhos": {}}
-{"id": "1079211", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "null", "localNascimento": " * Amares - Dornelas    ", "dataMorte": "null", "localMorte": "  16.12.1823", "pais": {"pai": "null", "mae": "null"}, "casamentos": {"1": {"conjuge": "", "local": "", "data": ""}}, "filhos": {}}
-{"id": "1087002", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "", "localNascimento": "", "dataMorte": "", "localMorte": "", "pais": {"pai": "null", "mae": "null"}, "casamentos": {"1": {"conjuge": "", "local": "", "data": ""}}, "filhos": {}}
-{"id": "1079209", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "null", "localNascimento": " * Sequiade  24.11.1796  ", "dataMorte": "null", "localMorte": "  17.01.1878", "pais": {"pai": "1079213", "mae": "1079214"}, "casamentos": {}, "filhos": {}}
-{"id": "1078336", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": [" * Granja de Alij\u00f3   ", "null"], "localNascimento": [" * Granja de Alij\u00f3   ", "null"], "dataMorte": "null", "localMorte": "null", "pais": {"pai": "null", "mae": "null"}, "casamentos": {"1": {"conjuge": "", "local": "", "data": ""}}, "filhos": {}}
-{"id": "1076852", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": [" *  03.06.1995 ", "null"], "localNascimento": [" *  03.06.1995 ", "null"], "dataMorte": "null", "localMorte": "null", "pais": {"pai": "1076119", "mae": "1076848"}, "casamentos": {}, "filhos": {}}
-{"id": "1079224", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "null", "localNascimento": "null", "dataMorte": "null", "localMorte": "  + Guimar\u00e3es, Gondomar  24.08.1787", "pais": {"pai": "1086995", "mae": "1086996"}, "casamentos": {}, "filhos": {}}
-{"id": "1087000", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "", "localNascimento": "", "dataMorte": "", "localMorte": "", "pais": {"pai": "null", "mae": "null"}, "casamentos": {"1": {"conjuge": "", "local": "", "data": ""}}, "filhos": {}}
-{"id": "1075780", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "null", "localNascimento": "null", "dataMorte": "null", "localMorte": "  + Guimar\u00e3es, Donim, lugar de Requeixo  1744", "pais": {"pai": "null", "mae": "null"}, "casamentos": {"1": {"conjuge": "", "local": "", "data": ""}}, "filhos": {}}
-{"id": "1086996", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "", "localNascimento": "", "dataMorte": "", "localMorte": "", "pais": {"pai": "1087001", "mae": "1087002"}, "casamentos": {}, "filhos": {}}
-{"id": "1076285", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": [" * Braga, S\u00e3o L\u00e1zaro, Ruados Congregados  03.06.1889 ", "null"], "localNascimento": [" * Braga, S\u00e3o L\u00e1zaro, Ruados Congregados  03.06.1889 ", "null"], "dataMorte": "null", "localMorte": "null", "pais": {"pai": "1076115", "mae": "1076116"}, "casamentos": {}, "filhos": {}}
-{"id": "1076104", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": [" * Brazil, Pernambuco   ", "null"], "localNascimento": [" * Brazil, Pernambuco   ", "null"], "dataMorte": "null", "localMorte": "null", "pais": {"pai": "null", "mae": "null"}, "casamentos": {"1": {"conjuge": "", "local": "", "data": ""}}, "filhos": {}}
-{"id": "1075983", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "null", "localNascimento": " * Guimar\u00e3es, Sande (S\u00e3o Martinho), Casal da Ribeira  13.08.1735  ", "dataMorte": "null", "localMorte": " Guimar\u00e3es, Sande (S\u00e3o Martinho)  18.10.1794", "pais": {"pai": "1075984", "mae": "1075985"}, "casamentos": {}, "filhos": {}}
-{"id": "1078766", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "", "localNascimento": "", "dataMorte": "", "localMorte": "", "pais": {"pai": "null", "mae": "null"}, "casamentos": {"1": {"conjuge": "", "local": "", "data": ""}}, "filhos": {}}
-{"id": "1079218", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": [" * Guimar\u00e3es, Gondomar   ", "null"], "localNascimento": [" * Guimar\u00e3es, Gondomar   ", "null"], "dataMorte": "null", "localMorte": "null", "pais": {"pai": "1079224", "mae": "1079225"}, "casamentos": {}, "filhos": {}}
-{"id": "1086998", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "", "localNascimento": "", "dataMorte": "", "localMorte": "", "pais": {"pai": "null", "mae": "null"}, "casamentos": {"1": {"conjuge": "", "local": "", "data": ""}}, "filhos": {}}
-{"id": "1079217", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": [" * Guimar\u00e3es, Gondomar, Lugar da Lage  04.09.1759 ", "null"], "localNascimento": [" * Guimar\u00e3es, Gondomar, Lugar da Lage  04.09.1759 ", "null"], "dataMorte": "null", "localMorte": "null", "pais": {"pai": "1079219", "mae": "1079220"}, "casamentos": {}, "filhos": {}}
-{"id": "1079229", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "", "localNascimento": "", "dataMorte": "", "localMorte": "", "pais": {"pai": "null", "mae": "null"}, "casamentos": {"1": {"conjuge": "", "local": "", "data": ""}}, "filhos": {}}
-{"id": "1076073", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "null", "localNascimento": " *  10.05.1796  ", "dataMorte": "null", "localMorte": "  26.05.1796", "pais": {"pai": "1076014", "mae": "1076019"}, "casamentos": {}, "filhos": {}}
-{"id": "1076074", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "null", "localNascimento": " *  23.01.1798  ", "dataMorte": "null", "localMorte": "  21.11.1805", "pais": {"pai": "1076014", "mae": "1076019"}, "casamentos": {}, "filhos": {}}
-{"id": "1086999", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": [" * Guimar\u00e3es, Gondomar, Lugar do Carvalho   ", "null"], "localNascimento": [" * Guimar\u00e3es, Gondomar, Lugar do Carvalho   ", "null"], "dataMorte": "null", "localMorte": "null", "pais": {"pai": "null", "mae": "null"}, "casamentos": {"1": {"conjuge": "", "local": "", "data": ""}}, "filhos": {}}
-{"id": "1076286", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": [" * Braga, S\u00e3o L\u00e1zaro, Rua dos Congregados  18.12.1890 ", "null"], "localNascimento": [" * Braga, S\u00e3o L\u00e1zaro, Rua dos Congregados  18.12.1890 ", "null"], "dataMorte": "null", "localMorte": "null", "pais": {"pai": "1076115", "mae": "1076116"}, "casamentos": {}, "filhos": {}}
-{"id": "1076276", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": [" * Guimar\u00e3es, Briteiros (Salvador)  01.12.1874 ", "null"], "localNascimento": [" * Guimar\u00e3es, Briteiros (Salvador)  01.12.1874 ", "null"], "dataMorte": "null", "localMorte": "null", "pais": {"pai": "1076115", "mae": "1076116"}, "casamentos": {}, "filhos": {}}
-{"id": "1079212", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": [" * Vila Verde - Prado -S. Miguel   ", "null"], "localNascimento": [" * Vila Verde - Prado -S. Miguel   ", "null"], "dataMorte": "null", "localMorte": "null", "pais": {"pai": "null", "mae": "null"}, "casamentos": {"1": {"conjuge": "", "local": "", "data": ""}}, "filhos": {}}
-{"id": "1076013", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": [" * Guimar\u00e3es, Donim  14.05.1757 ", "null"], "localNascimento": [" * Guimar\u00e3es, Donim  14.05.1757 ", "null"], "dataMorte": "null", "localMorte": "null", "pais": {"pai": "1075781", "mae": "1075782"}, "casamentos": {}, "filhos": {}}
-{"id": "1077961", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": [" * Braga  12.05.1974 ", "null"], "localNascimento": [" * Braga  12.05.1974 ", "null"], "dataMorte": "null", "localMorte": "null", "pais": {"pai": "null", "mae": "null"}, "casamentos": {"1": {"conjuge": "", "local": "", "data": ""}}, "filhos": {}}
-{"id": "1076019", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "null", "localNascimento": "null", "dataMorte": "null", "localMorte": "  + Guimar\u00e3es, Donim, Casa de Sande  06.03.1860", "pais": {"pai": "1076020", "mae": "1076021"}, "casamentos": {}, "filhos": {}}
-{"id": "1075943", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": [" * Braga, S\u00e3o Jo\u00e3o do Souto  16.05.1963 ", "null"], "localNascimento": [" * Braga, S\u00e3o Jo\u00e3o do Souto  16.05.1963 ", "null"], "dataMorte": "null", "localMorte": "null", "pais": {"pai": "1075942", "mae": "1075944"}, "casamentos": {}, "filhos": {}}
-{"id": "1077957", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "", "localNascimento": "", "dataMorte": "", "localMorte": "", "pais": {"pai": "null", "mae": "null"}, "casamentos": {"1": {"conjuge": "", "local": "", "data": ""}}, "filhos": {}}
-{"id": "1076282", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "null", "localNascimento": " * Guimar\u00e3es, Briteiros (Salvador)  30.05.1883  ", "dataMorte": "null", "localMorte": " Braga, S\u00e3o L\u00e1zaro  22.02.1912", "pais": {"pai": "1076115", "mae": "1076116"}, "casamentos": {}, "filhos": {}}
-{"id": "1078572", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "null", "localNascimento": " * Amares, Dornelas  28.09.1850  ", "dataMorte": "null", "localMorte": "  c. 1894", "pais": {"pai": "1079209", "mae": "1079210"}, "casamentos": {}, "filhos": {}}
-{"id": "1079211", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "null", "localNascimento": " * Amares - Dornelas    ", "dataMorte": "null", "localMorte": "  16.12.1823", "pais": {"pai": "null", "mae": "null"}, "casamentos": {"1": {"conjuge": "", "local": "", "data": ""}}, "filhos": {}}
-{"id": "1087002", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "", "localNascimento": "", "dataMorte": "", "localMorte": "", "pais": {"pai": "null", "mae": "null"}, "casamentos": {"1": {"conjuge": "", "local": "", "data": ""}}, "filhos": {}}
-{"id": "1079209", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "null", "localNascimento": " * Sequiade  24.11.1796  ", "dataMorte": "null", "localMorte": "  17.01.1878", "pais": {"pai": "1079213", "mae": "1079214"}, "casamentos": {}, "filhos": {}}
-{"id": "1078336", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": [" * Granja de Alij\u00f3   ", "null"], "localNascimento": [" * Granja de Alij\u00f3   ", "null"], "dataMorte": "null", "localMorte": "null", "pais": {"pai": "null", "mae": "null"}, "casamentos": {"1": {"conjuge": "", "local": "", "data": ""}}, "filhos": {}}
-{"id": "1076852", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": [" *  03.06.1995 ", "null"], "localNascimento": [" *  03.06.1995 ", "null"], "dataMorte": "null", "localMorte": "null", "pais": {"pai": "1076119", "mae": "1076848"}, "casamentos": {}, "filhos": {}}
-{"id": "1079224", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "null", "localNascimento": "null", "dataMorte": "null", "localMorte": "  + Guimar\u00e3es, Gondomar  24.08.1787", "pais": {"pai": "1086995", "mae": "1086996"}, "casamentos": {}, "filhos": {}}
-{"id": "1087000", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "", "localNascimento": "", "dataMorte": "", "localMorte": "", "pais": {"pai": "null", "mae": "null"}, "casamentos": {"1": {"conjuge": "", "local": "", "data": ""}}, "filhos": {}}
-{"id": "1075780", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "null", "localNascimento": "null", "dataMorte": "null", "localMorte": "  + Guimar\u00e3es, Donim, lugar de Requeixo  1744", "pais": {"pai": "null", "mae": "null"}, "casamentos": {"1": {"conjuge": "", "local": "", "data": ""}}, "filhos": {}}
-{"id": "1086996", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "", "localNascimento": "", "dataMorte": "", "localMorte": "", "pais": {"pai": "1087001", "mae": "1087002"}, "casamentos": {}, "filhos": {}}
-{"id": "1076285", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": [" * Braga, S\u00e3o L\u00e1zaro, Ruados Congregados  03.06.1889 ", "null"], "localNascimento": [" * Braga, S\u00e3o L\u00e1zaro, Ruados Congregados  03.06.1889 ", "null"], "dataMorte": "null", "localMorte": "null", "pais": {"pai": "1076115", "mae": "1076116"}, "casamentos": {}, "filhos": {}}
-{"id": "1076104", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": [" * Brazil, Pernambuco   ", "null"], "localNascimento": [" * Brazil, Pernambuco   ", "null"], "dataMorte": "null", "localMorte": "null", "pais": {"pai": "null", "mae": "null"}, "casamentos": {"1": {"conjuge": "", "local": "", "data": ""}}, "filhos": {}}
-{"id": "1075983", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "null", "localNascimento": " * Guimar\u00e3es, Sande (S\u00e3o Martinho), Casal da Ribeira  13.08.1735  ", "dataMorte": "null", "localMorte": " Guimar\u00e3es, Sande (S\u00e3o Martinho)  18.10.1794", "pais": {"pai": "1075984", "mae": "1075985"}, "casamentos": {}, "filhos": {}}
-{"id": "1078766", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "", "localNascimento": "", "dataMorte": "", "localMorte": "", "pais": {"pai": "null", "mae": "null"}, "casamentos": {"1": {"conjuge": "", "local": "", "data": ""}}, "filhos": {}}
-{"id": "1079218", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": [" * Guimar\u00e3es, Gondomar   ", "null"], "localNascimento": [" * Guimar\u00e3es, Gondomar   ", "null"], "dataMorte": "null", "localMorte": "null", "pais": {"pai": "1079224", "mae": "1079225"}, "casamentos": {}, "filhos": {}}
-{"id": "1086998", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "", "localNascimento": "", "dataMorte": "", "localMorte": "", "pais": {"pai": "null", "mae": "null"}, "casamentos": {"1": {"conjuge": "", "local": "", "data": ""}}, "filhos": {}}
-{"id": "1079217", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": [" * Guimar\u00e3es, Gondomar, Lugar da Lage  04.09.1759 ", "null"], "localNascimento": [" * Guimar\u00e3es, Gondomar, Lugar da Lage  04.09.1759 ", "null"], "dataMorte": "null", "localMorte": "null", "pais": {"pai": "1079219", "mae": "1079220"}, "casamentos": {}, "filhos": {}}
-{"id": "1079229", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "", "localNascimento": "", "dataMorte": "", "localMorte": "", "pais": {"pai": "null", "mae": "null"}, "casamentos": {"1": {"conjuge": "", "local": "", "data": ""}}, "filhos": {}}
-{"id": "1076073", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "null", "localNascimento": " *  10.05.1796  ", "dataMorte": "null", "localMorte": "  26.05.1796", "pais": {"pai": "1076014", "mae": "1076019"}, "casamentos": {}, "filhos": {}}
-{"id": "1076074", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "null", "localNascimento": " *  23.01.1798  ", "dataMorte": "null", "localMorte": "  21.11.1805", "pais": {"pai": "1076014", "mae": "1076019"}, "casamentos": {}, "filhos": {}}
-{"id": "1086999", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": [" * Guimar\u00e3es, Gondomar, Lugar do Carvalho   ", "null"], "localNascimento": [" * Guimar\u00e3es, Gondomar, Lugar do Carvalho   ", "null"], "dataMorte": "null", "localMorte": "null", "pais": {"pai": "null", "mae": "null"}, "casamentos": {"1": {"conjuge": "", "local": "", "data": ""}}, "filhos": {}}
-{"id": "1076286", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": [" * Braga, S\u00e3o L\u00e1zaro, Rua dos Congregados  18.12.1890 ", "null"], "localNascimento": [" * Braga, S\u00e3o L\u00e1zaro, Rua dos Congregados  18.12.1890 ", "null"], "dataMorte": "null", "localMorte": "null", "pais": {"pai": "1076115", "mae": "1076116"}, "casamentos": {}, "filhos": {}}
-{"id": "1076276", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": [" * Guimar\u00e3es, Briteiros (Salvador)  01.12.1874 ", "null"], "localNascimento": [" * Guimar\u00e3es, Briteiros (Salvador)  01.12.1874 ", "null"], "dataMorte": "null", "localMorte": "null", "pais": {"pai": "1076115", "mae": "1076116"}, "casamentos": {}, "filhos": {}}
-{"id": "1079212", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": [" * Vila Verde - Prado -S. Miguel   ", "null"], "localNascimento": [" * Vila Verde - Prado -S. Miguel   ", "null"], "dataMorte": "null", "localMorte": "null", "pais": {"pai": "null", "mae": "null"}, "casamentos": {"1": {"conjuge": "", "local": "", "data": ""}}, "filhos": {}}
-{"id": "1076013", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": [" * Guimar\u00e3es, Donim  14.05.1757 ", "null"], "localNascimento": [" * Guimar\u00e3es, Donim  14.05.1757 ", "null"], "dataMorte": "null", "localMorte": "null", "pais": {"pai": "1075781", "mae": "1075782"}, "casamentos": {}, "filhos": {}}
-{"id": "1077961", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": [" * Braga  12.05.1974 ", "null"], "localNascimento": [" * Braga  12.05.1974 ", "null"], "dataMorte": "null", "localMorte": "null", "pais": {"pai": "null", "mae": "null"}, "casamentos": {"1": {"conjuge": "", "local": "", "data": ""}}, "filhos": {}}
-{"id": "1076019", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "null", "localNascimento": "null", "dataMorte": "null", "localMorte": "  + Guimar\u00e3es, Donim, Casa de Sande  06.03.1860", "pais": {"pai": "1076020", "mae": "1076021"}, "casamentos": {}, "filhos": {}}
-{"id": "1075943", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": [" * Braga, S\u00e3o Jo\u00e3o do Souto  16.05.1963 ", "null"], "localNascimento": [" * Braga, S\u00e3o Jo\u00e3o do Souto  16.05.1963 ", "null"], "dataMorte": "null", "localMorte": "null", "pais": {"pai": "1075942", "mae": "1075944"}, "casamentos": {}, "filhos": {}}
-{"id": "1077957", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "", "localNascimento": "", "dataMorte": "", "localMorte": "", "pais": {"pai": "null", "mae": "null"}, "casamentos": {"1": {"conjuge": "", "local": "", "data": ""}}, "filhos": {}}
-{"id": "1076282", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "null", "localNascimento": " * Guimar\u00e3es, Briteiros (Salvador)  30.05.1883  ", "dataMorte": "null", "localMorte": " Braga, S\u00e3o L\u00e1zaro  22.02.1912", "pais": {"pai": "1076115", "mae": "1076116"}, "casamentos": {}, "filhos": {}}
-{"id": "1078572", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "null", "localNascimento": " * Amares, Dornelas  28.09.1850  ", "dataMorte": "null", "localMorte": "  c. 1894", "pais": {"pai": "1079209", "mae": "1079210"}, "casamentos": {}, "filhos": {}}
-{"id": "1079211", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "null", "localNascimento": " * Amares - Dornelas    ", "dataMorte": "null", "localMorte": "  16.12.1823", "pais": {"pai": "null", "mae": "null"}, "casamentos": {"1": {"conjuge": "", "local": "", "data": ""}}, "filhos": {}}
-{"id": "1087002", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "", "localNascimento": "", "dataMorte": "", "localMorte": "", "pais": {"pai": "null", "mae": "null"}, "casamentos": {"1": {"conjuge": "", "local": "", "data": ""}}, "filhos": {}}
-{"id": "1079209", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "null", "localNascimento": " * Sequiade  24.11.1796  ", "dataMorte": "null", "localMorte": "  17.01.1878", "pais": {"pai": "1079213", "mae": "1079214"}, "casamentos": {}, "filhos": {}}
-{"id": "1078336", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": [" * Granja de Alij\u00f3   ", "null"], "localNascimento": [" * Granja de Alij\u00f3   ", "null"], "dataMorte": "null", "localMorte": "null", "pais": {"pai": "null", "mae": "null"}, "casamentos": {"1": {"conjuge": "", "local": "", "data": ""}}, "filhos": {}}
-{"id": "1076852", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": [" *  03.06.1995 ", "null"], "localNascimento": [" *  03.06.1995 ", "null"], "dataMorte": "null", "localMorte": "null", "pais": {"pai": "1076119", "mae": "1076848"}, "casamentos": {}, "filhos": {}}
-{"id": "1079224", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "null", "localNascimento": "null", "dataMorte": "null", "localMorte": "  + Guimar\u00e3es, Gondomar  24.08.1787", "pais": {"pai": "1086995", "mae": "1086996"}, "casamentos": {}, "filhos": {}}
-{"id": "1087000", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "", "localNascimento": "", "dataMorte": "", "localMorte": "", "pais": {"pai": "null", "mae": "null"}, "casamentos": {"1": {"conjuge": "", "local": "", "data": ""}}, "filhos": {}}
-{"id": "1075780", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "null", "localNascimento": "null", "dataMorte": "null", "localMorte": "  + Guimar\u00e3es, Donim, lugar de Requeixo  1744", "pais": {"pai": "null", "mae": "null"}, "casamentos": {"1": {"conjuge": "", "local": "", "data": ""}}, "filhos": {}}
-{"id": "1086996", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "", "localNascimento": "", "dataMorte": "", "localMorte": "", "pais": {"pai": "1087001", "mae": "1087002"}, "casamentos": {}, "filhos": {}}
-{"id": "1076285", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": [" * Braga, S\u00e3o L\u00e1zaro, Ruados Congregados  03.06.1889 ", "null"], "localNascimento": [" * Braga, S\u00e3o L\u00e1zaro, Ruados Congregados  03.06.1889 ", "null"], "dataMorte": "null", "localMorte": "null", "pais": {"pai": "1076115", "mae": "1076116"}, "casamentos": {}, "filhos": {}}
-{"id": "1076104", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": [" * Brazil, Pernambuco   ", "null"], "localNascimento": [" * Brazil, Pernambuco   ", "null"], "dataMorte": "null", "localMorte": "null", "pais": {"pai": "null", "mae": "null"}, "casamentos": {"1": {"conjuge": "", "local": "", "data": ""}}, "filhos": {}}
-{"id": "1075983", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "null", "localNascimento": " * Guimar\u00e3es, Sande (S\u00e3o Martinho), Casal da Ribeira  13.08.1735  ", "dataMorte": "null", "localMorte": " Guimar\u00e3es, Sande (S\u00e3o Martinho)  18.10.1794", "pais": {"pai": "1075984", "mae": "1075985"}, "casamentos": {}, "filhos": {}}
-{"id": "1078766", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "", "localNascimento": "", "dataMorte": "", "localMorte": "", "pais": {"pai": "null", "mae": "null"}, "casamentos": {"1": {"conjuge": "", "local": "", "data": ""}}, "filhos": {}}
-{"id": "1079218", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": [" * Guimar\u00e3es, Gondomar   ", "null"], "localNascimento": [" * Guimar\u00e3es, Gondomar   ", "null"], "dataMorte": "null", "localMorte": "null", "pais": {"pai": "1079224", "mae": "1079225"}, "casamentos": {}, "filhos": {}}
-{"id": "1086998", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "", "localNascimento": "", "dataMorte": "", "localMorte": "", "pais": {"pai": "null", "mae": "null"}, "casamentos": {"1": {"conjuge": "", "local": "", "data": ""}}, "filhos": {}}
-{"id": "1079217", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": [" * Guimar\u00e3es, Gondomar, Lugar da Lage  04.09.1759 ", "null"], "localNascimento": [" * Guimar\u00e3es, Gondomar, Lugar da Lage  04.09.1759 ", "null"], "dataMorte": "null", "localMorte": "null", "pais": {"pai": "1079219", "mae": "1079220"}, "casamentos": {}, "filhos": {}}
-{"id": "1079229", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "", "localNascimento": "", "dataMorte": "", "localMorte": "", "pais": {"pai": "null", "mae": "null"}, "casamentos": {"1": {"conjuge": "", "local": "", "data": ""}}, "filhos": {}}
-{"id": "1076073", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "null", "localNascimento": " *  10.05.1796  ", "dataMorte": "null", "localMorte": "  26.05.1796", "pais": {"pai": "1076014", "mae": "1076019"}, "casamentos": {}, "filhos": {}}
-{"id": "1076074", "familia": "Fam\u00edlia Antunes Guimar\u00e3es (Briteiros)", "nome": "title", "datadenascimento": "null", "localNascimento": " *  23.01.1798  ", "dataMorte": "null", "localMorte": "  21.11.1805", "pais": {"pai": "1076014", "mae": "1076019"}, "casamentos": {}, "filhos": {}}
+[
+    {
+        "id": "1086999",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Affonso Gonçalves",
+        "datadenascimento": [
+            " * Guimarães, Gondomar, Lugar do Carvalho   ",
+            "null"
+        ],
+        "localNascimento": [
+            " * Guimarães, Gondomar, Lugar do Carvalho   ",
+            "null"
+        ],
+        "dataMorte": "null",
+        "localMorte": "null",
+        "pais": {
+            "pai": "null",
+            "mae": "null"
+        },
+        "casamentos": {
+            "1": {
+                "conjuge": "",
+                "local": "",
+                "data": ""
+            }
+        },
+        "filhos": {}
+    },
+    {
+        "id": "1076286",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Alberto Antunes Guimarães",
+        "datadenascimento": [
+            " * Braga, São Lázaro, Rua dos Congregados  18.12.1890 ",
+            "null"
+        ],
+        "localNascimento": [
+            " * Braga, São Lázaro, Rua dos Congregados  18.12.1890 ",
+            "null"
+        ],
+        "dataMorte": "null",
+        "localMorte": "null",
+        "pais": {
+            "pai": "1076115",
+            "mae": "1076116"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1076276",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Ana Antunes Guimarães",
+        "datadenascimento": [
+            " * Guimarães, Briteiros (Salvador)  01.12.1874 ",
+            "null"
+        ],
+        "localNascimento": [
+            " * Guimarães, Briteiros (Salvador)  01.12.1874 ",
+            "null"
+        ],
+        "dataMorte": "null",
+        "localMorte": "null",
+        "pais": {
+            "pai": "1076115",
+            "mae": "1076116"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1079212",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Ana de Jesus Soares de Azevedo",
+        "datadenascimento": [
+            " * Vila Verde - Prado -S. Miguel   ",
+            "null"
+        ],
+        "localNascimento": [
+            " * Vila Verde - Prado -S. Miguel   ",
+            "null"
+        ],
+        "dataMorte": "null",
+        "localMorte": "null",
+        "pais": {
+            "pai": "null",
+            "mae": "null"
+        },
+        "casamentos": {
+            "1": {
+                "conjuge": "",
+                "local": "",
+                "data": ""
+            }
+        },
+        "filhos": {}
+    },
+    {
+        "id": "1076013",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Ana Francisco",
+        "datadenascimento": [
+            " * Guimarães, Donim  14.05.1757 ",
+            "null"
+        ],
+        "localNascimento": [
+            " * Guimarães, Donim  14.05.1757 ",
+            "null"
+        ],
+        "dataMorte": "null",
+        "localMorte": "null",
+        "pais": {
+            "pai": "1075781",
+            "mae": "1075782"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1077961",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Ana Isabel Ferrera da Cunha",
+        "datadenascimento": [
+            " * Braga  12.05.1974 ",
+            "null"
+        ],
+        "localNascimento": [
+            " * Braga  12.05.1974 ",
+            "null"
+        ],
+        "dataMorte": "null",
+        "localMorte": "null",
+        "pais": {
+            "pai": "null",
+            "mae": "null"
+        },
+        "casamentos": {
+            "1": {
+                "conjuge": "",
+                "local": "",
+                "data": ""
+            }
+        },
+        "filhos": {}
+    },
+    {
+        "id": "1076019",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Ana Maria Antunes",
+        "datadenascimento": "null",
+        "localNascimento": "null",
+        "dataMorte": "null",
+        "localMorte": "  + Guimarães, Donim, Casa de Sande  06.03.1860",
+        "pais": {
+            "pai": "1076020",
+            "mae": "1076021"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1075943",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Ana Maria Pais dos Santos Antunes Guimarães",
+        "datadenascimento": [
+            " * Braga, São João do Souto  16.05.1963 ",
+            "null"
+        ],
+        "localNascimento": [
+            " * Braga, São João do Souto  16.05.1963 ",
+            "null"
+        ],
+        "dataMorte": "null",
+        "localMorte": "null",
+        "pais": {
+            "pai": "1075942",
+            "mae": "1075944"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1077957",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Andreia Mendes",
+        "datadenascimento": "",
+        "localNascimento": "",
+        "dataMorte": "",
+        "localMorte": "",
+        "pais": {
+            "pai": "null",
+            "mae": "null"
+        },
+        "casamentos": {
+            "1": {
+                "conjuge": "",
+                "local": "",
+                "data": ""
+            }
+        },
+        "filhos": {}
+    },
+    {
+        "id": "1076282",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "António Antunes Guimarães",
+        "datadenascimento": "null",
+        "localNascimento": " * Guimarães, Briteiros (Salvador)  30.05.1883  ",
+        "dataMorte": "null",
+        "localMorte": " Braga, São Lázaro  22.02.1912",
+        "pais": {
+            "pai": "1076115",
+            "mae": "1076116"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1078572",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "António Candido Soares de Azevedo da Silva Amorim",
+        "datadenascimento": "null",
+        "localNascimento": " * Amares, Dornelas  28.09.1850  ",
+        "dataMorte": "null",
+        "localMorte": "  c. 1894",
+        "pais": {
+            "pai": "1079209",
+            "mae": "1079210"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1079211",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "António José de Amorim Machado de Araujo",
+        "datadenascimento": "null",
+        "localNascimento": " * Amares - Dornelas    ",
+        "dataMorte": "null",
+        "localMorte": "  16.12.1823",
+        "pais": {
+            "pai": "null",
+            "mae": "null"
+        },
+        "casamentos": {
+            "1": {
+                "conjuge": "",
+                "local": "",
+                "data": ""
+            }
+        },
+        "filhos": {}
+    },
+    {
+        "id": "1087002",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Benta Fernandes",
+        "datadenascimento": "",
+        "localNascimento": "",
+        "dataMorte": "",
+        "localMorte": "",
+        "pais": {
+            "pai": "null",
+            "mae": "null"
+        },
+        "casamentos": {
+            "1": {
+                "conjuge": "",
+                "local": "",
+                "data": ""
+            }
+        },
+        "filhos": {}
+    },
+    {
+        "id": "1079209",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Bento José da Silva",
+        "datadenascimento": "null",
+        "localNascimento": " * Sequiade  24.11.1796  ",
+        "dataMorte": "null",
+        "localMorte": "  17.01.1878",
+        "pais": {
+            "pai": "1079213",
+            "mae": "1079214"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1078336",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Bernardo Pereira Rebello",
+        "datadenascimento": [
+            " * Granja de Alijó   ",
+            "null"
+        ],
+        "localNascimento": [
+            " * Granja de Alijó   ",
+            "null"
+        ],
+        "dataMorte": "null",
+        "localMorte": "null",
+        "pais": {
+            "pai": "null",
+            "mae": "null"
+        },
+        "casamentos": {
+            "1": {
+                "conjuge": "",
+                "local": "",
+                "data": ""
+            }
+        },
+        "filhos": {}
+    },
+    {
+        "id": "1076852",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Carolina Represas Antunes Guimarães",
+        "datadenascimento": [
+            " *  03.06.1995 ",
+            "null"
+        ],
+        "localNascimento": [
+            " *  03.06.1995 ",
+            "null"
+        ],
+        "dataMorte": "null",
+        "localMorte": "null",
+        "pais": {
+            "pai": "1076119",
+            "mae": "1076848"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1079224",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Cassamiro José Ferreira",
+        "datadenascimento": "null",
+        "localNascimento": "null",
+        "dataMorte": "null",
+        "localMorte": "  + Guimarães, Gondomar  24.08.1787",
+        "pais": {
+            "pai": "1086995",
+            "mae": "1086996"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1087000",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Catarina Ferreira",
+        "datadenascimento": "",
+        "localNascimento": "",
+        "dataMorte": "",
+        "localMorte": "",
+        "pais": {
+            "pai": "null",
+            "mae": "null"
+        },
+        "casamentos": {
+            "1": {
+                "conjuge": "",
+                "local": "",
+                "data": ""
+            }
+        },
+        "filhos": {}
+    },
+    {
+        "id": "1075780",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Catarina Martins",
+        "datadenascimento": "null",
+        "localNascimento": "null",
+        "dataMorte": "null",
+        "localMorte": "  + Guimarães, Donim, lugar de Requeixo  1744",
+        "pais": {
+            "pai": "null",
+            "mae": "null"
+        },
+        "casamentos": {
+            "1": {
+                "conjuge": "",
+                "local": "",
+                "data": ""
+            }
+        },
+        "filhos": {}
+    },
+    {
+        "id": "1086996",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Catarina Rodrigues",
+        "datadenascimento": "",
+        "localNascimento": "",
+        "dataMorte": "",
+        "localMorte": "",
+        "pais": {
+            "pai": "1087001",
+            "mae": "1087002"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1076285",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Constança Antunes Guimarães",
+        "datadenascimento": [
+            " * Braga, São Lázaro, Ruados Congregados  03.06.1889 ",
+            "null"
+        ],
+        "localNascimento": [
+            " * Braga, São Lázaro, Ruados Congregados  03.06.1889 ",
+            "null"
+        ],
+        "dataMorte": "null",
+        "localMorte": "null",
+        "pais": {
+            "pai": "1076115",
+            "mae": "1076116"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1076104",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "D. Constança Maria Pereira",
+        "datadenascimento": [
+            " * Brazil, Pernambuco   ",
+            "null"
+        ],
+        "localNascimento": [
+            " * Brazil, Pernambuco   ",
+            "null"
+        ],
+        "dataMorte": "null",
+        "localMorte": "null",
+        "pais": {
+            "pai": "null",
+            "mae": "null"
+        },
+        "casamentos": {
+            "1": {
+                "conjuge": "",
+                "local": "",
+                "data": ""
+            }
+        },
+        "filhos": {}
+    },
+    {
+        "id": "1075983",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Custódia Maria Alvares",
+        "datadenascimento": "null",
+        "localNascimento": " * Guimarães, Sande (São Martinho), Casal da Ribeira  13.08.1735  ",
+        "dataMorte": "null",
+        "localMorte": " Guimarães, Sande (São Martinho)  18.10.1794",
+        "pais": {
+            "pai": "1075984",
+            "mae": "1075985"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1078766",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Custódia Maria Pereira",
+        "datadenascimento": "",
+        "localNascimento": "",
+        "dataMorte": "",
+        "localMorte": "",
+        "pais": {
+            "pai": "null",
+            "mae": "null"
+        },
+        "casamentos": {
+            "1": {
+                "conjuge": "",
+                "local": "",
+                "data": ""
+            }
+        },
+        "filhos": {}
+    },
+    {
+        "id": "1079218",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Custódia Maria Rodrigues Ferreira",
+        "datadenascimento": [
+            " * Guimarães, Gondomar   ",
+            "null"
+        ],
+        "localNascimento": [
+            " * Guimarães, Gondomar   ",
+            "null"
+        ],
+        "dataMorte": "null",
+        "localMorte": "null",
+        "pais": {
+            "pai": "1079224",
+            "mae": "1079225"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1086998",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Custódia Rodrigues",
+        "datadenascimento": "",
+        "localNascimento": "",
+        "dataMorte": "",
+        "localMorte": "",
+        "pais": {
+            "pai": "null",
+            "mae": "null"
+        },
+        "casamentos": {
+            "1": {
+                "conjuge": "",
+                "local": "",
+                "data": ""
+            }
+        },
+        "filhos": {}
+    },
+    {
+        "id": "1079217",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Custódio José Fernandes",
+        "datadenascimento": [
+            " * Guimarães, Gondomar, Lugar da Lage  04.09.1759 ",
+            "null"
+        ],
+        "localNascimento": [
+            " * Guimarães, Gondomar, Lugar da Lage  04.09.1759 ",
+            "null"
+        ],
+        "dataMorte": "null",
+        "localMorte": "null",
+        "pais": {
+            "pai": "1079219",
+            "mae": "1079220"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1079229",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Domingas Fernandes",
+        "datadenascimento": "",
+        "localNascimento": "",
+        "dataMorte": "",
+        "localMorte": "",
+        "pais": {
+            "pai": "null",
+            "mae": "null"
+        },
+        "casamentos": {
+            "1": {
+                "conjuge": "",
+                "local": "",
+                "data": ""
+            }
+        },
+        "filhos": {}
+    },
+    {
+        "id": "1076073",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Domingos",
+        "datadenascimento": "null",
+        "localNascimento": " *  10.05.1796  ",
+        "dataMorte": "null",
+        "localMorte": "  26.05.1796",
+        "pais": {
+            "pai": "1076014",
+            "mae": "1076019"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1076074",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Domingos",
+        "datadenascimento": "null",
+        "localNascimento": " *  23.01.1798  ",
+        "dataMorte": "null",
+        "localMorte": "  21.11.1805",
+        "pais": {
+            "pai": "1076014",
+            "mae": "1076019"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1086999",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Affonso Gonçalves",
+        "datadenascimento": [
+            " * Guimarães, Gondomar, Lugar do Carvalho   ",
+            "null"
+        ],
+        "localNascimento": [
+            " * Guimarães, Gondomar, Lugar do Carvalho   ",
+            "null"
+        ],
+        "dataMorte": "null",
+        "localMorte": "null",
+        "pais": {
+            "pai": "null",
+            "mae": "null"
+        },
+        "casamentos": {
+            "1": {
+                "conjuge": "",
+                "local": "",
+                "data": ""
+            }
+        },
+        "filhos": {}
+    },
+    {
+        "id": "1076286",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Alberto Antunes Guimarães",
+        "datadenascimento": [
+            " * Braga, São Lázaro, Rua dos Congregados  18.12.1890 ",
+            "null"
+        ],
+        "localNascimento": [
+            " * Braga, São Lázaro, Rua dos Congregados  18.12.1890 ",
+            "null"
+        ],
+        "dataMorte": "null",
+        "localMorte": "null",
+        "pais": {
+            "pai": "1076115",
+            "mae": "1076116"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1076276",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Ana Antunes Guimarães",
+        "datadenascimento": [
+            " * Guimarães, Briteiros (Salvador)  01.12.1874 ",
+            "null"
+        ],
+        "localNascimento": [
+            " * Guimarães, Briteiros (Salvador)  01.12.1874 ",
+            "null"
+        ],
+        "dataMorte": "null",
+        "localMorte": "null",
+        "pais": {
+            "pai": "1076115",
+            "mae": "1076116"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1079212",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Ana de Jesus Soares de Azevedo",
+        "datadenascimento": [
+            " * Vila Verde - Prado -S. Miguel   ",
+            "null"
+        ],
+        "localNascimento": [
+            " * Vila Verde - Prado -S. Miguel   ",
+            "null"
+        ],
+        "dataMorte": "null",
+        "localMorte": "null",
+        "pais": {
+            "pai": "null",
+            "mae": "null"
+        },
+        "casamentos": {
+            "1": {
+                "conjuge": "",
+                "local": "",
+                "data": ""
+            }
+        },
+        "filhos": {}
+    },
+    {
+        "id": "1076013",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Ana Francisco",
+        "datadenascimento": [
+            " * Guimarães, Donim  14.05.1757 ",
+            "null"
+        ],
+        "localNascimento": [
+            " * Guimarães, Donim  14.05.1757 ",
+            "null"
+        ],
+        "dataMorte": "null",
+        "localMorte": "null",
+        "pais": {
+            "pai": "1075781",
+            "mae": "1075782"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1077961",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Ana Isabel Ferrera da Cunha",
+        "datadenascimento": [
+            " * Braga  12.05.1974 ",
+            "null"
+        ],
+        "localNascimento": [
+            " * Braga  12.05.1974 ",
+            "null"
+        ],
+        "dataMorte": "null",
+        "localMorte": "null",
+        "pais": {
+            "pai": "null",
+            "mae": "null"
+        },
+        "casamentos": {
+            "1": {
+                "conjuge": "",
+                "local": "",
+                "data": ""
+            }
+        },
+        "filhos": {}
+    },
+    {
+        "id": "1076019",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Ana Maria Antunes",
+        "datadenascimento": "null",
+        "localNascimento": "null",
+        "dataMorte": "null",
+        "localMorte": "  + Guimarães, Donim, Casa de Sande  06.03.1860",
+        "pais": {
+            "pai": "1076020",
+            "mae": "1076021"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1075943",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Ana Maria Pais dos Santos Antunes Guimarães",
+        "datadenascimento": [
+            " * Braga, São João do Souto  16.05.1963 ",
+            "null"
+        ],
+        "localNascimento": [
+            " * Braga, São João do Souto  16.05.1963 ",
+            "null"
+        ],
+        "dataMorte": "null",
+        "localMorte": "null",
+        "pais": {
+            "pai": "1075942",
+            "mae": "1075944"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1077957",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Andreia Mendes",
+        "datadenascimento": "",
+        "localNascimento": "",
+        "dataMorte": "",
+        "localMorte": "",
+        "pais": {
+            "pai": "null",
+            "mae": "null"
+        },
+        "casamentos": {
+            "1": {
+                "conjuge": "",
+                "local": "",
+                "data": ""
+            }
+        },
+        "filhos": {}
+    },
+    {
+        "id": "1076282",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "António Antunes Guimarães",
+        "datadenascimento": "null",
+        "localNascimento": " * Guimarães, Briteiros (Salvador)  30.05.1883  ",
+        "dataMorte": "null",
+        "localMorte": " Braga, São Lázaro  22.02.1912",
+        "pais": {
+            "pai": "1076115",
+            "mae": "1076116"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1078572",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "António Candido Soares de Azevedo da Silva Amorim",
+        "datadenascimento": "null",
+        "localNascimento": " * Amares, Dornelas  28.09.1850  ",
+        "dataMorte": "null",
+        "localMorte": "  c. 1894",
+        "pais": {
+            "pai": "1079209",
+            "mae": "1079210"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1079211",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "António José de Amorim Machado de Araujo",
+        "datadenascimento": "null",
+        "localNascimento": " * Amares - Dornelas    ",
+        "dataMorte": "null",
+        "localMorte": "  16.12.1823",
+        "pais": {
+            "pai": "null",
+            "mae": "null"
+        },
+        "casamentos": {
+            "1": {
+                "conjuge": "",
+                "local": "",
+                "data": ""
+            }
+        },
+        "filhos": {}
+    },
+    {
+        "id": "1087002",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Benta Fernandes",
+        "datadenascimento": "",
+        "localNascimento": "",
+        "dataMorte": "",
+        "localMorte": "",
+        "pais": {
+            "pai": "null",
+            "mae": "null"
+        },
+        "casamentos": {
+            "1": {
+                "conjuge": "",
+                "local": "",
+                "data": ""
+            }
+        },
+        "filhos": {}
+    },
+    {
+        "id": "1079209",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Bento José da Silva",
+        "datadenascimento": "null",
+        "localNascimento": " * Sequiade  24.11.1796  ",
+        "dataMorte": "null",
+        "localMorte": "  17.01.1878",
+        "pais": {
+            "pai": "1079213",
+            "mae": "1079214"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1078336",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Bernardo Pereira Rebello",
+        "datadenascimento": [
+            " * Granja de Alijó   ",
+            "null"
+        ],
+        "localNascimento": [
+            " * Granja de Alijó   ",
+            "null"
+        ],
+        "dataMorte": "null",
+        "localMorte": "null",
+        "pais": {
+            "pai": "null",
+            "mae": "null"
+        },
+        "casamentos": {
+            "1": {
+                "conjuge": "",
+                "local": "",
+                "data": ""
+            }
+        },
+        "filhos": {}
+    },
+    {
+        "id": "1076852",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Carolina Represas Antunes Guimarães",
+        "datadenascimento": [
+            " *  03.06.1995 ",
+            "null"
+        ],
+        "localNascimento": [
+            " *  03.06.1995 ",
+            "null"
+        ],
+        "dataMorte": "null",
+        "localMorte": "null",
+        "pais": {
+            "pai": "1076119",
+            "mae": "1076848"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1079224",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Cassamiro José Ferreira",
+        "datadenascimento": "null",
+        "localNascimento": "null",
+        "dataMorte": "null",
+        "localMorte": "  + Guimarães, Gondomar  24.08.1787",
+        "pais": {
+            "pai": "1086995",
+            "mae": "1086996"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1087000",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Catarina Ferreira",
+        "datadenascimento": "",
+        "localNascimento": "",
+        "dataMorte": "",
+        "localMorte": "",
+        "pais": {
+            "pai": "null",
+            "mae": "null"
+        },
+        "casamentos": {
+            "1": {
+                "conjuge": "",
+                "local": "",
+                "data": ""
+            }
+        },
+        "filhos": {}
+    },
+    {
+        "id": "1075780",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Catarina Martins",
+        "datadenascimento": "null",
+        "localNascimento": "null",
+        "dataMorte": "null",
+        "localMorte": "  + Guimarães, Donim, lugar de Requeixo  1744",
+        "pais": {
+            "pai": "null",
+            "mae": "null"
+        },
+        "casamentos": {
+            "1": {
+                "conjuge": "",
+                "local": "",
+                "data": ""
+            }
+        },
+        "filhos": {}
+    },
+    {
+        "id": "1086996",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Catarina Rodrigues",
+        "datadenascimento": "",
+        "localNascimento": "",
+        "dataMorte": "",
+        "localMorte": "",
+        "pais": {
+            "pai": "1087001",
+            "mae": "1087002"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1076285",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Constança Antunes Guimarães",
+        "datadenascimento": [
+            " * Braga, São Lázaro, Ruados Congregados  03.06.1889 ",
+            "null"
+        ],
+        "localNascimento": [
+            " * Braga, São Lázaro, Ruados Congregados  03.06.1889 ",
+            "null"
+        ],
+        "dataMorte": "null",
+        "localMorte": "null",
+        "pais": {
+            "pai": "1076115",
+            "mae": "1076116"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1076104",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "D. Constança Maria Pereira",
+        "datadenascimento": [
+            " * Brazil, Pernambuco   ",
+            "null"
+        ],
+        "localNascimento": [
+            " * Brazil, Pernambuco   ",
+            "null"
+        ],
+        "dataMorte": "null",
+        "localMorte": "null",
+        "pais": {
+            "pai": "null",
+            "mae": "null"
+        },
+        "casamentos": {
+            "1": {
+                "conjuge": "",
+                "local": "",
+                "data": ""
+            }
+        },
+        "filhos": {}
+    },
+    {
+        "id": "1075983",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Custódia Maria Alvares",
+        "datadenascimento": "null",
+        "localNascimento": " * Guimarães, Sande (São Martinho), Casal da Ribeira  13.08.1735  ",
+        "dataMorte": "null",
+        "localMorte": " Guimarães, Sande (São Martinho)  18.10.1794",
+        "pais": {
+            "pai": "1075984",
+            "mae": "1075985"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1078766",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Custódia Maria Pereira",
+        "datadenascimento": "",
+        "localNascimento": "",
+        "dataMorte": "",
+        "localMorte": "",
+        "pais": {
+            "pai": "null",
+            "mae": "null"
+        },
+        "casamentos": {
+            "1": {
+                "conjuge": "",
+                "local": "",
+                "data": ""
+            }
+        },
+        "filhos": {}
+    },
+    {
+        "id": "1079218",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Custódia Maria Rodrigues Ferreira",
+        "datadenascimento": [
+            " * Guimarães, Gondomar   ",
+            "null"
+        ],
+        "localNascimento": [
+            " * Guimarães, Gondomar   ",
+            "null"
+        ],
+        "dataMorte": "null",
+        "localMorte": "null",
+        "pais": {
+            "pai": "1079224",
+            "mae": "1079225"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1086998",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Custódia Rodrigues",
+        "datadenascimento": "",
+        "localNascimento": "",
+        "dataMorte": "",
+        "localMorte": "",
+        "pais": {
+            "pai": "null",
+            "mae": "null"
+        },
+        "casamentos": {
+            "1": {
+                "conjuge": "",
+                "local": "",
+                "data": ""
+            }
+        },
+        "filhos": {}
+    },
+    {
+        "id": "1079217",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Custódio José Fernandes",
+        "datadenascimento": [
+            " * Guimarães, Gondomar, Lugar da Lage  04.09.1759 ",
+            "null"
+        ],
+        "localNascimento": [
+            " * Guimarães, Gondomar, Lugar da Lage  04.09.1759 ",
+            "null"
+        ],
+        "dataMorte": "null",
+        "localMorte": "null",
+        "pais": {
+            "pai": "1079219",
+            "mae": "1079220"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1079229",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Domingas Fernandes",
+        "datadenascimento": "",
+        "localNascimento": "",
+        "dataMorte": "",
+        "localMorte": "",
+        "pais": {
+            "pai": "null",
+            "mae": "null"
+        },
+        "casamentos": {
+            "1": {
+                "conjuge": "",
+                "local": "",
+                "data": ""
+            }
+        },
+        "filhos": {}
+    },
+    {
+        "id": "1076073",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Domingos",
+        "datadenascimento": "null",
+        "localNascimento": " *  10.05.1796  ",
+        "dataMorte": "null",
+        "localMorte": "  26.05.1796",
+        "pais": {
+            "pai": "1076014",
+            "mae": "1076019"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1076074",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Domingos",
+        "datadenascimento": "null",
+        "localNascimento": " *  23.01.1798  ",
+        "dataMorte": "null",
+        "localMorte": "  21.11.1805",
+        "pais": {
+            "pai": "1076014",
+            "mae": "1076019"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1086999",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Affonso Gonçalves",
+        "datadenascimento": [
+            " * Guimarães, Gondomar, Lugar do Carvalho   ",
+            "null"
+        ],
+        "localNascimento": [
+            " * Guimarães, Gondomar, Lugar do Carvalho   ",
+            "null"
+        ],
+        "dataMorte": "null",
+        "localMorte": "null",
+        "pais": {
+            "pai": "null",
+            "mae": "null"
+        },
+        "casamentos": {
+            "1": {
+                "conjuge": "",
+                "local": "",
+                "data": ""
+            }
+        },
+        "filhos": {}
+    },
+    {
+        "id": "1076286",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Alberto Antunes Guimarães",
+        "datadenascimento": [
+            " * Braga, São Lázaro, Rua dos Congregados  18.12.1890 ",
+            "null"
+        ],
+        "localNascimento": [
+            " * Braga, São Lázaro, Rua dos Congregados  18.12.1890 ",
+            "null"
+        ],
+        "dataMorte": "null",
+        "localMorte": "null",
+        "pais": {
+            "pai": "1076115",
+            "mae": "1076116"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1076276",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Ana Antunes Guimarães",
+        "datadenascimento": [
+            " * Guimarães, Briteiros (Salvador)  01.12.1874 ",
+            "null"
+        ],
+        "localNascimento": [
+            " * Guimarães, Briteiros (Salvador)  01.12.1874 ",
+            "null"
+        ],
+        "dataMorte": "null",
+        "localMorte": "null",
+        "pais": {
+            "pai": "1076115",
+            "mae": "1076116"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1079212",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Ana de Jesus Soares de Azevedo",
+        "datadenascimento": [
+            " * Vila Verde - Prado -S. Miguel   ",
+            "null"
+        ],
+        "localNascimento": [
+            " * Vila Verde - Prado -S. Miguel   ",
+            "null"
+        ],
+        "dataMorte": "null",
+        "localMorte": "null",
+        "pais": {
+            "pai": "null",
+            "mae": "null"
+        },
+        "casamentos": {
+            "1": {
+                "conjuge": "",
+                "local": "",
+                "data": ""
+            }
+        },
+        "filhos": {}
+    },
+    {
+        "id": "1076013",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Ana Francisco",
+        "datadenascimento": [
+            " * Guimarães, Donim  14.05.1757 ",
+            "null"
+        ],
+        "localNascimento": [
+            " * Guimarães, Donim  14.05.1757 ",
+            "null"
+        ],
+        "dataMorte": "null",
+        "localMorte": "null",
+        "pais": {
+            "pai": "1075781",
+            "mae": "1075782"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1077961",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Ana Isabel Ferrera da Cunha",
+        "datadenascimento": [
+            " * Braga  12.05.1974 ",
+            "null"
+        ],
+        "localNascimento": [
+            " * Braga  12.05.1974 ",
+            "null"
+        ],
+        "dataMorte": "null",
+        "localMorte": "null",
+        "pais": {
+            "pai": "null",
+            "mae": "null"
+        },
+        "casamentos": {
+            "1": {
+                "conjuge": "",
+                "local": "",
+                "data": ""
+            }
+        },
+        "filhos": {}
+    },
+    {
+        "id": "1076019",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Ana Maria Antunes",
+        "datadenascimento": "null",
+        "localNascimento": "null",
+        "dataMorte": "null",
+        "localMorte": "  + Guimarães, Donim, Casa de Sande  06.03.1860",
+        "pais": {
+            "pai": "1076020",
+            "mae": "1076021"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1075943",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Ana Maria Pais dos Santos Antunes Guimarães",
+        "datadenascimento": [
+            " * Braga, São João do Souto  16.05.1963 ",
+            "null"
+        ],
+        "localNascimento": [
+            " * Braga, São João do Souto  16.05.1963 ",
+            "null"
+        ],
+        "dataMorte": "null",
+        "localMorte": "null",
+        "pais": {
+            "pai": "1075942",
+            "mae": "1075944"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1077957",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Andreia Mendes",
+        "datadenascimento": "",
+        "localNascimento": "",
+        "dataMorte": "",
+        "localMorte": "",
+        "pais": {
+            "pai": "null",
+            "mae": "null"
+        },
+        "casamentos": {
+            "1": {
+                "conjuge": "",
+                "local": "",
+                "data": ""
+            }
+        },
+        "filhos": {}
+    },
+    {
+        "id": "1076282",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "António Antunes Guimarães",
+        "datadenascimento": "null",
+        "localNascimento": " * Guimarães, Briteiros (Salvador)  30.05.1883  ",
+        "dataMorte": "null",
+        "localMorte": " Braga, São Lázaro  22.02.1912",
+        "pais": {
+            "pai": "1076115",
+            "mae": "1076116"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1078572",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "António Candido Soares de Azevedo da Silva Amorim",
+        "datadenascimento": "null",
+        "localNascimento": " * Amares, Dornelas  28.09.1850  ",
+        "dataMorte": "null",
+        "localMorte": "  c. 1894",
+        "pais": {
+            "pai": "1079209",
+            "mae": "1079210"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1079211",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "António José de Amorim Machado de Araujo",
+        "datadenascimento": "null",
+        "localNascimento": " * Amares - Dornelas    ",
+        "dataMorte": "null",
+        "localMorte": "  16.12.1823",
+        "pais": {
+            "pai": "null",
+            "mae": "null"
+        },
+        "casamentos": {
+            "1": {
+                "conjuge": "",
+                "local": "",
+                "data": ""
+            }
+        },
+        "filhos": {}
+    },
+    {
+        "id": "1087002",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Benta Fernandes",
+        "datadenascimento": "",
+        "localNascimento": "",
+        "dataMorte": "",
+        "localMorte": "",
+        "pais": {
+            "pai": "null",
+            "mae": "null"
+        },
+        "casamentos": {
+            "1": {
+                "conjuge": "",
+                "local": "",
+                "data": ""
+            }
+        },
+        "filhos": {}
+    },
+    {
+        "id": "1079209",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Bento José da Silva",
+        "datadenascimento": "null",
+        "localNascimento": " * Sequiade  24.11.1796  ",
+        "dataMorte": "null",
+        "localMorte": "  17.01.1878",
+        "pais": {
+            "pai": "1079213",
+            "mae": "1079214"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1078336",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Bernardo Pereira Rebello",
+        "datadenascimento": [
+            " * Granja de Alijó   ",
+            "null"
+        ],
+        "localNascimento": [
+            " * Granja de Alijó   ",
+            "null"
+        ],
+        "dataMorte": "null",
+        "localMorte": "null",
+        "pais": {
+            "pai": "null",
+            "mae": "null"
+        },
+        "casamentos": {
+            "1": {
+                "conjuge": "",
+                "local": "",
+                "data": ""
+            }
+        },
+        "filhos": {}
+    },
+    {
+        "id": "1076852",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Carolina Represas Antunes Guimarães",
+        "datadenascimento": [
+            " *  03.06.1995 ",
+            "null"
+        ],
+        "localNascimento": [
+            " *  03.06.1995 ",
+            "null"
+        ],
+        "dataMorte": "null",
+        "localMorte": "null",
+        "pais": {
+            "pai": "1076119",
+            "mae": "1076848"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1079224",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Cassamiro José Ferreira",
+        "datadenascimento": "null",
+        "localNascimento": "null",
+        "dataMorte": "null",
+        "localMorte": "  + Guimarães, Gondomar  24.08.1787",
+        "pais": {
+            "pai": "1086995",
+            "mae": "1086996"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1087000",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Catarina Ferreira",
+        "datadenascimento": "",
+        "localNascimento": "",
+        "dataMorte": "",
+        "localMorte": "",
+        "pais": {
+            "pai": "null",
+            "mae": "null"
+        },
+        "casamentos": {
+            "1": {
+                "conjuge": "",
+                "local": "",
+                "data": ""
+            }
+        },
+        "filhos": {}
+    },
+    {
+        "id": "1075780",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Catarina Martins",
+        "datadenascimento": "null",
+        "localNascimento": "null",
+        "dataMorte": "null",
+        "localMorte": "  + Guimarães, Donim, lugar de Requeixo  1744",
+        "pais": {
+            "pai": "null",
+            "mae": "null"
+        },
+        "casamentos": {
+            "1": {
+                "conjuge": "",
+                "local": "",
+                "data": ""
+            }
+        },
+        "filhos": {}
+    },
+    {
+        "id": "1086996",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Catarina Rodrigues",
+        "datadenascimento": "",
+        "localNascimento": "",
+        "dataMorte": "",
+        "localMorte": "",
+        "pais": {
+            "pai": "1087001",
+            "mae": "1087002"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1076285",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Constança Antunes Guimarães",
+        "datadenascimento": [
+            " * Braga, São Lázaro, Ruados Congregados  03.06.1889 ",
+            "null"
+        ],
+        "localNascimento": [
+            " * Braga, São Lázaro, Ruados Congregados  03.06.1889 ",
+            "null"
+        ],
+        "dataMorte": "null",
+        "localMorte": "null",
+        "pais": {
+            "pai": "1076115",
+            "mae": "1076116"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1076104",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "D. Constança Maria Pereira",
+        "datadenascimento": [
+            " * Brazil, Pernambuco   ",
+            "null"
+        ],
+        "localNascimento": [
+            " * Brazil, Pernambuco   ",
+            "null"
+        ],
+        "dataMorte": "null",
+        "localMorte": "null",
+        "pais": {
+            "pai": "null",
+            "mae": "null"
+        },
+        "casamentos": {
+            "1": {
+                "conjuge": "",
+                "local": "",
+                "data": ""
+            }
+        },
+        "filhos": {}
+    },
+    {
+        "id": "1075983",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Custódia Maria Alvares",
+        "datadenascimento": "null",
+        "localNascimento": " * Guimarães, Sande (São Martinho), Casal da Ribeira  13.08.1735  ",
+        "dataMorte": "null",
+        "localMorte": " Guimarães, Sande (São Martinho)  18.10.1794",
+        "pais": {
+            "pai": "1075984",
+            "mae": "1075985"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1078766",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Custódia Maria Pereira",
+        "datadenascimento": "",
+        "localNascimento": "",
+        "dataMorte": "",
+        "localMorte": "",
+        "pais": {
+            "pai": "null",
+            "mae": "null"
+        },
+        "casamentos": {
+            "1": {
+                "conjuge": "",
+                "local": "",
+                "data": ""
+            }
+        },
+        "filhos": {}
+    },
+    {
+        "id": "1079218",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Custódia Maria Rodrigues Ferreira",
+        "datadenascimento": [
+            " * Guimarães, Gondomar   ",
+            "null"
+        ],
+        "localNascimento": [
+            " * Guimarães, Gondomar   ",
+            "null"
+        ],
+        "dataMorte": "null",
+        "localMorte": "null",
+        "pais": {
+            "pai": "1079224",
+            "mae": "1079225"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1086998",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Custódia Rodrigues",
+        "datadenascimento": "",
+        "localNascimento": "",
+        "dataMorte": "",
+        "localMorte": "",
+        "pais": {
+            "pai": "null",
+            "mae": "null"
+        },
+        "casamentos": {
+            "1": {
+                "conjuge": "",
+                "local": "",
+                "data": ""
+            }
+        },
+        "filhos": {}
+    },
+    {
+        "id": "1079217",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Custódio José Fernandes",
+        "datadenascimento": [
+            " * Guimarães, Gondomar, Lugar da Lage  04.09.1759 ",
+            "null"
+        ],
+        "localNascimento": [
+            " * Guimarães, Gondomar, Lugar da Lage  04.09.1759 ",
+            "null"
+        ],
+        "dataMorte": "null",
+        "localMorte": "null",
+        "pais": {
+            "pai": "1079219",
+            "mae": "1079220"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1079229",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Domingas Fernandes",
+        "datadenascimento": "",
+        "localNascimento": "",
+        "dataMorte": "",
+        "localMorte": "",
+        "pais": {
+            "pai": "null",
+            "mae": "null"
+        },
+        "casamentos": {
+            "1": {
+                "conjuge": "",
+                "local": "",
+                "data": ""
+            }
+        },
+        "filhos": {}
+    },
+    {
+        "id": "1076073",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Domingos",
+        "datadenascimento": "null",
+        "localNascimento": " *  10.05.1796  ",
+        "dataMorte": "null",
+        "localMorte": "  26.05.1796",
+        "pais": {
+            "pai": "1076014",
+            "mae": "1076019"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1076074",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Domingos",
+        "datadenascimento": "null",
+        "localNascimento": " *  23.01.1798  ",
+        "dataMorte": "null",
+        "localMorte": "  21.11.1805",
+        "pais": {
+            "pai": "1076014",
+            "mae": "1076019"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1086999",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Affonso Gonçalves",
+        "datadenascimento": [
+            " * Guimarães, Gondomar, Lugar do Carvalho   ",
+            "null"
+        ],
+        "localNascimento": [
+            " * Guimarães, Gondomar, Lugar do Carvalho   ",
+            "null"
+        ],
+        "dataMorte": "null",
+        "localMorte": "null",
+        "pais": {
+            "pai": "null",
+            "mae": "null"
+        },
+        "casamentos": {
+            "1": {
+                "conjuge": "",
+                "local": "",
+                "data": ""
+            }
+        },
+        "filhos": {}
+    },
+    {
+        "id": "1076286",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Alberto Antunes Guimarães",
+        "datadenascimento": [
+            " * Braga, São Lázaro, Rua dos Congregados  18.12.1890 ",
+            "null"
+        ],
+        "localNascimento": [
+            " * Braga, São Lázaro, Rua dos Congregados  18.12.1890 ",
+            "null"
+        ],
+        "dataMorte": "null",
+        "localMorte": "null",
+        "pais": {
+            "pai": "1076115",
+            "mae": "1076116"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1076276",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Ana Antunes Guimarães",
+        "datadenascimento": [
+            " * Guimarães, Briteiros (Salvador)  01.12.1874 ",
+            "null"
+        ],
+        "localNascimento": [
+            " * Guimarães, Briteiros (Salvador)  01.12.1874 ",
+            "null"
+        ],
+        "dataMorte": "null",
+        "localMorte": "null",
+        "pais": {
+            "pai": "1076115",
+            "mae": "1076116"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1079212",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Ana de Jesus Soares de Azevedo",
+        "datadenascimento": [
+            " * Vila Verde - Prado -S. Miguel   ",
+            "null"
+        ],
+        "localNascimento": [
+            " * Vila Verde - Prado -S. Miguel   ",
+            "null"
+        ],
+        "dataMorte": "null",
+        "localMorte": "null",
+        "pais": {
+            "pai": "null",
+            "mae": "null"
+        },
+        "casamentos": {
+            "1": {
+                "conjuge": "",
+                "local": "",
+                "data": ""
+            }
+        },
+        "filhos": {}
+    },
+    {
+        "id": "1076013",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Ana Francisco",
+        "datadenascimento": [
+            " * Guimarães, Donim  14.05.1757 ",
+            "null"
+        ],
+        "localNascimento": [
+            " * Guimarães, Donim  14.05.1757 ",
+            "null"
+        ],
+        "dataMorte": "null",
+        "localMorte": "null",
+        "pais": {
+            "pai": "1075781",
+            "mae": "1075782"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1077961",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Ana Isabel Ferrera da Cunha",
+        "datadenascimento": [
+            " * Braga  12.05.1974 ",
+            "null"
+        ],
+        "localNascimento": [
+            " * Braga  12.05.1974 ",
+            "null"
+        ],
+        "dataMorte": "null",
+        "localMorte": "null",
+        "pais": {
+            "pai": "null",
+            "mae": "null"
+        },
+        "casamentos": {
+            "1": {
+                "conjuge": "",
+                "local": "",
+                "data": ""
+            }
+        },
+        "filhos": {}
+    },
+    {
+        "id": "1076019",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Ana Maria Antunes",
+        "datadenascimento": "null",
+        "localNascimento": "null",
+        "dataMorte": "null",
+        "localMorte": "  + Guimarães, Donim, Casa de Sande  06.03.1860",
+        "pais": {
+            "pai": "1076020",
+            "mae": "1076021"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1075943",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Ana Maria Pais dos Santos Antunes Guimarães",
+        "datadenascimento": [
+            " * Braga, São João do Souto  16.05.1963 ",
+            "null"
+        ],
+        "localNascimento": [
+            " * Braga, São João do Souto  16.05.1963 ",
+            "null"
+        ],
+        "dataMorte": "null",
+        "localMorte": "null",
+        "pais": {
+            "pai": "1075942",
+            "mae": "1075944"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1077957",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Andreia Mendes",
+        "datadenascimento": "",
+        "localNascimento": "",
+        "dataMorte": "",
+        "localMorte": "",
+        "pais": {
+            "pai": "null",
+            "mae": "null"
+        },
+        "casamentos": {
+            "1": {
+                "conjuge": "",
+                "local": "",
+                "data": ""
+            }
+        },
+        "filhos": {}
+    },
+    {
+        "id": "1076282",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "António Antunes Guimarães",
+        "datadenascimento": "null",
+        "localNascimento": " * Guimarães, Briteiros (Salvador)  30.05.1883  ",
+        "dataMorte": "null",
+        "localMorte": " Braga, São Lázaro  22.02.1912",
+        "pais": {
+            "pai": "1076115",
+            "mae": "1076116"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1078572",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "António Candido Soares de Azevedo da Silva Amorim",
+        "datadenascimento": "null",
+        "localNascimento": " * Amares, Dornelas  28.09.1850  ",
+        "dataMorte": "null",
+        "localMorte": "  c. 1894",
+        "pais": {
+            "pai": "1079209",
+            "mae": "1079210"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1079211",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "António José de Amorim Machado de Araujo",
+        "datadenascimento": "null",
+        "localNascimento": " * Amares - Dornelas    ",
+        "dataMorte": "null",
+        "localMorte": "  16.12.1823",
+        "pais": {
+            "pai": "null",
+            "mae": "null"
+        },
+        "casamentos": {
+            "1": {
+                "conjuge": "",
+                "local": "",
+                "data": ""
+            }
+        },
+        "filhos": {}
+    },
+    {
+        "id": "1087002",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Benta Fernandes",
+        "datadenascimento": "",
+        "localNascimento": "",
+        "dataMorte": "",
+        "localMorte": "",
+        "pais": {
+            "pai": "null",
+            "mae": "null"
+        },
+        "casamentos": {
+            "1": {
+                "conjuge": "",
+                "local": "",
+                "data": ""
+            }
+        },
+        "filhos": {}
+    },
+    {
+        "id": "1079209",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Bento José da Silva",
+        "datadenascimento": "null",
+        "localNascimento": " * Sequiade  24.11.1796  ",
+        "dataMorte": "null",
+        "localMorte": "  17.01.1878",
+        "pais": {
+            "pai": "1079213",
+            "mae": "1079214"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1078336",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Bernardo Pereira Rebello",
+        "datadenascimento": [
+            " * Granja de Alijó   ",
+            "null"
+        ],
+        "localNascimento": [
+            " * Granja de Alijó   ",
+            "null"
+        ],
+        "dataMorte": "null",
+        "localMorte": "null",
+        "pais": {
+            "pai": "null",
+            "mae": "null"
+        },
+        "casamentos": {
+            "1": {
+                "conjuge": "",
+                "local": "",
+                "data": ""
+            }
+        },
+        "filhos": {}
+    },
+    {
+        "id": "1076852",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Carolina Represas Antunes Guimarães",
+        "datadenascimento": [
+            " *  03.06.1995 ",
+            "null"
+        ],
+        "localNascimento": [
+            " *  03.06.1995 ",
+            "null"
+        ],
+        "dataMorte": "null",
+        "localMorte": "null",
+        "pais": {
+            "pai": "1076119",
+            "mae": "1076848"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1079224",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Cassamiro José Ferreira",
+        "datadenascimento": "null",
+        "localNascimento": "null",
+        "dataMorte": "null",
+        "localMorte": "  + Guimarães, Gondomar  24.08.1787",
+        "pais": {
+            "pai": "1086995",
+            "mae": "1086996"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1087000",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Catarina Ferreira",
+        "datadenascimento": "",
+        "localNascimento": "",
+        "dataMorte": "",
+        "localMorte": "",
+        "pais": {
+            "pai": "null",
+            "mae": "null"
+        },
+        "casamentos": {
+            "1": {
+                "conjuge": "",
+                "local": "",
+                "data": ""
+            }
+        },
+        "filhos": {}
+    },
+    {
+        "id": "1075780",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Catarina Martins",
+        "datadenascimento": "null",
+        "localNascimento": "null",
+        "dataMorte": "null",
+        "localMorte": "  + Guimarães, Donim, lugar de Requeixo  1744",
+        "pais": {
+            "pai": "null",
+            "mae": "null"
+        },
+        "casamentos": {
+            "1": {
+                "conjuge": "",
+                "local": "",
+                "data": ""
+            }
+        },
+        "filhos": {}
+    },
+    {
+        "id": "1086996",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Catarina Rodrigues",
+        "datadenascimento": "",
+        "localNascimento": "",
+        "dataMorte": "",
+        "localMorte": "",
+        "pais": {
+            "pai": "1087001",
+            "mae": "1087002"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1076285",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Constança Antunes Guimarães",
+        "datadenascimento": [
+            " * Braga, São Lázaro, Ruados Congregados  03.06.1889 ",
+            "null"
+        ],
+        "localNascimento": [
+            " * Braga, São Lázaro, Ruados Congregados  03.06.1889 ",
+            "null"
+        ],
+        "dataMorte": "null",
+        "localMorte": "null",
+        "pais": {
+            "pai": "1076115",
+            "mae": "1076116"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1076104",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "D. Constança Maria Pereira",
+        "datadenascimento": [
+            " * Brazil, Pernambuco   ",
+            "null"
+        ],
+        "localNascimento": [
+            " * Brazil, Pernambuco   ",
+            "null"
+        ],
+        "dataMorte": "null",
+        "localMorte": "null",
+        "pais": {
+            "pai": "null",
+            "mae": "null"
+        },
+        "casamentos": {
+            "1": {
+                "conjuge": "",
+                "local": "",
+                "data": ""
+            }
+        },
+        "filhos": {}
+    },
+    {
+        "id": "1075983",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Custódia Maria Alvares",
+        "datadenascimento": "null",
+        "localNascimento": " * Guimarães, Sande (São Martinho), Casal da Ribeira  13.08.1735  ",
+        "dataMorte": "null",
+        "localMorte": " Guimarães, Sande (São Martinho)  18.10.1794",
+        "pais": {
+            "pai": "1075984",
+            "mae": "1075985"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1078766",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Custódia Maria Pereira",
+        "datadenascimento": "",
+        "localNascimento": "",
+        "dataMorte": "",
+        "localMorte": "",
+        "pais": {
+            "pai": "null",
+            "mae": "null"
+        },
+        "casamentos": {
+            "1": {
+                "conjuge": "",
+                "local": "",
+                "data": ""
+            }
+        },
+        "filhos": {}
+    },
+    {
+        "id": "1079218",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Custódia Maria Rodrigues Ferreira",
+        "datadenascimento": [
+            " * Guimarães, Gondomar   ",
+            "null"
+        ],
+        "localNascimento": [
+            " * Guimarães, Gondomar   ",
+            "null"
+        ],
+        "dataMorte": "null",
+        "localMorte": "null",
+        "pais": {
+            "pai": "1079224",
+            "mae": "1079225"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1086998",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Custódia Rodrigues",
+        "datadenascimento": "",
+        "localNascimento": "",
+        "dataMorte": "",
+        "localMorte": "",
+        "pais": {
+            "pai": "null",
+            "mae": "null"
+        },
+        "casamentos": {
+            "1": {
+                "conjuge": "",
+                "local": "",
+                "data": ""
+            }
+        },
+        "filhos": {}
+    },
+    {
+        "id": "1079217",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Custódio José Fernandes",
+        "datadenascimento": [
+            " * Guimarães, Gondomar, Lugar da Lage  04.09.1759 ",
+            "null"
+        ],
+        "localNascimento": [
+            " * Guimarães, Gondomar, Lugar da Lage  04.09.1759 ",
+            "null"
+        ],
+        "dataMorte": "null",
+        "localMorte": "null",
+        "pais": {
+            "pai": "1079219",
+            "mae": "1079220"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1079229",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Domingas Fernandes",
+        "datadenascimento": "",
+        "localNascimento": "",
+        "dataMorte": "",
+        "localMorte": "",
+        "pais": {
+            "pai": "null",
+            "mae": "null"
+        },
+        "casamentos": {
+            "1": {
+                "conjuge": "",
+                "local": "",
+                "data": ""
+            }
+        },
+        "filhos": {}
+    },
+    {
+        "id": "1076073",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Domingos",
+        "datadenascimento": "null",
+        "localNascimento": " *  10.05.1796  ",
+        "dataMorte": "null",
+        "localMorte": "  26.05.1796",
+        "pais": {
+            "pai": "1076014",
+            "mae": "1076019"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1076074",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Domingos",
+        "datadenascimento": "null",
+        "localNascimento": " *  23.01.1798  ",
+        "dataMorte": "null",
+        "localMorte": "  21.11.1805",
+        "pais": {
+            "pai": "1076014",
+            "mae": "1076019"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1086999",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Affonso Gonçalves",
+        "datadenascimento": [
+            " * Guimarães, Gondomar, Lugar do Carvalho   ",
+            "null"
+        ],
+        "localNascimento": [
+            " * Guimarães, Gondomar, Lugar do Carvalho   ",
+            "null"
+        ],
+        "dataMorte": "null",
+        "localMorte": "null",
+        "pais": {
+            "pai": "null",
+            "mae": "null"
+        },
+        "casamentos": {
+            "1": {
+                "conjuge": "",
+                "local": "",
+                "data": ""
+            }
+        },
+        "filhos": {}
+    },
+    {
+        "id": "1076286",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Alberto Antunes Guimarães",
+        "datadenascimento": [
+            " * Braga, São Lázaro, Rua dos Congregados  18.12.1890 ",
+            "null"
+        ],
+        "localNascimento": [
+            " * Braga, São Lázaro, Rua dos Congregados  18.12.1890 ",
+            "null"
+        ],
+        "dataMorte": "null",
+        "localMorte": "null",
+        "pais": {
+            "pai": "1076115",
+            "mae": "1076116"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1076276",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Ana Antunes Guimarães",
+        "datadenascimento": [
+            " * Guimarães, Briteiros (Salvador)  01.12.1874 ",
+            "null"
+        ],
+        "localNascimento": [
+            " * Guimarães, Briteiros (Salvador)  01.12.1874 ",
+            "null"
+        ],
+        "dataMorte": "null",
+        "localMorte": "null",
+        "pais": {
+            "pai": "1076115",
+            "mae": "1076116"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1079212",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Ana de Jesus Soares de Azevedo",
+        "datadenascimento": [
+            " * Vila Verde - Prado -S. Miguel   ",
+            "null"
+        ],
+        "localNascimento": [
+            " * Vila Verde - Prado -S. Miguel   ",
+            "null"
+        ],
+        "dataMorte": "null",
+        "localMorte": "null",
+        "pais": {
+            "pai": "null",
+            "mae": "null"
+        },
+        "casamentos": {
+            "1": {
+                "conjuge": "",
+                "local": "",
+                "data": ""
+            }
+        },
+        "filhos": {}
+    },
+    {
+        "id": "1076013",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Ana Francisco",
+        "datadenascimento": [
+            " * Guimarães, Donim  14.05.1757 ",
+            "null"
+        ],
+        "localNascimento": [
+            " * Guimarães, Donim  14.05.1757 ",
+            "null"
+        ],
+        "dataMorte": "null",
+        "localMorte": "null",
+        "pais": {
+            "pai": "1075781",
+            "mae": "1075782"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1077961",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Ana Isabel Ferrera da Cunha",
+        "datadenascimento": [
+            " * Braga  12.05.1974 ",
+            "null"
+        ],
+        "localNascimento": [
+            " * Braga  12.05.1974 ",
+            "null"
+        ],
+        "dataMorte": "null",
+        "localMorte": "null",
+        "pais": {
+            "pai": "null",
+            "mae": "null"
+        },
+        "casamentos": {
+            "1": {
+                "conjuge": "",
+                "local": "",
+                "data": ""
+            }
+        },
+        "filhos": {}
+    },
+    {
+        "id": "1076019",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Ana Maria Antunes",
+        "datadenascimento": "null",
+        "localNascimento": "null",
+        "dataMorte": "null",
+        "localMorte": "  + Guimarães, Donim, Casa de Sande  06.03.1860",
+        "pais": {
+            "pai": "1076020",
+            "mae": "1076021"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1075943",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Ana Maria Pais dos Santos Antunes Guimarães",
+        "datadenascimento": [
+            " * Braga, São João do Souto  16.05.1963 ",
+            "null"
+        ],
+        "localNascimento": [
+            " * Braga, São João do Souto  16.05.1963 ",
+            "null"
+        ],
+        "dataMorte": "null",
+        "localMorte": "null",
+        "pais": {
+            "pai": "1075942",
+            "mae": "1075944"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1077957",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Andreia Mendes",
+        "datadenascimento": "",
+        "localNascimento": "",
+        "dataMorte": "",
+        "localMorte": "",
+        "pais": {
+            "pai": "null",
+            "mae": "null"
+        },
+        "casamentos": {
+            "1": {
+                "conjuge": "",
+                "local": "",
+                "data": ""
+            }
+        },
+        "filhos": {}
+    },
+    {
+        "id": "1076282",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "António Antunes Guimarães",
+        "datadenascimento": "null",
+        "localNascimento": " * Guimarães, Briteiros (Salvador)  30.05.1883  ",
+        "dataMorte": "null",
+        "localMorte": " Braga, São Lázaro  22.02.1912",
+        "pais": {
+            "pai": "1076115",
+            "mae": "1076116"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1078572",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "António Candido Soares de Azevedo da Silva Amorim",
+        "datadenascimento": "null",
+        "localNascimento": " * Amares, Dornelas  28.09.1850  ",
+        "dataMorte": "null",
+        "localMorte": "  c. 1894",
+        "pais": {
+            "pai": "1079209",
+            "mae": "1079210"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1079211",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "António José de Amorim Machado de Araujo",
+        "datadenascimento": "null",
+        "localNascimento": " * Amares - Dornelas    ",
+        "dataMorte": "null",
+        "localMorte": "  16.12.1823",
+        "pais": {
+            "pai": "null",
+            "mae": "null"
+        },
+        "casamentos": {
+            "1": {
+                "conjuge": "",
+                "local": "",
+                "data": ""
+            }
+        },
+        "filhos": {}
+    },
+    {
+        "id": "1087002",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Benta Fernandes",
+        "datadenascimento": "",
+        "localNascimento": "",
+        "dataMorte": "",
+        "localMorte": "",
+        "pais": {
+            "pai": "null",
+            "mae": "null"
+        },
+        "casamentos": {
+            "1": {
+                "conjuge": "",
+                "local": "",
+                "data": ""
+            }
+        },
+        "filhos": {}
+    },
+    {
+        "id": "1079209",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Bento José da Silva",
+        "datadenascimento": "null",
+        "localNascimento": " * Sequiade  24.11.1796  ",
+        "dataMorte": "null",
+        "localMorte": "  17.01.1878",
+        "pais": {
+            "pai": "1079213",
+            "mae": "1079214"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1078336",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Bernardo Pereira Rebello",
+        "datadenascimento": [
+            " * Granja de Alijó   ",
+            "null"
+        ],
+        "localNascimento": [
+            " * Granja de Alijó   ",
+            "null"
+        ],
+        "dataMorte": "null",
+        "localMorte": "null",
+        "pais": {
+            "pai": "null",
+            "mae": "null"
+        },
+        "casamentos": {
+            "1": {
+                "conjuge": "",
+                "local": "",
+                "data": ""
+            }
+        },
+        "filhos": {}
+    },
+    {
+        "id": "1076852",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Carolina Represas Antunes Guimarães",
+        "datadenascimento": [
+            " *  03.06.1995 ",
+            "null"
+        ],
+        "localNascimento": [
+            " *  03.06.1995 ",
+            "null"
+        ],
+        "dataMorte": "null",
+        "localMorte": "null",
+        "pais": {
+            "pai": "1076119",
+            "mae": "1076848"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1079224",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Cassamiro José Ferreira",
+        "datadenascimento": "null",
+        "localNascimento": "null",
+        "dataMorte": "null",
+        "localMorte": "  + Guimarães, Gondomar  24.08.1787",
+        "pais": {
+            "pai": "1086995",
+            "mae": "1086996"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1087000",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Catarina Ferreira",
+        "datadenascimento": "",
+        "localNascimento": "",
+        "dataMorte": "",
+        "localMorte": "",
+        "pais": {
+            "pai": "null",
+            "mae": "null"
+        },
+        "casamentos": {
+            "1": {
+                "conjuge": "",
+                "local": "",
+                "data": ""
+            }
+        },
+        "filhos": {}
+    },
+    {
+        "id": "1075780",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Catarina Martins",
+        "datadenascimento": "null",
+        "localNascimento": "null",
+        "dataMorte": "null",
+        "localMorte": "  + Guimarães, Donim, lugar de Requeixo  1744",
+        "pais": {
+            "pai": "null",
+            "mae": "null"
+        },
+        "casamentos": {
+            "1": {
+                "conjuge": "",
+                "local": "",
+                "data": ""
+            }
+        },
+        "filhos": {}
+    },
+    {
+        "id": "1086996",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Catarina Rodrigues",
+        "datadenascimento": "",
+        "localNascimento": "",
+        "dataMorte": "",
+        "localMorte": "",
+        "pais": {
+            "pai": "1087001",
+            "mae": "1087002"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1076285",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Constança Antunes Guimarães",
+        "datadenascimento": [
+            " * Braga, São Lázaro, Ruados Congregados  03.06.1889 ",
+            "null"
+        ],
+        "localNascimento": [
+            " * Braga, São Lázaro, Ruados Congregados  03.06.1889 ",
+            "null"
+        ],
+        "dataMorte": "null",
+        "localMorte": "null",
+        "pais": {
+            "pai": "1076115",
+            "mae": "1076116"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1076104",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "D. Constança Maria Pereira",
+        "datadenascimento": [
+            " * Brazil, Pernambuco   ",
+            "null"
+        ],
+        "localNascimento": [
+            " * Brazil, Pernambuco   ",
+            "null"
+        ],
+        "dataMorte": "null",
+        "localMorte": "null",
+        "pais": {
+            "pai": "null",
+            "mae": "null"
+        },
+        "casamentos": {
+            "1": {
+                "conjuge": "",
+                "local": "",
+                "data": ""
+            }
+        },
+        "filhos": {}
+    },
+    {
+        "id": "1075983",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Custódia Maria Alvares",
+        "datadenascimento": "null",
+        "localNascimento": " * Guimarães, Sande (São Martinho), Casal da Ribeira  13.08.1735  ",
+        "dataMorte": "null",
+        "localMorte": " Guimarães, Sande (São Martinho)  18.10.1794",
+        "pais": {
+            "pai": "1075984",
+            "mae": "1075985"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1078766",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Custódia Maria Pereira",
+        "datadenascimento": "",
+        "localNascimento": "",
+        "dataMorte": "",
+        "localMorte": "",
+        "pais": {
+            "pai": "null",
+            "mae": "null"
+        },
+        "casamentos": {
+            "1": {
+                "conjuge": "",
+                "local": "",
+                "data": ""
+            }
+        },
+        "filhos": {}
+    },
+    {
+        "id": "1079218",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Custódia Maria Rodrigues Ferreira",
+        "datadenascimento": [
+            " * Guimarães, Gondomar   ",
+            "null"
+        ],
+        "localNascimento": [
+            " * Guimarães, Gondomar   ",
+            "null"
+        ],
+        "dataMorte": "null",
+        "localMorte": "null",
+        "pais": {
+            "pai": "1079224",
+            "mae": "1079225"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1086998",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Custódia Rodrigues",
+        "datadenascimento": "",
+        "localNascimento": "",
+        "dataMorte": "",
+        "localMorte": "",
+        "pais": {
+            "pai": "null",
+            "mae": "null"
+        },
+        "casamentos": {
+            "1": {
+                "conjuge": "",
+                "local": "",
+                "data": ""
+            }
+        },
+        "filhos": {}
+    },
+    {
+        "id": "1079217",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Custódio José Fernandes",
+        "datadenascimento": [
+            " * Guimarães, Gondomar, Lugar da Lage  04.09.1759 ",
+            "null"
+        ],
+        "localNascimento": [
+            " * Guimarães, Gondomar, Lugar da Lage  04.09.1759 ",
+            "null"
+        ],
+        "dataMorte": "null",
+        "localMorte": "null",
+        "pais": {
+            "pai": "1079219",
+            "mae": "1079220"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1079229",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Domingas Fernandes",
+        "datadenascimento": "",
+        "localNascimento": "",
+        "dataMorte": "",
+        "localMorte": "",
+        "pais": {
+            "pai": "null",
+            "mae": "null"
+        },
+        "casamentos": {
+            "1": {
+                "conjuge": "",
+                "local": "",
+                "data": ""
+            }
+        },
+        "filhos": {}
+    },
+    {
+        "id": "1076073",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Domingos",
+        "datadenascimento": "null",
+        "localNascimento": " *  10.05.1796  ",
+        "dataMorte": "null",
+        "localMorte": "  26.05.1796",
+        "pais": {
+            "pai": "1076014",
+            "mae": "1076019"
+        },
+        "casamentos": {},
+        "filhos": {}
+    },
+    {
+        "id": "1076074",
+        "familia": "Família Antunes Guimarães (Briteiros)",
+        "nome": "Domingos",
+        "datadenascimento": "null",
+        "localNascimento": " *  23.01.1798  ",
+        "dataMorte": "null",
+        "localMorte": "  21.11.1805",
+        "pais": {
+            "pai": "1076014",
+            "mae": "1076019"
+        },
+        "casamentos": {},
+        "filhos": {}
+    }
+]

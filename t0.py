@@ -42,7 +42,6 @@ def birth_death_validator(string):
     data_morte = ""
     data_nasc = ""
     local_morte = ""
-    print("Entrou na funcao")
     if '+' in string and '*' in string:
         split = string.split("+",2)
         local_nasc, data_nasc = check_local_data(split[0])
@@ -68,8 +67,6 @@ def check_local_data(string): # confirm regex .search and .match
         data = re.search(re_data, string)
     else:
         local = string
-    print(local)
-    print(data)
     return local, data
 
 # percber que campos temos disponiveis dentro do casamento
@@ -120,7 +117,7 @@ def parsePage(link_id):
     soup = BeautifulSoup(requests.get(url).text, 'html.parser')
 
     # get users general info
-    name = soup.title.name
+    name = soup.title.text
     familia = soup.find("div", {"class" : "head2"}).text
 
     # get the first block of information
@@ -129,10 +126,8 @@ def parsePage(link_id):
     main_info = str(main_info).replace("</nobr>","")
     main_info = str(main_info).replace('<div align="center">',"")
     main_info = str(main_info).replace('</div>',"")
-    print(main_info)
     local_nasc, data_nasc, local_morte, data_morte = birth_death_validator(main_info)
 
-    print("main info parsed")
     # get parents info
     if exists_parents(soup):
         text_parents = soup.find_all("b")
@@ -140,13 +135,11 @@ def parsePage(link_id):
         mae_string = text_parents[1].next_element.next_element.next_element
         parents_pai = re.search("[0-9]+",str(pai_string)).group(0)
         parents_mae = re.search("[0-9]+",str(mae_string)).group(0)
-        print("parents info parsed")
     else :
         parents_pai="null"
         parents_mae="null"
     # get marriage info
     if exists_casamento(soup):
-        print("existe casamentos")
         paragraph = soup.find("td", {"width": "100%"})
         temp = str(paragraph).split('<div class="marcadorP" style="margin-top: 10px;">Casamentos',2)
         temp = temp[1]
@@ -216,9 +209,6 @@ def parsePage(link_id):
 
     return index_dic
 
-def createJson(dic):
-    print("Outputs Json file") #not needed probably, serialize only
-
 
 def main():
     # read main webpage
@@ -238,18 +228,12 @@ def main():
     print("Parsing the people index...")
     lista_pessoas = listarPessoas(link_pessoa)
     print("Parsing individuals...")
+    output = []
     for i in lista_pessoas:
-        output = []
         indvData = parsePage(i)
         output.append(indvData)
-        with open('output.json', 'a') as file:
-            file.write(json.dumps(indvData))
-            file.write("\n")
-        file.close()
-    #with open("output.json","w") as f:
-    #    f.write(ouput)
-    #f.close()
-
-    #print("Created Json List with {} obs.".format(lista_pessoas.len()))
+    with open('output.json', 'a') as file:
+        file.write(json.dumps(output,ensure_ascii=False, indent = 4))
+    file.close()
 
 main()
