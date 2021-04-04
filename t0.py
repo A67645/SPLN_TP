@@ -146,7 +146,7 @@ def parsePage(link_id):
         paragraph = soup.find("td", {"width": "100%"})
         temp = str(paragraph).split("Casamentos",2)
         temp = temp[1]
-        if exists_filhos:
+        if exists_filhos(soup):
             temp = temp.split("Filhos",2)
             temp = temp[0]
         lista_casamentos = temp.split("Casamento")
@@ -177,8 +177,20 @@ def parsePage(link_id):
             l_lista_casamentos.append([conjuge,local,data])
         print(l_lista_casamentos)
         # get heritage info
-    if exists_parents(soup):
-        print("Filhos")
+    if exists_filhos(soup):
+        paragraph = soup.find("td", {"width": "100%"})
+        temp = str(paragraph).split('<div class="marcadorP" style="margin-top: 10px;">Filhos</div>',2)
+        temp = temp[-1]
+        filhos_list = re.findall('<a href="pessoas\.php\?id=[0-9]+',temp[-1])
+        list_filhos = []
+        for i in filhos_list:
+            l = []
+            a = 1
+            id_filhos = re.search('[0-9]+', i).group(0)
+            dic = {a : id_filhos}
+            dic_copy = dic.copy()
+            list_filhos.append(dic_copy)
+            a + 1
 
 
 def createJson(dic):
