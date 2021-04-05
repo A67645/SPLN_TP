@@ -85,7 +85,7 @@ def check_casamento(string):
     else:
         if re.search(re_id, string):
             id = re.search(re_id, string).group(0)
-        else:    
+        else:
             local=re.search(re_local_sData,string).group(0)
 
     if re.search(re_id, string):
@@ -101,16 +101,19 @@ def exists_casamento(sopa):
             a=1
     if a==1:
         return True
-    else : 
-        return False        
+    else :
+        return False
 
 def exists_parents(sopa):
     temp = sopa.find_all("div", { "class": "marcadorP" , "style": "margin-top: 10px;"})
+    a=0
     for i in temp:
         if 'Pais' in i:
-            return True
-        else:
-            return False
+            a=1
+    if a==1:
+        return True
+    else:
+        return False
 
 def exists_filhos(sopa):
     temp = sopa.find_all("div", { "class": "marcadorP" , "style": "margin-top: 10px;"})
@@ -120,12 +123,11 @@ def exists_filhos(sopa):
             a=1
     if a==1:
         return True
-    else : 
-        return False 
+    else:
+        return False
 
 # definir função para extrair dados de pag de user
 def parsePage(link_id):
-    print(link_id)
     url = f"http://pagfam.geneall.net/3418/pessoas.php?id={link_id}"
     soup = BeautifulSoup(requests.get(url).text, 'html.parser')
 
@@ -154,25 +156,25 @@ def parsePage(link_id):
     # get marriage info
     if exists_casamento(soup):
         paragraph = soup.find("td", {"width": "100%"})
-        
+
         temp = str(paragraph).split('Casamentos')
-       
+
         temp = temp[1]
-        
+
         if exists_filhos(soup):
-        
+
             temp = temp.split('<div class="marcadorP" style="margin-top: 10px;">Filhos')
             temp= temp[0]
-        
+
         # acrescentar check para ver quantos casamentos é que há:
         lista_casamentos = [temp]
-        
+
         if "Casamento" in temp:
             lista_casamentos = temp.split("Casamento")
          # print(lista_casamentos)
         l_lista_temp = []
         for i in lista_casamentos:
-            
+
             string = str(i)
             string = string.replace("</div>","")
             string = string.replace('</div><div align="center"><b>',"")
@@ -187,36 +189,38 @@ def parsePage(link_id):
             string = string.replace('"><a',"")
             l_lista_temp.append(string)
 
-        #print('Casado com  ' +l_lista_temp[0])   
+        #print('Casado com  ' +l_lista_temp[0])
         dict_casamentos = {}
         a = 1
         for l in l_lista_temp:
-            
+
             if(l==''):
                 continue
            # print('String L'+l)
-            
+
             conjuge, casamento_local, casamento_data =check_casamento(str(l))
             dict_temp = { "conjuge": conjuge, "local": casamento_local, "data": casamento_data}
             dict_casamentos[a] =  dict_temp
-            
+
             a += 1
-           
+
     else:
         dict_casamentos = {}
         # get heritage info
     if exists_filhos(soup):
         paragraph = soup.find("td", {"width": "100%"})
-        temp = str(paragraph).split('<div class="marcadorP" style="margin-top: 10px;">Filhos</div>',2)
-        temp = temp[-1]
-        filhos_list = re.findall('<a href="pessoas\.php\?id=[0-9]+',temp[-1])
+        temp = str(paragraph).split('<div class="marcadorP" style="margin-top: 10px;">Filhos')
+        temp = temp [-1]
+        filhos_list = []
+        temp = re.findall('(href\=\"pessoas\.php\?id=)([0-9]+:?)',temp)
+        for f in temp:
+            temp2 = f[1]
+            filhos_list.append(temp2)
         dic_filhos = {}
+        a = 1
         for i in filhos_list:
-            l = []
-            a = 1
-            id_filhos = re.search('[0-9]+', i).group(0)
-            dic_filhos[a] = id_filhos
-            a + 1
+            dic_filhos[a] = i
+            a += 1
     else:
         dic_filhos = {}
     # output dictionary with all info
@@ -257,12 +261,17 @@ def main():
 
     print("Parsing the people index...")
     lista_pessoas = listarPessoas(link_pessoa)
-    #lista_pessoas = listarPessoas('http://pagfam.geneall.net/3418/pessoas.php?id=1079218')
+    #lista_pessoas = listarPessoas('http://pagfam.geneall.net/3418/pessoas.php?id=1076019')
     print("Parsing individuals...")
     output = []
+    timer = 1
     for i in lista_pessoas:
         indvData = parsePage(i)
         output.append(indvData)
+        print(str(i) + "  | " + str(timer) + "/" + str(len(lista_pessoas)))
+        timer += 1
+    print("Parsing completed")
+    print("Creating File...")
     familias = {"familias" : output}
     with open('familias.json', 'w') as file:
         file.write(json.dumps(familias,ensure_ascii=False, indent = 4))
