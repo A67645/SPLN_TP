@@ -72,27 +72,37 @@ def check_local_data(string): # confirm regex .search and .match
 # percber que campos temos disponiveis dentro do casamento
 def check_casamento(string):
     re_data = re.compile("([0-9][0-9].[0-9][0-9].[0-9][0-9][0-9][0-9]?)")
-    re_local = re.compile("[*|+] (.+?)[0-9]")
-    re_id = re.compile("[0-9]+")
+    re_local = re.compile("[^|*](.+?)[0-9][0-9].[0-9][0-9].[0-9][0-9][0-9][0-9]")
+    re_local_sData = re.compile(".+(?=;)")
+    re_id = re.compile("[0-9]+(?=\">)")
     data = ""
     local = ""
     id = ""
-    if re.match(re_data, string):
-        data = re.search(re_data, string)
-    if re.match(re_local, string):
-        local = re.search(re_local, string)
-    if re.match(re_id, string):
-        id = re.search(re_id, string)
+    if re.search(re_data, string):
+        data = re.search(re_data, string).group(0)
+        if re.search(re_local, string):
+            local = re.search(re_local, string).group(0)
+    else:
+        if re.search(re_id, string):
+            id = re.search(re_id, string).group(0)
+        else:    
+            local=re.search(re_local_sData,string).group(0)
+
+    if re.search(re_id, string):
+        id = re.search(re_id, string).group(0)
     return id, local, data
 
 # confirmar se existem casamentos na pagina
 def exists_casamento(sopa):
     temp = sopa.find_all("div", { "class": "marcadorP" , "style": "margin-top: 10px;"})
+    a=0
     for i in temp:
         if 'Casamentos' in i:
-            return True
-        else:
-            return False
+            a=1
+    if a==1:
+        return True
+    else : 
+        return False        
 
 def exists_parents(sopa):
     temp = sopa.find_all("div", { "class": "marcadorP" , "style": "margin-top: 10px;"})
@@ -104,11 +114,14 @@ def exists_parents(sopa):
 
 def exists_filhos(sopa):
     temp = sopa.find_all("div", { "class": "marcadorP" , "style": "margin-top: 10px;"})
+    a=0
     for i in temp:
         if 'Filhos' in i:
-            return True
-        else:
-            return False
+            a=1
+    if a==1:
+        return True
+    else : 
+        return False 
 
 # definir função para extrair dados de pag de user
 def parsePage(link_id):
@@ -141,17 +154,25 @@ def parsePage(link_id):
     # get marriage info
     if exists_casamento(soup):
         paragraph = soup.find("td", {"width": "100%"})
-        temp = str(paragraph).split('asamentos',2)
+        
+        temp = str(paragraph).split('Casamentos')
+       
         temp = temp[1]
+        
         if exists_filhos(soup):
-            temp = temp.split('<div class="marcadorP" style="margin-top: 10px;">Filhos',2)
+        
+            temp = temp.split('<div class="marcadorP" style="margin-top: 10px;">Filhos')
             temp= temp[0]
+        
         # acrescentar check para ver quantos casamentos é que há:
         lista_casamentos = [temp]
+        
         if "Casamento" in temp:
-            lista_casamentos = lista_casamentos.split("Casamento")
+            lista_casamentos = temp.split("Casamento")
+         # print(lista_casamentos)
         l_lista_temp = []
         for i in lista_casamentos:
+            
             string = str(i)
             string = string.replace("</div>","")
             string = string.replace('</div><div align="center"><b>',"")
@@ -165,13 +186,22 @@ def parsePage(link_id):
             string = string.replace('<div align="center">',"")
             string = string.replace('"><a',"")
             l_lista_temp.append(string)
+
+        #print('Casado com  ' +l_lista_temp[0])   
         dict_casamentos = {}
+        a = 1
         for l in l_lista_temp:
-            a = 1
+            
+            if(l==''):
+                continue
+           # print('String L'+l)
+            
             conjuge, casamento_local, casamento_data =check_casamento(str(l))
             dict_temp = { "conjuge": conjuge, "local": casamento_local, "data": casamento_data}
             dict_casamentos[a] =  dict_temp
-            a + 1
+            
+            a += 1
+           
     else:
         dict_casamentos = {}
         # get heritage info
@@ -227,6 +257,7 @@ def main():
 
     print("Parsing the people index...")
     lista_pessoas = listarPessoas(link_pessoa)
+    #lista_pessoas = listarPessoas('http://pagfam.geneall.net/3418/pessoas.php?id=1079218')
     print("Parsing individuals...")
     output = []
     for i in lista_pessoas:
