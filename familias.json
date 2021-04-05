@@ -20,7 +20,7 @@
             },
             "casamentos": {
                 "1": {
-                    "conjuge": "",
+                    "conjuge": "1087000",
                     "local": "",
                     "data": ""
                 }
@@ -89,7 +89,7 @@
             },
             "casamentos": {
                 "1": {
-                    "conjuge": "",
+                    "conjuge": "1079211",
                     "local": "",
                     "data": ""
                 }
@@ -137,9 +137,9 @@
             },
             "casamentos": {
                 "1": {
-                    "conjuge": "",
-                    "local": "",
-                    "data": ""
+                    "conjuge": "1076124",
+                    "local": "; href=\"pessoas.php?id=1076124\"> Paulo Alexandre Pires Ribeiro Antunes Guimarães *  23.08.1974",
+                    "data": "23.08.1974"
                 }
             },
             "filhos": {}
@@ -156,7 +156,13 @@
                 "pai": "1076020",
                 "mae": "1076021"
             },
-            "casamentos": {},
+            "casamentos": {
+                "1": {
+                    "conjuge": "1076014",
+                    "local": "  Guimarães, Briteiros (Salvador)  02.08.1795",
+                    "data": "02.08.1795"
+                }
+            },
             "filhos": {}
         },
         {
@@ -194,9 +200,9 @@
             },
             "casamentos": {
                 "1": {
-                    "conjuge": "",
-                    "local": "",
-                    "data": ""
+                    "conjuge": "1076120",
+                    "local": "; href=\"pessoas.php?id=1076120\"> Miguel Pedro Pires Ribeiro Antunes Guimarães *  19.09.1965",
+                    "data": "19.09.1965"
                 }
             },
             "filhos": {}
@@ -228,7 +234,13 @@
                 "pai": "1079209",
                 "mae": "1079210"
             },
-            "casamentos": {},
+            "casamentos": {
+                "1": {
+                    "conjuge": "1078573",
+                    "local": "  Vila Verde, Soutelo  07.09.1876",
+                    "data": "07.09.1876"
+                }
+            },
             "filhos": {}
         },
         {
@@ -245,7 +257,7 @@
             },
             "casamentos": {
                 "1": {
-                    "conjuge": "",
+                    "conjuge": "1079212",
                     "local": "",
                     "data": ""
                 }
@@ -266,7 +278,7 @@
             },
             "casamentos": {
                 "1": {
-                    "conjuge": "",
+                    "conjuge": "1087001",
                     "local": "",
                     "data": ""
                 }
@@ -285,7 +297,13 @@
                 "pai": "1079213",
                 "mae": "1079214"
             },
-            "casamentos": {},
+            "casamentos": {
+                "1": {
+                    "conjuge": "1079210",
+                    "local": "; href=\"pessoas.php?id=1079210\"> Maria Narcisa da Silva Soares de Azevedo *  30.10.1809",
+                    "data": "30.10.1809"
+                }
+            },
             "filhos": {}
         },
         {
@@ -308,9 +326,9 @@
             },
             "casamentos": {
                 "1": {
-                    "conjuge": "",
-                    "local": "",
-                    "data": ""
+                    "conjuge": "1077256",
+                    "local": "; href=\"pessoas.php?id=1077256\"> Mariana Ezequiel Feyo de Figueiredo Correia *  07.11.1801",
+                    "data": "07.11.1801"
                 }
             },
             "filhos": {}
@@ -348,7 +366,13 @@
                 "pai": "1086995",
                 "mae": "1086996"
             },
-            "casamentos": {},
+            "casamentos": {
+                "1": {
+                    "conjuge": "1079225",
+                    "local": "  Guimarães, Gondomar  20.07.1749",
+                    "data": "20.07.1749"
+                }
+            },
             "filhos": {}
         },
         {
@@ -365,7 +389,7 @@
             },
             "casamentos": {
                 "1": {
-                    "conjuge": "",
+                    "conjuge": "1086999",
                     "local": "",
                     "data": ""
                 }
@@ -386,7 +410,7 @@
             },
             "casamentos": {
                 "1": {
-                    "conjuge": "",
+                    "conjuge": "1075773",
                     "local": "",
                     "data": ""
                 }
@@ -405,7 +429,13 @@
                 "pai": "1087001",
                 "mae": "1087002"
             },
-            "casamentos": {},
+            "casamentos": {
+                "1": {
+                    "conjuge": "1086995",
+                    "local": "",
+                    "data": ""
+                }
+            },
             "filhos": {}
         },
         {
@@ -449,9 +479,9 @@
             },
             "casamentos": {
                 "1": {
-                    "conjuge": "",
-                    "local": "",
-                    "data": ""
+                    "conjuge": "1076103",
+                    "local": "; href=\"pessoas.php?id=1076103\"> José Antunes Guimarães *  25.10.1803",
+                    "data": "25.10.1803"
                 }
             },
             "filhos": {}
@@ -468,7 +498,13 @@
                 "pai": "1075984",
                 "mae": "1075985"
             },
-            "casamentos": {},
+            "casamentos": {
+                "1": {
+                    "conjuge": "1075981",
+                    "local": "  Guimarães, Sande (São Martinho)  20.08.1761",
+                    "data": "20.08.1761"
+                }
+            },
             "filhos": {}
         },
         {
@@ -485,7 +521,7 @@
             },
             "casamentos": {
                 "1": {
-                    "conjuge": "",
+                    "conjuge": "1078765",
                     "local": "",
                     "data": ""
                 }
@@ -510,7 +546,13 @@
                 "pai": "1079224",
                 "mae": "1079225"
             },
-            "casamentos": {},
+            "casamentos": {
+                "1": {
+                    "conjuge": "1079217",
+                    "local": "  Guimarães, Gondomar, Lugar da Lage  18.07.1782",
+                    "data": "18.07.1782"
+                }
+            },
             "filhos": {}
         },
         {
@@ -527,7 +569,7 @@
             },
             "casamentos": {
                 "1": {
-                    "conjuge": "",
+                    "conjuge": "1086997",
                     "local": "",
                     "data": ""
                 }
@@ -552,7 +594,18 @@
                 "pai": "1079219",
                 "mae": "1079220"
             },
-            "casamentos": {},
+            "casamentos": {
+                "1": {
+                    "conjuge": "1079221",
+                    "local": " I:   Guimarães, Gondomar, Lugar da Lage  30.11.1775",
+                    "data": "30.11.1775"
+                },
+                "2": {
+                    "conjuge": "1079218",
+                    "local": " II:   Guimarães, Gondomar, Lugar da Lage  18.07.1782",
+                    "data": "18.07.1782"
+                }
+            },
             "filhos": {}
         },
         {
@@ -569,7 +622,7 @@
             },
             "casamentos": {
                 "1": {
-                    "conjuge": "",
+                    "conjuge": "1079228",
                     "local": "",
                     "data": ""
                 }
@@ -626,7 +679,7 @@
             },
             "casamentos": {
                 "1": {
-                    "conjuge": "",
+                    "conjuge": "1087000",
                     "local": "",
                     "data": ""
                 }
@@ -695,7 +748,7 @@
             },
             "casamentos": {
                 "1": {
-                    "conjuge": "",
+                    "conjuge": "1079211",
                     "local": "",
                     "data": ""
                 }
@@ -743,9 +796,9 @@
             },
             "casamentos": {
                 "1": {
-                    "conjuge": "",
-                    "local": "",
-                    "data": ""
+                    "conjuge": "1076124",
+                    "local": "; href=\"pessoas.php?id=1076124\"> Paulo Alexandre Pires Ribeiro Antunes Guimarães *  23.08.1974",
+                    "data": "23.08.1974"
                 }
             },
             "filhos": {}
@@ -762,7 +815,13 @@
                 "pai": "1076020",
                 "mae": "1076021"
             },
-            "casamentos": {},
+            "casamentos": {
+                "1": {
+                    "conjuge": "1076014",
+                    "local": "  Guimarães, Briteiros (Salvador)  02.08.1795",
+                    "data": "02.08.1795"
+                }
+            },
             "filhos": {}
         },
         {
@@ -800,9 +859,9 @@
             },
             "casamentos": {
                 "1": {
-                    "conjuge": "",
-                    "local": "",
-                    "data": ""
+                    "conjuge": "1076120",
+                    "local": "; href=\"pessoas.php?id=1076120\"> Miguel Pedro Pires Ribeiro Antunes Guimarães *  19.09.1965",
+                    "data": "19.09.1965"
                 }
             },
             "filhos": {}
@@ -834,7 +893,13 @@
                 "pai": "1079209",
                 "mae": "1079210"
             },
-            "casamentos": {},
+            "casamentos": {
+                "1": {
+                    "conjuge": "1078573",
+                    "local": "  Vila Verde, Soutelo  07.09.1876",
+                    "data": "07.09.1876"
+                }
+            },
             "filhos": {}
         },
         {
@@ -851,7 +916,7 @@
             },
             "casamentos": {
                 "1": {
-                    "conjuge": "",
+                    "conjuge": "1079212",
                     "local": "",
                     "data": ""
                 }
@@ -872,7 +937,7 @@
             },
             "casamentos": {
                 "1": {
-                    "conjuge": "",
+                    "conjuge": "1087001",
                     "local": "",
                     "data": ""
                 }
@@ -891,7 +956,13 @@
                 "pai": "1079213",
                 "mae": "1079214"
             },
-            "casamentos": {},
+            "casamentos": {
+                "1": {
+                    "conjuge": "1079210",
+                    "local": "; href=\"pessoas.php?id=1079210\"> Maria Narcisa da Silva Soares de Azevedo *  30.10.1809",
+                    "data": "30.10.1809"
+                }
+            },
             "filhos": {}
         },
         {
@@ -914,9 +985,9 @@
             },
             "casamentos": {
                 "1": {
-                    "conjuge": "",
-                    "local": "",
-                    "data": ""
+                    "conjuge": "1077256",
+                    "local": "; href=\"pessoas.php?id=1077256\"> Mariana Ezequiel Feyo de Figueiredo Correia *  07.11.1801",
+                    "data": "07.11.1801"
                 }
             },
             "filhos": {}
@@ -954,7 +1025,13 @@
                 "pai": "1086995",
                 "mae": "1086996"
             },
-            "casamentos": {},
+            "casamentos": {
+                "1": {
+                    "conjuge": "1079225",
+                    "local": "  Guimarães, Gondomar  20.07.1749",
+                    "data": "20.07.1749"
+                }
+            },
             "filhos": {}
         },
         {
@@ -971,7 +1048,7 @@
             },
             "casamentos": {
                 "1": {
-                    "conjuge": "",
+                    "conjuge": "1086999",
                     "local": "",
                     "data": ""
                 }
@@ -992,7 +1069,7 @@
             },
             "casamentos": {
                 "1": {
-                    "conjuge": "",
+                    "conjuge": "1075773",
                     "local": "",
                     "data": ""
                 }
@@ -1011,7 +1088,13 @@
                 "pai": "1087001",
                 "mae": "1087002"
             },
-            "casamentos": {},
+            "casamentos": {
+                "1": {
+                    "conjuge": "1086995",
+                    "local": "",
+                    "data": ""
+                }
+            },
             "filhos": {}
         },
         {
@@ -1055,9 +1138,9 @@
             },
             "casamentos": {
                 "1": {
-                    "conjuge": "",
-                    "local": "",
-                    "data": ""
+                    "conjuge": "1076103",
+                    "local": "; href=\"pessoas.php?id=1076103\"> José Antunes Guimarães *  25.10.1803",
+                    "data": "25.10.1803"
                 }
             },
             "filhos": {}
@@ -1074,7 +1157,13 @@
                 "pai": "1075984",
                 "mae": "1075985"
             },
-            "casamentos": {},
+            "casamentos": {
+                "1": {
+                    "conjuge": "1075981",
+                    "local": "  Guimarães, Sande (São Martinho)  20.08.1761",
+                    "data": "20.08.1761"
+                }
+            },
             "filhos": {}
         },
         {
@@ -1091,7 +1180,7 @@
             },
             "casamentos": {
                 "1": {
-                    "conjuge": "",
+                    "conjuge": "1078765",
                     "local": "",
                     "data": ""
                 }
@@ -1116,7 +1205,13 @@
                 "pai": "1079224",
                 "mae": "1079225"
             },
-            "casamentos": {},
+            "casamentos": {
+                "1": {
+                    "conjuge": "1079217",
+                    "local": "  Guimarães, Gondomar, Lugar da Lage  18.07.1782",
+                    "data": "18.07.1782"
+                }
+            },
             "filhos": {}
         },
         {
@@ -1133,7 +1228,7 @@
             },
             "casamentos": {
                 "1": {
-                    "conjuge": "",
+                    "conjuge": "1086997",
                     "local": "",
                     "data": ""
                 }
@@ -1158,7 +1253,18 @@
                 "pai": "1079219",
                 "mae": "1079220"
             },
-            "casamentos": {},
+            "casamentos": {
+                "1": {
+                    "conjuge": "1079221",
+                    "local": " I:   Guimarães, Gondomar, Lugar da Lage  30.11.1775",
+                    "data": "30.11.1775"
+                },
+                "2": {
+                    "conjuge": "1079218",
+                    "local": " II:   Guimarães, Gondomar, Lugar da Lage  18.07.1782",
+                    "data": "18.07.1782"
+                }
+            },
             "filhos": {}
         },
         {
@@ -1175,7 +1281,7 @@
             },
             "casamentos": {
                 "1": {
-                    "conjuge": "",
+                    "conjuge": "1079228",
                     "local": "",
                     "data": ""
                 }
@@ -1232,7 +1338,7 @@
             },
             "casamentos": {
                 "1": {
-                    "conjuge": "",
+                    "conjuge": "1087000",
                     "local": "",
                     "data": ""
                 }
@@ -1301,7 +1407,7 @@
             },
             "casamentos": {
                 "1": {
-                    "conjuge": "",
+                    "conjuge": "1079211",
                     "local": "",
                     "data": ""
                 }
@@ -1349,9 +1455,9 @@
             },
             "casamentos": {
                 "1": {
-                    "conjuge": "",
-                    "local": "",
-                    "data": ""
+                    "conjuge": "1076124",
+                    "local": "; href=\"pessoas.php?id=1076124\"> Paulo Alexandre Pires Ribeiro Antunes Guimarães *  23.08.1974",
+                    "data": "23.08.1974"
                 }
             },
             "filhos": {}
@@ -1368,7 +1474,13 @@
                 "pai": "1076020",
                 "mae": "1076021"
             },
-            "casamentos": {},
+            "casamentos": {
+                "1": {
+                    "conjuge": "1076014",
+                    "local": "  Guimarães, Briteiros (Salvador)  02.08.1795",
+                    "data": "02.08.1795"
+                }
+            },
             "filhos": {}
         },
         {
@@ -1406,9 +1518,9 @@
             },
             "casamentos": {
                 "1": {
-                    "conjuge": "",
-                    "local": "",
-                    "data": ""
+                    "conjuge": "1076120",
+                    "local": "; href=\"pessoas.php?id=1076120\"> Miguel Pedro Pires Ribeiro Antunes Guimarães *  19.09.1965",
+                    "data": "19.09.1965"
                 }
             },
             "filhos": {}
@@ -1440,7 +1552,13 @@
                 "pai": "1079209",
                 "mae": "1079210"
             },
-            "casamentos": {},
+            "casamentos": {
+                "1": {
+                    "conjuge": "1078573",
+                    "local": "  Vila Verde, Soutelo  07.09.1876",
+                    "data": "07.09.1876"
+                }
+            },
             "filhos": {}
         },
         {
@@ -1457,7 +1575,7 @@
             },
             "casamentos": {
                 "1": {
-                    "conjuge": "",
+                    "conjuge": "1079212",
                     "local": "",
                     "data": ""
                 }
@@ -1478,7 +1596,7 @@
             },
             "casamentos": {
                 "1": {
-                    "conjuge": "",
+                    "conjuge": "1087001",
                     "local": "",
                     "data": ""
                 }
@@ -1497,7 +1615,13 @@
                 "pai": "1079213",
                 "mae": "1079214"
             },
-            "casamentos": {},
+            "casamentos": {
+                "1": {
+                    "conjuge": "1079210",
+                    "local": "; href=\"pessoas.php?id=1079210\"> Maria Narcisa da Silva Soares de Azevedo *  30.10.1809",
+                    "data": "30.10.1809"
+                }
+            },
             "filhos": {}
         },
         {
@@ -1520,9 +1644,9 @@
             },
             "casamentos": {
                 "1": {
-                    "conjuge": "",
-                    "local": "",
-                    "data": ""
+                    "conjuge": "1077256",
+                    "local": "; href=\"pessoas.php?id=1077256\"> Mariana Ezequiel Feyo de Figueiredo Correia *  07.11.1801",
+                    "data": "07.11.1801"
                 }
             },
             "filhos": {}
@@ -1560,7 +1684,13 @@
                 "pai": "1086995",
                 "mae": "1086996"
             },
-            "casamentos": {},
+            "casamentos": {
+                "1": {
+                    "conjuge": "1079225",
+                    "local": "  Guimarães, Gondomar  20.07.1749",
+                    "data": "20.07.1749"
+                }
+            },
             "filhos": {}
         },
         {
@@ -1577,7 +1707,7 @@
             },
             "casamentos": {
                 "1": {
-                    "conjuge": "",
+                    "conjuge": "1086999",
                     "local": "",
                     "data": ""
                 }
@@ -1598,7 +1728,7 @@
             },
             "casamentos": {
                 "1": {
-                    "conjuge": "",
+                    "conjuge": "1075773",
                     "local": "",
                     "data": ""
                 }
@@ -1617,7 +1747,13 @@
                 "pai": "1087001",
                 "mae": "1087002"
             },
-            "casamentos": {},
+            "casamentos": {
+                "1": {
+                    "conjuge": "1086995",
+                    "local": "",
+                    "data": ""
+                }
+            },
             "filhos": {}
         },
         {
@@ -1661,9 +1797,9 @@
             },
             "casamentos": {
                 "1": {
-                    "conjuge": "",
-                    "local": "",
-                    "data": ""
+                    "conjuge": "1076103",
+                    "local": "; href=\"pessoas.php?id=1076103\"> José Antunes Guimarães *  25.10.1803",
+                    "data": "25.10.1803"
                 }
             },
             "filhos": {}
@@ -1680,7 +1816,13 @@
                 "pai": "1075984",
                 "mae": "1075985"
             },
-            "casamentos": {},
+            "casamentos": {
+                "1": {
+                    "conjuge": "1075981",
+                    "local": "  Guimarães, Sande (São Martinho)  20.08.1761",
+                    "data": "20.08.1761"
+                }
+            },
             "filhos": {}
         },
         {
@@ -1697,7 +1839,7 @@
             },
             "casamentos": {
                 "1": {
-                    "conjuge": "",
+                    "conjuge": "1078765",
                     "local": "",
                     "data": ""
                 }
@@ -1722,7 +1864,13 @@
                 "pai": "1079224",
                 "mae": "1079225"
             },
-            "casamentos": {},
+            "casamentos": {
+                "1": {
+                    "conjuge": "1079217",
+                    "local": "  Guimarães, Gondomar, Lugar da Lage  18.07.1782",
+                    "data": "18.07.1782"
+                }
+            },
             "filhos": {}
         },
         {
@@ -1739,7 +1887,7 @@
             },
             "casamentos": {
                 "1": {
-                    "conjuge": "",
+                    "conjuge": "1086997",
                     "local": "",
                     "data": ""
                 }
@@ -1764,7 +1912,18 @@
                 "pai": "1079219",
                 "mae": "1079220"
             },
-            "casamentos": {},
+            "casamentos": {
+                "1": {
+                    "conjuge": "1079221",
+                    "local": " I:   Guimarães, Gondomar, Lugar da Lage  30.11.1775",
+                    "data": "30.11.1775"
+                },
+                "2": {
+                    "conjuge": "1079218",
+                    "local": " II:   Guimarães, Gondomar, Lugar da Lage  18.07.1782",
+                    "data": "18.07.1782"
+                }
+            },
             "filhos": {}
         },
         {
@@ -1781,7 +1940,7 @@
             },
             "casamentos": {
                 "1": {
-                    "conjuge": "",
+                    "conjuge": "1079228",
                     "local": "",
                     "data": ""
                 }
@@ -1838,7 +1997,7 @@
             },
             "casamentos": {
                 "1": {
-                    "conjuge": "",
+                    "conjuge": "1087000",
                     "local": "",
                     "data": ""
                 }
@@ -1907,7 +2066,7 @@
             },
             "casamentos": {
                 "1": {
-                    "conjuge": "",
+                    "conjuge": "1079211",
                     "local": "",
                     "data": ""
                 }
@@ -1955,9 +2114,9 @@
             },
             "casamentos": {
                 "1": {
-                    "conjuge": "",
-                    "local": "",
-                    "data": ""
+                    "conjuge": "1076124",
+                    "local": "; href=\"pessoas.php?id=1076124\"> Paulo Alexandre Pires Ribeiro Antunes Guimarães *  23.08.1974",
+                    "data": "23.08.1974"
                 }
             },
             "filhos": {}
@@ -1974,7 +2133,13 @@
                 "pai": "1076020",
                 "mae": "1076021"
             },
-            "casamentos": {},
+            "casamentos": {
+                "1": {
+                    "conjuge": "1076014",
+                    "local": "  Guimarães, Briteiros (Salvador)  02.08.1795",
+                    "data": "02.08.1795"
+                }
+            },
             "filhos": {}
         },
         {
@@ -2012,9 +2177,9 @@
             },
             "casamentos": {
                 "1": {
-                    "conjuge": "",
-                    "local": "",
-                    "data": ""
+                    "conjuge": "1076120",
+                    "local": "; href=\"pessoas.php?id=1076120\"> Miguel Pedro Pires Ribeiro Antunes Guimarães *  19.09.1965",
+                    "data": "19.09.1965"
                 }
             },
             "filhos": {}
@@ -2046,7 +2211,13 @@
                 "pai": "1079209",
                 "mae": "1079210"
             },
-            "casamentos": {},
+            "casamentos": {
+                "1": {
+                    "conjuge": "1078573",
+                    "local": "  Vila Verde, Soutelo  07.09.1876",
+                    "data": "07.09.1876"
+                }
+            },
             "filhos": {}
         },
         {
@@ -2063,7 +2234,7 @@
             },
             "casamentos": {
                 "1": {
-                    "conjuge": "",
+                    "conjuge": "1079212",
                     "local": "",
                     "data": ""
                 }
@@ -2084,7 +2255,7 @@
             },
             "casamentos": {
                 "1": {
-                    "conjuge": "",
+                    "conjuge": "1087001",
                     "local": "",
                     "data": ""
                 }
@@ -2103,7 +2274,13 @@
                 "pai": "1079213",
                 "mae": "1079214"
             },
-            "casamentos": {},
+            "casamentos": {
+                "1": {
+                    "conjuge": "1079210",
+                    "local": "; href=\"pessoas.php?id=1079210\"> Maria Narcisa da Silva Soares de Azevedo *  30.10.1809",
+                    "data": "30.10.1809"
+                }
+            },
             "filhos": {}
         },
         {
@@ -2126,9 +2303,9 @@
             },
             "casamentos": {
                 "1": {
-                    "conjuge": "",
-                    "local": "",
-                    "data": ""
+                    "conjuge": "1077256",
+                    "local": "; href=\"pessoas.php?id=1077256\"> Mariana Ezequiel Feyo de Figueiredo Correia *  07.11.1801",
+                    "data": "07.11.1801"
                 }
             },
             "filhos": {}
@@ -2166,7 +2343,13 @@
                 "pai": "1086995",
                 "mae": "1086996"
             },
-            "casamentos": {},
+            "casamentos": {
+                "1": {
+                    "conjuge": "1079225",
+                    "local": "  Guimarães, Gondomar  20.07.1749",
+                    "data": "20.07.1749"
+                }
+            },
             "filhos": {}
         },
         {
@@ -2183,7 +2366,7 @@
             },
             "casamentos": {
                 "1": {
-                    "conjuge": "",
+                    "conjuge": "1086999",
                     "local": "",
                     "data": ""
                 }
@@ -2204,7 +2387,7 @@
             },
             "casamentos": {
                 "1": {
-                    "conjuge": "",
+                    "conjuge": "1075773",
                     "local": "",
                     "data": ""
                 }
@@ -2223,7 +2406,13 @@
                 "pai": "1087001",
                 "mae": "1087002"
             },
-            "casamentos": {},
+            "casamentos": {
+                "1": {
+                    "conjuge": "1086995",
+                    "local": "",
+                    "data": ""
+                }
+            },
             "filhos": {}
         },
         {
@@ -2267,9 +2456,9 @@
             },
             "casamentos": {
                 "1": {
-                    "conjuge": "",
-                    "local": "",
-                    "data": ""
+                    "conjuge": "1076103",
+                    "local": "; href=\"pessoas.php?id=1076103\"> José Antunes Guimarães *  25.10.1803",
+                    "data": "25.10.1803"
                 }
             },
             "filhos": {}
@@ -2286,7 +2475,13 @@
                 "pai": "1075984",
                 "mae": "1075985"
             },
-            "casamentos": {},
+            "casamentos": {
+                "1": {
+                    "conjuge": "1075981",
+                    "local": "  Guimarães, Sande (São Martinho)  20.08.1761",
+                    "data": "20.08.1761"
+                }
+            },
             "filhos": {}
         },
         {
@@ -2303,7 +2498,7 @@
             },
             "casamentos": {
                 "1": {
-                    "conjuge": "",
+                    "conjuge": "1078765",
                     "local": "",
                     "data": ""
                 }
@@ -2328,7 +2523,13 @@
                 "pai": "1079224",
                 "mae": "1079225"
             },
-            "casamentos": {},
+            "casamentos": {
+                "1": {
+                    "conjuge": "1079217",
+                    "local": "  Guimarães, Gondomar, Lugar da Lage  18.07.1782",
+                    "data": "18.07.1782"
+                }
+            },
             "filhos": {}
         },
         {
@@ -2345,7 +2546,7 @@
             },
             "casamentos": {
                 "1": {
-                    "conjuge": "",
+                    "conjuge": "1086997",
                     "local": "",
                     "data": ""
                 }
@@ -2370,7 +2571,18 @@
                 "pai": "1079219",
                 "mae": "1079220"
             },
-            "casamentos": {},
+            "casamentos": {
+                "1": {
+                    "conjuge": "1079221",
+                    "local": " I:   Guimarães, Gondomar, Lugar da Lage  30.11.1775",
+                    "data": "30.11.1775"
+                },
+                "2": {
+                    "conjuge": "1079218",
+                    "local": " II:   Guimarães, Gondomar, Lugar da Lage  18.07.1782",
+                    "data": "18.07.1782"
+                }
+            },
             "filhos": {}
         },
         {
@@ -2387,7 +2599,7 @@
             },
             "casamentos": {
                 "1": {
-                    "conjuge": "",
+                    "conjuge": "1079228",
                     "local": "",
                     "data": ""
                 }
@@ -2444,7 +2656,7 @@
             },
             "casamentos": {
                 "1": {
-                    "conjuge": "",
+                    "conjuge": "1087000",
                     "local": "",
                     "data": ""
                 }
@@ -2513,7 +2725,7 @@
             },
             "casamentos": {
                 "1": {
-                    "conjuge": "",
+                    "conjuge": "1079211",
                     "local": "",
                     "data": ""
                 }
@@ -2561,9 +2773,9 @@
             },
             "casamentos": {
                 "1": {
-                    "conjuge": "",
-                    "local": "",
-                    "data": ""
+                    "conjuge": "1076124",
+                    "local": "; href=\"pessoas.php?id=1076124\"> Paulo Alexandre Pires Ribeiro Antunes Guimarães *  23.08.1974",
+                    "data": "23.08.1974"
                 }
             },
             "filhos": {}
@@ -2580,7 +2792,13 @@
                 "pai": "1076020",
                 "mae": "1076021"
             },
-            "casamentos": {},
+            "casamentos": {
+                "1": {
+                    "conjuge": "1076014",
+                    "local": "  Guimarães, Briteiros (Salvador)  02.08.1795",
+                    "data": "02.08.1795"
+                }
+            },
             "filhos": {}
         },
         {
@@ -2618,9 +2836,9 @@
             },
             "casamentos": {
                 "1": {
-                    "conjuge": "",
-                    "local": "",
-                    "data": ""
+                    "conjuge": "1076120",
+                    "local": "; href=\"pessoas.php?id=1076120\"> Miguel Pedro Pires Ribeiro Antunes Guimarães *  19.09.1965",
+                    "data": "19.09.1965"
                 }
             },
             "filhos": {}
@@ -2652,7 +2870,13 @@
                 "pai": "1079209",
                 "mae": "1079210"
             },
-            "casamentos": {},
+            "casamentos": {
+                "1": {
+                    "conjuge": "1078573",
+                    "local": "  Vila Verde, Soutelo  07.09.1876",
+                    "data": "07.09.1876"
+                }
+            },
             "filhos": {}
         },
         {
@@ -2669,7 +2893,7 @@
             },
             "casamentos": {
                 "1": {
-                    "conjuge": "",
+                    "conjuge": "1079212",
                     "local": "",
                     "data": ""
                 }
@@ -2690,7 +2914,7 @@
             },
             "casamentos": {
                 "1": {
-                    "conjuge": "",
+                    "conjuge": "1087001",
                     "local": "",
                     "data": ""
                 }
@@ -2709,7 +2933,13 @@
                 "pai": "1079213",
                 "mae": "1079214"
             },
-            "casamentos": {},
+            "casamentos": {
+                "1": {
+                    "conjuge": "1079210",
+                    "local": "; href=\"pessoas.php?id=1079210\"> Maria Narcisa da Silva Soares de Azevedo *  30.10.1809",
+                    "data": "30.10.1809"
+                }
+            },
             "filhos": {}
         },
         {
@@ -2732,9 +2962,9 @@
             },
             "casamentos": {
                 "1": {
-                    "conjuge": "",
-                    "local": "",
-                    "data": ""
+                    "conjuge": "1077256",
+                    "local": "; href=\"pessoas.php?id=1077256\"> Mariana Ezequiel Feyo de Figueiredo Correia *  07.11.1801",
+                    "data": "07.11.1801"
                 }
             },
             "filhos": {}
@@ -2772,7 +3002,13 @@
                 "pai": "1086995",
                 "mae": "1086996"
             },
-            "casamentos": {},
+            "casamentos": {
+                "1": {
+                    "conjuge": "1079225",
+                    "local": "  Guimarães, Gondomar  20.07.1749",
+                    "data": "20.07.1749"
+                }
+            },
             "filhos": {}
         },
         {
@@ -2789,7 +3025,7 @@
             },
             "casamentos": {
                 "1": {
-                    "conjuge": "",
+                    "conjuge": "1086999",
                     "local": "",
                     "data": ""
                 }
@@ -2810,7 +3046,7 @@
             },
             "casamentos": {
                 "1": {
-                    "conjuge": "",
+                    "conjuge": "1075773",
                     "local": "",
                     "data": ""
                 }
@@ -2829,7 +3065,13 @@
                 "pai": "1087001",
                 "mae": "1087002"
             },
-            "casamentos": {},
+            "casamentos": {
+                "1": {
+                    "conjuge": "1086995",
+                    "local": "",
+                    "data": ""
+                }
+            },
             "filhos": {}
         },
         {
@@ -2873,9 +3115,9 @@
             },
             "casamentos": {
                 "1": {
-                    "conjuge": "",
-                    "local": "",
-                    "data": ""
+                    "conjuge": "1076103",
+                    "local": "; href=\"pessoas.php?id=1076103\"> José Antunes Guimarães *  25.10.1803",
+                    "data": "25.10.1803"
                 }
             },
             "filhos": {}
@@ -2892,7 +3134,13 @@
                 "pai": "1075984",
                 "mae": "1075985"
             },
-            "casamentos": {},
+            "casamentos": {
+                "1": {
+                    "conjuge": "1075981",
+                    "local": "  Guimarães, Sande (São Martinho)  20.08.1761",
+                    "data": "20.08.1761"
+                }
+            },
             "filhos": {}
         },
         {
@@ -2909,7 +3157,7 @@
             },
             "casamentos": {
                 "1": {
-                    "conjuge": "",
+                    "conjuge": "1078765",
                     "local": "",
                     "data": ""
                 }
@@ -2934,7 +3182,13 @@
                 "pai": "1079224",
                 "mae": "1079225"
             },
-            "casamentos": {},
+            "casamentos": {
+                "1": {
+                    "conjuge": "1079217",
+                    "local": "  Guimarães, Gondomar, Lugar da Lage  18.07.1782",
+                    "data": "18.07.1782"
+                }
+            },
             "filhos": {}
         },
         {
@@ -2951,7 +3205,7 @@
             },
             "casamentos": {
                 "1": {
-                    "conjuge": "",
+                    "conjuge": "1086997",
                     "local": "",
                     "data": ""
                 }
@@ -2976,7 +3230,18 @@
                 "pai": "1079219",
                 "mae": "1079220"
             },
-            "casamentos": {},
+            "casamentos": {
+                "1": {
+                    "conjuge": "1079221",
+                    "local": " I:   Guimarães, Gondomar, Lugar da Lage  30.11.1775",
+                    "data": "30.11.1775"
+                },
+                "2": {
+                    "conjuge": "1079218",
+                    "local": " II:   Guimarães, Gondomar, Lugar da Lage  18.07.1782",
+                    "data": "18.07.1782"
+                }
+            },
             "filhos": {}
         },
         {
@@ -2993,7 +3258,7 @@
             },
             "casamentos": {
                 "1": {
-                    "conjuge": "",
+                    "conjuge": "1079228",
                     "local": "",
                     "data": ""
                 }
