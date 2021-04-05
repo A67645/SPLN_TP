@@ -141,7 +141,7 @@ def parsePage(link_id):
     # get marriage info
     if exists_casamento(soup):
         paragraph = soup.find("td", {"width": "100%"})
-        temp = str(paragraph).split('<div class="marcadorP" style="margin-top: 10px;">Casamentos',2)
+        temp = str(paragraph).split('asamentos',2)
         temp = temp[1]
         if exists_filhos(soup):
             temp = temp.split('<div class="marcadorP" style="margin-top: 10px;">Filhos',2)
@@ -232,8 +232,10 @@ def main():
     for i in lista_pessoas:
         indvData = parsePage(i)
         output.append(indvData)
-    with open('output.json', 'a') as file:
-        file.write(json.dumps(output,ensure_ascii=False, indent = 4))
+    familias = {"familias" : output}
+    with open('familias.json', 'w') as file:
+        file.write(json.dumps(familias,ensure_ascii=False, indent = 4))
     file.close()
+
 
 main()
