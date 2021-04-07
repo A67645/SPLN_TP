@@ -43,16 +43,15 @@ def birth_death_validator(string):
     data_nasc = ""
     local_morte = ""
     if '+' in string and '*' in string:
-        split = string.split("+",2)
+        split = string.split("+")
         local_nasc, data_nasc = check_local_data(split[0])
-        local_morte, data_morte = check_local_data(split[1])
+        local_morte, data_morte = check_local_data(split[-1])
     elif '+' in string and '*' not in string:
         local_nasc = "null"
         data_nasc = "null"
         local_morte, data_morte = check_local_data(string)
     elif '*' in string and '+' not in string:
-        local_nasc = check_local_data(string)
-        data_nasc = check_local_data(string)
+        local_nasc, data_nasc = check_local_data(string)
         local_morte = "null"
         data_morte = "null"
     return local_nasc, data_nasc, local_morte, data_morte
@@ -62,14 +61,17 @@ def check_local_data(string): # confirm regex .search and .match
     re_local = re.compile("[*|+] (.+?)[0-9]")
     re_data = re.compile("([0-9][0-9].[0-9][0-9].[0-9][0-9][0-9][0-9]?)")
     data = "null"
-    if re.match(re_data,string):
-        local = re.search(re_local, string)
-        data = re.search(re_data, string)
+    if re.search(re_data,string):
+        data = re.search(re_data, string).group(0)
+        if re.search(re_local, string):
+            local = re.search(re_local, string).group(0)
+        else:
+            local = "null"
     else:
         local = string
     return local, data
 
-# percber que campos temos disponiveis dentro do casamento
+# perceber que campos temos disponiveis dentro do casamento
 def check_casamento(string):
     re_data = re.compile("([0-9][0-9].[0-9][0-9].[0-9][0-9][0-9][0-9]?)")
     re_local = re.compile("[^|*](.+?)[0-9][0-9].[0-9][0-9].[0-9][0-9][0-9][0-9]")
@@ -189,14 +191,12 @@ def parsePage(link_id):
             string = string.replace('"><a',"")
             l_lista_temp.append(string)
 
-        #print('Casado com  ' +l_lista_temp[0])
         dict_casamentos = {}
         a = 1
         for l in l_lista_temp:
 
             if(l==''):
                 continue
-           # print('String L'+l)
 
             conjuge, casamento_local, casamento_data =check_casamento(str(l))
             dict_temp = { "conjuge": conjuge, "local": casamento_local, "data": casamento_data}
@@ -206,7 +206,7 @@ def parsePage(link_id):
 
     else:
         dict_casamentos = {}
-        # get heritage info
+    # get heritage info
     if exists_filhos(soup):
         paragraph = soup.find("td", {"width": "100%"})
         temp = str(paragraph).split('<div class="marcadorP" style="margin-top: 10px;">Filhos')
@@ -247,7 +247,6 @@ def parsePage(link_id):
 def main():
     # read main webpage
     content = requests.get("http://pagfam.geneall.net/3418/").content
-    #change this, why download the html when we can get all from bsf directly?
     with open("file.html","wb") as f:
         f.write(content)
     f.close()
