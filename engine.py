@@ -98,7 +98,7 @@ def filhos(nome_pessoa, dict_pessoas):
     filhos = {}
     result = ""
     for dict_pessoa in pessoas:
-        if((dict_pessoa["nome"]==nome)):
+        if((dict_pessoa["nome"]==nome_pessoa)):
             filhos = dict_pessoa["filhos"]
     for key in filhos:
         result += key + ": " + str(filhos[key]) + "\n"
@@ -130,7 +130,7 @@ def main():
 
     sg.theme('LightBlue2')
     layout_menu = [[sg.Text("Search Engine for geneallogical tree")],
-                    [sg.Button("Search the information of a person"), 
+                    [sg.Button("Search the information of a person"),
                     sg.Button("Search the members of a family")],
                     [sg.Button("Search the weddings of a person"),
                     sg.Button("Search the descendants of a person")],
