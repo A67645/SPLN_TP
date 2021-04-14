@@ -28,20 +28,24 @@ def listarPessoas(link):
             links = re.search(findLink, data).group(0).replace('">',"")
             lista_links.append(links)
     # parse the aditional indexes pages to get all the ids
+    print(lista_links)
     for i in lista_links:
-        for a in soup.find_all('a', href=True):
+        url_link = "http://pagfam.geneall.net" + i
+        soup_link = BeautifulSoup(requests.get(url_link).text, 'html.parser')
+        for a in soup_link.find_all('a', href=True):
             data = a.decode()
             if re.search(reID, data):
-                id = re.search(findID, data).group(0) # ,re.match(reID, data)
+                id = re.search(findID, data).group(0)
+                # ,re.match(reID, data)
                 lista.append(id)
     return lista
 
 # definir função para validar output do bs4
 def birth_death_validator(string):
-    local_nasc = ""
-    data_morte = ""
-    data_nasc = ""
-    local_morte = ""
+    local_nasc = "null"
+    data_morte = "null"
+    data_nasc = "null"
+    local_morte = "null"
     if '+' in string and '*' in string:
         split = string.split("+")
         local_nasc, data_nasc = check_local_data(split[0])
@@ -74,7 +78,7 @@ def check_local_data(string): # confirm regex .search and .match
 # perceber que campos temos disponiveis dentro do casamento
 def check_casamento(string):
     re_data = re.compile("([0-9][0-9].[0-9][0-9].[0-9][0-9][0-9][0-9]?)")
-    re_local = re.compile("[^|*](.+?)[0-9][0-9].[0-9][0-9].[0-9][0-9][0-9][0-9]")
+    re_local = re.compile("[^|*](.+?)(?=[0-9][0-9].[0-9][0-9].[0-9][0-9][0-9][0-9])")
     re_local_sData = re.compile(".+(?=;)")
     re_id = re.compile("[0-9]+(?=\">)")
     data = ""
@@ -257,7 +261,6 @@ def main():
 
     #get links from the people directory
     link_pessoa = 'http://pagfam.geneall.net/3418/' + soup.find_all("option", string = "Pessoas")[0]['value']
-
     print("Parsing the people index...")
     lista_pessoas = listarPessoas(link_pessoa)
     #lista_pessoas = listarPessoas('http://pagfam.geneall.net/3418/pessoas.php?id=1076019')
