@@ -28,7 +28,6 @@ def listarPessoas(link):
             links = re.search(findLink, data).group(0).replace('">',"")
             lista_links.append(links)
     # parse the aditional indexes pages to get all the ids
-    print(lista_links)
     for i in lista_links:
         url_link = "http://pagfam.geneall.net" + i
         soup_link = BeautifulSoup(requests.get(url_link).text, 'html.parser')
