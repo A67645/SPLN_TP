@@ -1,0 +1,47 @@
+tkinter
+
+
+O que é?
+
+	é uma interface par ao Tk GUI toolkit.
+
+	o que é o Tk GUI toolkit?
+		Tk é o widghet toolkit, isto é:
+				é uma libaria (ou conjunto) que contém elementos de controlo gráfico ( por exemplo scrollbar, ou botão) usados para construir uma interface gráfica.
+		o tkinter 
+
+	o ao importar o tkinter, importa os modulos mais importantes mas às vezes pode ser necessário mais módulos:
+
+
+	tk são programas tcl. um programa tcl é uma lista de tokens separada por espaços.
+
+
+	criar widkgets: classCommand newPathname options
+
+
+	Como é que tk e tkinter estão relacionados?
+
+
+	App Python -> Aplicação que faz a call ao tkinter
+	|
+	|
+	v
+	tkinter -> coverte os comandos python na forma de um tk script
+	|
+	|
+	v
+	_tkinter (C) 
+	|
+	|
+	v
+	Tk Widgets (C and TCL) -> faz call de outros modulos, incluindo os modulos C e TCL da Tk library
+	|
+	|
+	v
+	Tk (C) -> finalmente os Tk Widgets são implementados
+	|
+	|
+	v
+	Xlib (C) -> Libraria que desenha gráficos no ecrã
+
+
