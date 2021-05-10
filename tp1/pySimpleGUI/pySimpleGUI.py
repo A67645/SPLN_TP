@@ -2,7 +2,6 @@
 import io
 import os
 from os import *
-import pafy
 import PySimpleGUI as sg
 from PIL import Image
 from sys import platform as PLATFORM
