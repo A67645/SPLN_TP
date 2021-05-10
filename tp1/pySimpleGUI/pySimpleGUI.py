@@ -2,6 +2,7 @@
 
 from tkinter import *
 import io
+import os
 from os import *
 import pafy
 import PySimpleGUI as sg
@@ -74,7 +75,7 @@ layout_menu = [[sg.Text("O que consigo fazer")], # Título do menú
                 [sg.Button("EXIT")] # Operação de término de janela
               ]
 # Definição do menú com nome da janela, tamanho da janela e o layout do mesmo
-window_menu = sg.Window("Search Engine", layout_menu, size = (600,400))
+window_menu = sg.Window("Interface em PySimpleGUI", layout_menu, size = (600,400))
 
 while True:
     # controlo de eventos permite mapear que botões são pressionados
@@ -102,7 +103,7 @@ while True:
                 break
             elif event_tio == "Submit" and values_tio[0] != "":
                 # Popup window com a resposta
-                sg.popup('O seu nome é: ', values_tio[0] + values_tio[1])
+                sg.popup('O seu nome é: ', values_tio[0] + " " + values_tio[1])
         window_tio.close() # término de janela
 
     elif event_menu == "Visualizador de Imagens":
