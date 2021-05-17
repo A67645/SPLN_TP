@@ -1,13 +1,9 @@
 #!/usr/bin/python3
-
-from tkinter import *
 import io
 import os
 from os import *
-import pafy
 import PySimpleGUI as sg
 from PIL import Image
-import vlc
 from sys import platform as PLATFORM
 from random import randint
 import math
