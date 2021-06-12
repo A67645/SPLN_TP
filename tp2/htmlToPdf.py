@@ -1,11 +1,11 @@
-import requests as re
+import requests as r
 from bs4 import BeautifulSoup as bs
 
 
 
 def getLeftLinks(link) -> []:
         
-    pagIni = re.get(link)
+    pagIni = r.get(link)
     link_w3 = "https://www.w3schools.com/"
     lang_link = link.split("https://www.w3schools.com/")[1].split('/')[0]
 
@@ -24,7 +24,9 @@ def getLeftLinks(link) -> []:
 
 
 def main ():
-    getLeftLinks("https://www.w3schools.com/html/default.asp") 
-
+    links = getLeftLinks("https://www.w3schools.com/html/default.asp") 
+    with open("links.txt", "a") as f:
+        for i in links:
+            f.write(i + "\n")
 
 main()       
