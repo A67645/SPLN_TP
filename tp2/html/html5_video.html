@@ -1,0 +1,248 @@
+<div class="w3-col l10 m12" id="main">
+<div id="mainLeaderboard" style="overflow:hidden;">
+<!-- MainLeaderboard-->
+<!--<pre>main_leaderboard, all: [728,90][970,90][320,50][468,60]</pre>-->
+<div id="snhb-main_leaderboard-0"></div>
+<!-- adspace leaderboard -->
+</div>
+<h1>HTML <span class="color_h1">Video</span></h1>
+<div class="w3-clear nextprev">
+<a class="w3-left w3-btn" href="html_media.asp">❮ Previous</a>
+<a class="w3-right w3-btn" href="html5_audio.asp">Next ❯</a>
+</div>
+<hr/>
+<p class="intro">The HTML <code class="w3-codespan">&lt;video&gt;</code> element is used to 
+show a video on a web page.</p>
+<hr/>
+<div class="w3-example">
+<h3>Example</h3>
+<p>Courtesy of <a href="https://www.bigbuckbunny.org/" target="_blank">Big Buck Bunny</a>:</p>
+<div class="w3-padding w3-white notranslate">
+<div style="text-align:center">
+<video controls="" id="video1" style="width:600px;max-width:100%;">
+<source src="mov_bbb.mp4" type="video/mp4"/>
+<source src="mov_bbb.ogg" type="video/ogg"/>
+    Your browser does not support HTML5 video.
+  </video>
+</div>
+</div>
+<a class="w3-btn w3-margin-bottom w3-margin-top" href="tryit.asp?filename=tryhtml5_video" target="_blank">Try it Yourself »</a>
+</div>
+<hr/>
+<h2>The HTML &lt;video&gt; Element</h2>
+<p>To show a video in HTML, use the <code class="w3-codespan">&lt;video&gt;</code> element:</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+&lt;video width="320" height="240" controls&gt;<br/>
+  &lt;source src="movie.mp4" type="video/mp4"&gt;<br/>
+  &lt;source src="movie.ogg" type="video/ogg"&gt;<br/>
+Your browser does not support the video tag.<br/>
+&lt;/video&gt;
+</div>
+<a class="w3-btn w3-margin-bottom" href="tryit.asp?filename=tryhtml5_video_all" target="_blank">Try it Yourself »</a>
+</div>
+<hr/>
+<h2>How it Works</h2>
+<p>The <code class="w3-codespan">controls</code> attribute adds video controls, like play, pause, and volume.</p>
+<p>It is a good idea to always include <code class="w3-codespan">width</code> and <code class="w3-codespan">height</code> attributes. If height and width are not set, the page 
+might flicker while the video loads.</p>
+<p>The <code class="w3-codespan">&lt;source&gt;</code> element allows you to specify alternative video 
+files which the browser may choose from. The browser will use the first recognized format.</p>
+<p>The text between the <code class="w3-codespan">&lt;video&gt;</code> and <code class="w3-codespan">&lt;/video&gt;</code> tags will only be displayed 
+in browsers that do not 
+support the <code class="w3-codespan">&lt;video&gt;</code> element.</p>
+<hr/>
+<h2>HTML &lt;video&gt; Autoplay</h2>
+<p>To start a video automatically, use the <code class="w3-codespan">autoplay</code> attribute:</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+&lt;video width="320" height="240" autoplay&gt;<br/>
+  &lt;source src="movie.mp4" type="video/mp4"&gt;<br/>
+  &lt;source src="movie.ogg" type="video/ogg"&gt;<br/>
+Your browser does not support the video tag.<br/>
+&lt;/video&gt;
+</div>
+<a class="w3-btn w3-margin-bottom" href="tryit.asp?filename=tryhtml5_video_autoplay" target="_blank">Try it Yourself »</a>
+</div>
+<div class="w3-panel w3-note">
+<p><strong>Note:</strong> Chromium browsers do not 
+allow autoplay in most cases. However, muted autoplay is always allowed.</p>
+</div>
+<p>Add <code class="w3-codespan">muted</code> after <code class="w3-codespan">
+autoplay</code> to let your video start playing automatically (but muted):</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+&lt;video width="320" height="240" autoplay muted&gt;<br/>
+  &lt;source src="movie.mp4" type="video/mp4"&gt;<br/>
+  &lt;source src="movie.ogg" type="video/ogg"&gt;<br/>
+Your browser does not support the video tag.<br/>
+&lt;/video&gt;
+</div>
+<a class="w3-btn w3-margin-bottom" href="tryit.asp?filename=tryhtml5_video_autoplay_mute" target="_blank">Try it Yourself »</a>
+</div>
+<hr/>
+<h2>Browser Support</h2>
+<p>The numbers in the table specify the first browser version that fully supports the 
+<code class="w3-codespan">&lt;video&gt;</code> element.</p>
+<table class="browserref notranslate">
+<tr>
+<th style="width:20%;font-size:16px;text-align:left;">Element</th>
+<th class="bsChrome" style="width:16%;" title="Chrome"></th>
+<th class="bsEdge" style="width:16%;" title="Internet Explorer / Edge"></th>
+<th class="bsFirefox" style="width:16%;" title="Firefox"></th>
+<th class="bsSafari" style="width:16%;" title="Safari"></th>
+<th class="bsOpera" style="width:16%;" title="Opera"></th>
+</tr>
+<tr>
+<td style="text-align:left;">&lt;video&gt;</td>
+<td>4.0</td>
+<td>9.0</td>
+<td>3.5</td>
+<td>4.0</td>
+<td>10.5</td>
+</tr>
+</table>
+<hr/>
+<div id="midcontentadcontainer" style="overflow:auto;text-align:center">
+<!-- MidContent -->
+<!-- <p class="adtext">Advertisement</p> -->
+<!--<pre>mid_content, all: [300,250][336,280][728,90][970,250][970,90][320,50][468,60]</pre>-->
+<div id="snhb-mid_content-0"></div>
+</div>
+<hr/>
+<h2>HTML Video Formats</h2>
+<p>There are three supported video formats: MP4, WebM, and Ogg. The browser support for the different formats is:</p>
+<table class="w3-table-all notranslate">
+<tr>
+<th style="width:25%">Browser</th>
+<th style="width:25%">MP4</th>
+<th style="width:25%">WebM</th>
+<th style="width:25%">Ogg</th>
+</tr>
+<tr>
+<td>Edge</td>
+<td>YES</td>
+<td>YES</td>
+<td>YES</td>
+</tr>
+<tr>
+<td>Chrome</td>
+<td>YES</td>
+<td>YES</td>
+<td>YES</td>
+</tr>
+<tr>
+<td>Firefox</td>
+<td>YES</td>
+<td>YES</td>
+<td>YES</td>
+</tr>
+<tr>
+<td>Safari</td>
+<td>YES</td>
+<td>YES</td>
+<td>NO</td>
+</tr>
+<tr>
+<td>Opera</td>
+<td>YES</td>
+<td>YES</td>
+<td>YES</td>
+</tr>
+</table>
+<hr/>
+<h2>HTML Video - Media Types</h2>
+<table class="w3-table-all notranslate" id="table1">
+<tr>
+<th style="width:50%">File Format</th>
+<th style="width:50%">Media Type</th>
+</tr>
+<tr>
+<td>MP4</td>
+<td>video/mp4</td>
+</tr>
+<tr>
+<td>WebM</td>
+<td>video/webm</td>
+</tr>
+<tr>
+<td>Ogg</td>
+<td>video/ogg</td>
+</tr>
+</table>
+<hr/>
+<h2>HTML Video - Methods, Properties, and Events</h2>
+<p>The HTML DOM defines methods, properties, and events for the <code class="w3-codespan">&lt;video&gt;</code> element.</p>
+<p>This allows you to load, play, and pause videos, as well as setting duration and volume.</p>
+<p>There are also DOM events that can notify you when a video begins to play, is paused, etc.</p>
+<div class="w3-example">
+<h3>Example: Using JavaScript</h3>
+<br/>
+<div class="w3-white w3-padding-16" style="text-align:center;">
+<button onclick="playPause()">Play/Pause</button>
+<button onclick="makeBig()">Big</button>
+<button onclick="makeSmall()">Small</button>
+<button onclick="makeNormal()">Normal</button>
+<br/><br/>
+<video id="video2" style="max-width:100%" width="480">
+<source src="mov_bbb.mp4" type="video/mp4"/>
+<source src="mov_bbb.ogg" type="video/ogg"/>
+    Your browser does not support HTML5 video.
+  </video>
+<script> 
+var myVideo = document.getElementById("video2"); 
+function playPause() { 
+    if (myVideo.paused) 
+        myVideo.play(); 
+    else 
+        myVideo.pause(); 
+} 
+
+function makeBig() {
+    myVideo.width = 600;
+} 
+
+function makeSmall() { 
+    myVideo.width = 320; 
+} 
+
+function makeNormal() { 
+    myVideo.width = 480;
+} 
+</script>
+<p>Video courtesy of <a href="https://www.bigbuckbunny.org/" target="_blank">Big Buck Bunny</a>.</p>
+</div>
+<a class="w3-btn w3-margin-bottom w3-margin-top" href="tryit.asp?filename=tryhtml5_video_js_prop" target="_blank">Try it Yourself »</a>
+</div>
+<p>For a full DOM reference, go to our <a href="/tags/ref_av_dom.asp">HTML Audio/Video DOM Reference</a>.</p>
+<hr/>
+<h2>HTML Video Tags</h2>
+<table class="w3-table-all notranslate">
+<tr>
+<th style="width:20%">Tag</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><a href="/tags/tag_video.asp">&lt;video&gt;</a></td>
+<td>Defines a video or movie</td>
+</tr>
+<tr>
+<td><a href="/tags/tag_source.asp">&lt;source&gt;</a></td>
+<td>Defines multiple media resources for media elements, such as &lt;video&gt; and &lt;audio&gt;</td>
+</tr>
+<tr>
+<td><a href="/tags/tag_track.asp">&lt;track&gt;</a></td>
+<td>Defines text tracks in media players</td>
+</tr>
+</table>
+<br/>
+<div class="w3-clear nextprev">
+<a class="w3-left w3-btn" href="html_media.asp">❮ Previous</a>
+<a class="w3-right w3-btn" href="html5_audio.asp">Next ❯</a>
+</div>
+<div id="mypagediv2" style="position:relative;text-align:center;"></div>
+<br/>
+</div>

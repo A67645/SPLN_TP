@@ -1,0 +1,134 @@
+<div class="w3-col l10 m12" id="main">
+<div id="mainLeaderboard" style="overflow:hidden;">
+<!-- MainLeaderboard-->
+<!--<pre>main_leaderboard, all: [728,90][970,90][320,50][468,60]</pre>-->
+<div id="snhb-main_leaderboard-0"></div>
+<!-- adspace leaderboard -->
+</div>
+<h1>Using Emojis in HTML</h1>
+<div class="w3-clear nextprev">
+<a class="w3-left w3-btn" href="html_symbols.asp">❮ Previous</a>
+<a class="w3-right w3-btn" href="html_charset.asp">Next ❯</a>
+</div>
+<hr/>
+<p class="intro">Emojis are characters from the UTF-8 character set: 😄 😍 💗</p>
+<hr/>
+<h2>What are Emojis?</h2>
+<p>Emojis look like images, or icons, but they are not.</p>
+<p>They are letters (characters) from the UTF-8 (Unicode) character set.</p>
+<div class="w3-panel w3-note">
+<p>UTF-8 covers almost all of the characters and symbols in the world.</p>
+</div>
+<hr/>
+<h2>The HTML charset Attribute</h2>
+<p>To display an HTML page correctly, a web browser must know the character set used in the page.</p>
+<p>This is specified in the <code class="w3-codespan">&lt;meta&gt;</code> tag:</p>
+<div class="w3-example">
+<div class="w3-code notranslate htmlHigh">
+&lt;meta charset="UTF-8"&gt;
+</div>
+</div>
+<div class="w3-panel w3-note">
+<p>If not specified, UTF-8 is the default character set in HTML.</p>
+</div>
+<hr/>
+<h2>UTF-8 Characters</h2>
+<p>Many UTF-8 characters cannot be typed on a keyboard,
+but they can always be displayed using numbers (called entity numbers):</p>
+<ul>
+<li>A is 65</li>
+<li>B is 66</li>
+<li>C is 67</li>
+</ul>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+&lt;!DOCTYPE html&gt;<br/>
+&lt;html&gt;<br/>
+  &lt;head&gt;<br/>&lt;meta charset="UTF-8"&gt;<br/>&lt;/head&gt;<br/>
+&lt;body&gt;<br/><br/>
+&lt;p&gt;I will display A B C&lt;/p&gt;<br/>
+&lt;p&gt;I will display &amp;#65; &amp;#66; &amp;#67;&lt;/p&gt;<br/><br/>
+&lt;/body&gt;<br/>
+&lt;/html&gt;
+</div>
+<a class="w3-btn w3-margin-bottom" href="tryit.asp?filename=tryhtml_emojis_utf8" target="_blank">Try it Yourself »</a>
+</div>
+<h3>Example Explained</h3>
+<p>The <code class="w3-codespan">&lt;meta charset="UTF-8"&gt;</code> element defines the character set.</p>
+<p>The characters A, B, and C, are displayed by the numbers 65, 66, and 67.</p>
+<p>To let the browser understand that you are displaying a character, you must start the entity number
+with &amp;# and end it with ; (semicolon).</p>
+<hr/>
+<h2>Emoji Characters</h2>
+<p>Emojis are also characters from the UTF-8 alphabet:</p>
+<ul>
+<li>😄 is 128516</li>
+<li>😍 is 128525</li>
+<li>💗 is 128151</li>
+</ul>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+&lt;!DOCTYPE html&gt;<br/>
+&lt;html&gt;<br/>
+  &lt;head&gt;<br/>&lt;meta charset="UTF-8"&gt;<br/>&lt;/head&gt;<br/>
+&lt;body&gt;<br/><br/>
+&lt;h1&gt;My First Emoji&lt;/h1&gt;<br/><br/>
+&lt;p&gt;&amp;#128512;&lt;/p&gt;<br/><br/>
+&lt;/body&gt;<br/>&lt;/html&gt;
+</div>
+<a class="w3-btn w3-margin-bottom" href="tryit.asp?filename=tryhtml_emojis" target="_blank">Try it Yourself »</a>
+</div>
+<p>Since Emojis are characters, they can be copied, displayed,
+and sized just like any other character in HTML.</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+&lt;!DOCTYPE html&gt;<br/>
+&lt;html&gt;<br/>
+  &lt;head&gt;<br/>&lt;meta charset="UTF-8"&gt;<br/>&lt;/head&gt;<br/>
+&lt;body&gt;<br/><br/>
+&lt;h1&gt;Sized Emojis&lt;/h1&gt;<br/><br/>
+  &lt;p style="font-size:48px"&gt;<br/>&amp;#128512; &amp;#128516; &amp;#128525; &amp;#128151;<br/>&lt;/p&gt;<br/><br/>
+&lt;/body&gt;<br/>&lt;/html&gt;
+</div>
+<a class="w3-btn w3-margin-bottom" href="tryit.asp?filename=tryhtml_emojis_size" target="_blank">Try it Yourself »</a>
+</div>
+<hr/>
+<div id="midcontentadcontainer" style="overflow:auto;text-align:center">
+<!-- MidContent -->
+<!-- <p class="adtext">Advertisement</p> -->
+<!--<pre>mid_content, all: [300,250][336,280][728,90][970,250][970,90][320,50][468,60]</pre>-->
+<div id="snhb-mid_content-0"></div>
+</div>
+<hr/>
+<h2>Some Emoji Symbols in UTF-8</h2>
+<div class="w3-responsive">
+<table class="w3-table-all">
+<tr>
+<th>Emoji</th>
+<th>Value</th>
+</tr>
+<tr><td>🗻</td><td>&amp;#128507;</td></tr>
+<tr><td>🗼</td><td>&amp;#128508;</td></tr>
+<tr><td>🗽</td><td>&amp;#128509;</td></tr>
+<tr><td>🗾</td><td>&amp;#128510;</td></tr>
+<tr><td>🗿</td><td>&amp;#128511;</td></tr>
+<tr><td>😀</td><td>&amp;#128512;</td></tr>
+<tr><td>😁</td><td>&amp;#128513;</td></tr>
+<tr><td>😂</td><td>&amp;#128514;</td></tr>
+<tr><td>😃</td><td>&amp;#128515;</td></tr>
+<tr><td>😄</td><td>&amp;#128516;</td></tr>
+<tr><td>😅</td><td>&amp;#128517;</td></tr>
+</table>
+</div>
+<p>For a full list, please go to our <a href="/charsets/ref_emoji.asp">HTML Emoji Reference</a>.</p>
+<br/>
+<div class="w3-clear nextprev">
+<a class="w3-left w3-btn" href="html_symbols.asp">❮ Previous</a>
+<a class="w3-right w3-btn" href="html_charset.asp">Next ❯</a>
+</div>
+<div id="mypagediv2" style="position:relative;text-align:center;"></div>
+<br/>
+</div>

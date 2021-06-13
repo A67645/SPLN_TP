@@ -1,0 +1,106 @@
+<div class="w3-col l10 m12" id="main">
+<div id="mainLeaderboard" style="overflow:hidden;">
+<!-- MainLeaderboard-->
+<!--<pre>main_leaderboard, all: [728,90][970,90][320,50][468,60]</pre>-->
+<div id="snhb-main_leaderboard-0"></div>
+<!-- adspace leaderboard -->
+</div>
+<h1>HTML <span class="color_h1">YouTube Videos</span></h1>
+<div class="w3-clear nextprev">
+<a class="w3-left w3-btn" href="html_object.asp">❮ Previous</a>
+<a class="w3-right w3-btn" href="html5_geolocation.asp">Next ❯</a>
+</div>
+<hr/>
+<p class="intro">The easiest way to play videos in HTML, is to use YouTube.</p>
+<hr/>
+<h2>Struggling with Video Formats?</h2>
+<p>Converting videos to different formats can be difficult and time-consuming.</p>
+<p>An easier solution is to let YouTube play the videos in your web page.</p>
+<hr/>
+<h2>YouTube Video Id</h2>
+<p>YouTube will display an id (like tgbNymZ7vqY), when you save (or play) a video.</p>
+<p>You can use this id, and refer to your video in the HTML code.</p>
+<hr/>
+<h2>Playing a YouTube Video in HTML</h2>
+<p>To play your video on a web page, do the following:</p>
+<ul>
+<li>Upload the video to YouTube</li>
+<li>Take a note of the video id</li>
+<li>Define an <code class="w3-codespan">&lt;iframe&gt;</code> element in your web page</li>
+<li>Let the <code class="w3-codespan">src</code> attribute point to the video URL</li>
+<li>Use the <code class="w3-codespan">width</code> and <code class="w3-codespan">
+ height</code> attributes to specify the dimension of the player</li>
+<li>Add any other parameters to the URL (see below)</li>
+</ul>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+&lt;iframe width="420" height="315"<br/>src="https://www.youtube.com/embed/tgbNymZ7vqY"&gt;<br/>
+&lt;/iframe&gt;
+</div>
+<a class="w3-btn w3-margin-bottom" href="tryit.asp?filename=tryhtml_youtubeiframe" target="_blank">Try it Yourself »</a>
+</div>
+<hr/>
+<h2>YouTube Autoplay + Mute</h2>
+<p>You can let your video start playing automatically when a user visits the 
+page, by adding <code class="w3-codespan">autoplay=1</code> to the YouTube URL. 
+However, automatically starting a video is annoying for your visitors!</p>
+<div class="w3-panel w3-note">
+<p><strong>Note:</strong> Chromium browsers do not 
+allow autoplay in most cases. However, muted autoplay is always allowed.</p>
+</div>
+<p>Add <code class="w3-codespan">mute=1</code> after <code class="w3-codespan">
+autoplay=1</code> to let your video start playing automatically (but muted).</p>
+<div class="w3-example">
+<h3>YouTube - Autoplay + Muted</h3>
+<div class="w3-code notranslate htmlHigh">
+&lt;iframe width="420" height="315"<br/>src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&amp;mute=1"&gt;<br/>
+&lt;/iframe&gt;
+</div>
+<a class="w3-btn w3-margin-bottom" href="tryit.asp?filename=tryhtml_youtubeiframe_autoplay" target="_blank">Try it Yourself »</a>
+</div>
+<hr/>
+<div id="midcontentadcontainer" style="overflow:auto;text-align:center">
+<!-- MidContent -->
+<!-- <p class="adtext">Advertisement</p> -->
+<!--<pre>mid_content, all: [300,250][336,280][728,90][970,250][970,90][320,50][468,60]</pre>-->
+<div id="snhb-mid_content-0"></div>
+</div>
+<hr/>
+<h2>YouTube Playlist</h2>
+<p>A comma separated list of videos to play (in addition to the original URL).</p>
+<hr/>
+<h2>YouTube Loop</h2>
+<p>Add <code class="w3-codespan">loop=1</code> to let your video loop forever.</p>
+<p>Value 0 (default): The video will play only once.</p>
+<p>Value 1: The video will loop (forever).</p>
+<div class="w3-example">
+<h3>YouTube - Loop</h3>
+<div class="w3-code notranslate htmlHigh">
+&lt;iframe width="420" height="315"<br/>src="https://www.youtube.com/embed/tgbNymZ7vqY?playlist=tgbNymZ7vqY&amp;loop=1"&gt;<br/>
+&lt;/iframe&gt;
+</div>
+<a class="w3-btn w3-margin-bottom" href="tryit.asp?filename=tryhtml_youtubeiframe_loop" target="_blank">Try it Yourself »</a>
+</div>
+<hr/>
+<h2>YouTube Controls</h2>
+<p>Add <code class="w3-codespan">controls=0</code> to not display controls in the 
+video player.</p>
+<p>Value 0: Player controls does not display.</p>
+<p>Value 1 (default): Player controls display.</p>
+<div class="w3-example">
+<h3>YouTube - Controls</h3>
+<div class="w3-code notranslate htmlHigh">
+&lt;iframe width="420" height="315"<br/>src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=0"&gt;<br/>
+&lt;/iframe&gt;
+</div>
+<a class="w3-btn w3-margin-bottom" href="tryit.asp?filename=tryhtml_youtubeiframe_controls" target="_blank">Try it Yourself »</a>
+</div>
+<br/>
+<div class="w3-clear nextprev">
+<a class="w3-left w3-btn" href="html_object.asp">❮ Previous</a>
+<a class="w3-right w3-btn" href="html5_geolocation.asp">Next ❯</a>
+</div>
+<div id="mypagediv2" style="position:relative;text-align:center;"></div>
+<br/>
+</div>

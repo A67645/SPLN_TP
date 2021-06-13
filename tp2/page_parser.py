@@ -1,9 +1,25 @@
 import requests as r
 from bs4 import BeautifulSoup as bs
 import os
+from pathlib import Path
+import shutil
+import re
 info_array = []
+name_array = []
 language = "html"
 links = []
+# regex
+regex_name = re.compile(r'\/(\w+).asp')
+
+#make dir
+path = os.path.join("html/")
+path = Path('html')
+if path.exists() and path.is_dir():
+    shutil.rmtree(path)
+    os.makedirs(path)
+else:
+    os.makedirs(path)
+
 with open("links.txt","r") as f:
     for link in f.readlines():
         links.append(link)
@@ -21,18 +37,17 @@ def get_soup(link):
 def main ():
     print("Getting links")
     for i in links:
+        i = i.strip()
         data = get_soup(i)
         info_array.append(data)
-        print(i)
+        name_array.append(re.findall(regex_name, i)[0])
     print(" We have html")
     count = 0
     for i in info_array:
-        count +=1
-        path = os.path.join("html", str(count), ".txt")
-        os.makedirs (path)
-        with open(path, "w") as f:
-            f.write(i)
+        write_path = os.path.join("html", name_array[count] + ".html")
+        with open(write_path, "w") as f:
+            f.write(str(i))
         f.close()
-        print("added: " + path)
+        count +=1
 
 main()       

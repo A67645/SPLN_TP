@@ -1,0 +1,128 @@
+<div class="w3-col l10 m12" id="main">
+<div id="mainLeaderboard" style="overflow:hidden;">
+<!-- MainLeaderboard-->
+<!--<pre>main_leaderboard, all: [728,90][970,90][320,50][468,60]</pre>-->
+<div id="snhb-main_leaderboard-0"></div>
+<!-- adspace leaderboard -->
+</div>
+<h1>HTML <span class="color_h1">SSE API</span></h1>
+<div class="w3-clear nextprev">
+<a class="w3-left w3-btn" href="html5_webworkers.asp">❮ Previous</a>
+<a class="w3-right w3-btn" href="html_examples.asp">Next ❯</a>
+</div>
+<hr/>
+<p class="intro">Server-Sent Events (SSE) allow a web page to get updates from a server.</p>
+<hr/>
+<h2>Server-Sent Events - One Way Messaging</h2>
+<p>A server-sent event is when a web page automatically gets updates from a server.</p>
+<p>This was also possible before, but the web page would have to ask if any updates were 
+available. With server-sent events, the updates come automatically.</p>
+<p>Examples: Facebook/Twitter updates, stock price updates, news feeds, sport results, etc.</p>
+<hr/>
+<h2>Browser Support</h2>
+<p>The numbers in the table specify the first browser version that fully support server-sent events.</p>
+<table class="browserref notranslate">
+<tr>
+<th style="width:14%;font-size:16px;text-align:left;">API</th>
+<th class="bsChrome" style="width:16%;" title="Chrome"></th>
+<th class="bsEdge" style="width:16%;" title="Internet Explorer / Edge"></th>
+<th class="bsFirefox" style="width:16%;" title="Firefox"></th>
+<th class="bsSafari" style="width:16%;" title="Safari"></th>
+<th class="bsOpera" style="width:16%;" title="Opera"></th>
+</tr>
+<tr>
+<td style="text-align:left;">SSE</td>
+<td>6.0</td>
+<td>79.0</td>
+<td>6.0</td>
+<td>5.0</td>
+<td>11.5</td>
+</tr>
+</table>
+<hr/>
+<h2>Receive Server-Sent Event Notifications</h2>
+<p>The EventSource object is used to receive server-sent event notifications:</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate jsHigh">
+ var source = new EventSource("demo_sse.php");<br/>source.onmessage = function(event) {<br/>  document.getElementById("result").innerHTML += event.data + "&lt;br&gt;";<br/>};</div>
+<a class="w3-btn w3-margin-bottom" href="tryit.asp?filename=tryhtml5_sse" target="_blank">Try it Yourself »</a>
+</div>
+<p>Example explained:</p>
+<ul>
+<li>Create a new EventSource object, and specify the URL of the page sending the updates (in this example "demo_sse.php")</li>
+<li>Each time an update is received, the onmessage event occurs</li>
+<li>When an onmessage event occurs, put the received data into the element with id="result"</li>
+</ul>
+<hr/>
+<h2>Check Server-Sent Events Support</h2>
+<p>In the tryit example above there were some extra lines of code to check browser support for server-sent events:</p>
+<div class="w3-code w3-border notranslate jsHigh"><div>
+if(typeof(EventSource) !== "undefined") {<br/>
+    // Yes! Server-sent events support!<br/>
+    // <i>Some code.....</i><br/>
+ }
+ else {<br/>
+    // Sorry! No server-sent events support..<br/>
+ }
+</div>
+</div>
+<hr/>
+<div id="midcontentadcontainer" style="overflow:auto;text-align:center">
+<!-- MidContent -->
+<!-- <p class="adtext">Advertisement</p> -->
+<!--<pre>mid_content, all: [300,250][336,280][728,90][970,250][970,90][320,50][468,60]</pre>-->
+<div id="snhb-mid_content-0"></div>
+</div>
+<hr/>
+<h2>Server-Side Code Example</h2>
+<p>For the example above to work, you need a server capable of sending data updates (like PHP or ASP).</p>
+<p>The server-side event stream syntax is simple. Set the "Content-Type" header to 
+"text/event-stream". Now you can start sending event streams.</p>
+<p>Code in PHP (demo_sse.php):</p>
+<div class="w3-code w3-border notranslate htmlHigh"><div>
+ &lt;?php<br/>header('Content-Type: text/event-stream');<br/>
+ header('Cache-Control: no-cache');<br/><br/>$time = date('r');<br/>echo "data: The server time is: {$time}\n\n";<br/>flush();<br/>?&gt;
+</div></div>
+<p>Code in ASP (VB) (demo_sse.asp):</p>
+<div class="w3-code w3-border notranslate" style="color:brown;"><div>
+ &lt;%<br/>Response.ContentType = "text/event-stream"<br/>Response.Expires = -1<br/>
+ Response.Write("data: The server time is: " &amp; now())<br/>Response.Flush()<br/>%&gt;
+</div></div>
+<p>Code explained:</p>
+<ul>
+<li>Set the "Content-Type" header to 
+"text/event-stream"</li>
+<li>Specify that the page should not cache</li>
+<li>Output the data to send (<strong>Always</strong> start with "data: ")</li>
+<li>Flush the output data back to the web page</li>
+</ul>
+<hr/>
+<h2>The EventSource Object</h2>
+<p>In the examples above we used the onmessage event to get messages. But other events are also available:</p>
+<table class="w3-table-all notranslate">
+<tr>
+<th style="width:20%">Events</th>
+<th>Description</th>
+</tr>
+<tr>
+<td>onopen</td>
+<td>When a connection to the server is opened</td>
+</tr>
+<tr>
+<td>onmessage</td>
+<td>When a message is received</td>
+</tr>
+<tr>
+<td>onerror</td>
+<td>When an error occurs</td>
+</tr>
+</table>
+<br/>
+<div class="w3-clear nextprev">
+<a class="w3-left w3-btn" href="html5_webworkers.asp">❮ Previous</a>
+<a class="w3-right w3-btn" href="html_examples.asp">Next ❯</a>
+</div>
+<div id="mypagediv2" style="position:relative;text-align:center;"></div>
+<br/>
+</div>
