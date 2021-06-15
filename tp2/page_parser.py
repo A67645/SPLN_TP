@@ -4,50 +4,77 @@ import os
 from pathlib import Path
 import shutil
 import re
-info_array = []
-name_array = []
-language = "html"
-links = []
-# regex
-regex_name = re.compile(r'\/(\w+).asp')
 
-#make dir
-path = os.path.join("html/")
-path = Path('html')
-if path.exists() and path.is_dir():
-    shutil.rmtree(path)
-    os.makedirs(path)
-else:
-    os.makedirs(path)
-
-with open("links.txt","r") as f:
-    for link in f.readlines():
-        links.append(link)
-f.close()
-print(links)
+from requests.api import get
 
 
-def get_soup(link):
+def make_dir(language):
+    #make dir
+    path = os.path.join("{language}/")
+    path = Path('{language}')
+    if path.exists() and path.is_dir():
+        shutil.rmtree(path)
+        os.makedirs(path)
+    else:
+        os.makedirs(path)
+
+def clearPage(soup):
+    #remove w3-btn
+    print(type(soup))
+    btns = soup.find_all("a",class_="w3-btn")
+    if btns :
+        for btn in btns:
+            btn.decompose()
+    
+    #remove form id="w3-exerciseform"
+    forms = soup.find_all("form",id="w3-exerciseform")
+    if forms:
+        for form in forms:
+            form.decompose()
+
+    #remove div id="getdiploma"
+    dipls = soup.find_all("div",id="getdiploma")
+    if dipls :
+        for dip in dipls:
+            dip.decompose()
+
+
+def getPage(link):
     req = r.get(link)
-    soup = bs(req.content,'html.parser')
+    soup = bs(req.text,'html.parser')
     final_soup = soup.find("div", {"id":"main"})
+
+    #print(type(final_soup.find_all("a",class_="w3-btn")))
+    if ((final_soup.find_all("a",class_="w3-btn")) != None):
+        
+        btns = final_soup.find_all("a",class_="w3-btn")
+        if btns :
+            for btn in btns:
+                btn.decompose()
+
+    if (final_soup.find_all("form",id="w3-exerciseform")!= None) :   
+        #remove form id="w3-exerciseform"
+        forms = final_soup.find_all("form",id="w3-exerciseform")
+        if forms:
+            for form in forms:
+                form.decompose()
+
+    if (final_soup.find_all("div",id="getdiploma")!= None) :  
+        #remove div id="getdiploma"
+        dipls = final_soup.find_all("div",id="getdiploma")
+        if dipls :
+            for dip in dipls:
+                dip.decompose()
+        
     return final_soup
+   
 
 
-def main ():
-    print("Getting links")
-    for i in links:
-        i = i.strip()
-        data = get_soup(i)
-        info_array.append(data)
-        name_array.append(re.findall(regex_name, i)[0])
-    print(" We have html")
-    count = 0
-    for i in info_array:
-        write_path = os.path.join("html", name_array[count] + ".html")
-        with open(write_path, "w") as f:
-            f.write(str(i))
-        f.close()
-        count +=1
+'''
+def main():
+    link = "https://www.w3schools.com/html/html_intro.asp"
+    #print(getPage(link))
+    getPage(link)
 
-main()       
+main()
+'''
