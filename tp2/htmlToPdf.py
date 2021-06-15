@@ -5,7 +5,7 @@ import pdfkit as pdf
 from w3lib.html import remove_tags
 
 def getLeftLinks(link) -> []:
-        
+    #cagar nas references e deve resolver o problema
     pagIni = r.get(link)
     link_w3 = "https://www.w3schools.com/"
     lang_link = link.split("https://www.w3schools.com/")[1].split('/')[0]
