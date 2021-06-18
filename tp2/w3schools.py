@@ -5,6 +5,7 @@ from requests.api import get
 import sys
 import pdfkit as pdfk
 import re
+import warnings 
 
 def clearPage(soup):
     #remove w3-btn
@@ -30,12 +31,29 @@ def clearPage(soup):
         for s in s_s:
             s.decompose()
 
+
+def replaceImg(soup,link):
+    link_w3 = "https://www.w3schools.com/"
+    lang_link = link.split("https://www.w3schools.com/")[1].split('/')[0]
+    prefix = link_w3 +lang_link+'/'
+
+    img_s = soup.find_all('img')
+    #print(img_s)
+    if img_s:
+        for img in img_s:
+                if '/' in  img['src'] :    
+                    img['src']= link_w3 + img['src']
+                else :
+                    img['src']= prefix + img['src']   
+                
+        
 def getPage(link):
     req = r.get(link)
     soup = bs(req.text,'html.parser')
     final_soup = soup.find("div", {"id":"main"})
-
+   
     clearPage(final_soup)
+    replaceImg(final_soup,link)
 
     return final_soup
 
@@ -94,6 +112,12 @@ def main ():
     if sys.argv[2] == '-o':
         pdf = sys.argv[3]
 
-    genPDF(link, pdf)
+    warnings.filterwarnings('error')
+    try:
+        genPDF(link, pdf)
+    except RuntimeWarning :
+        pass
+
+
 
 main()

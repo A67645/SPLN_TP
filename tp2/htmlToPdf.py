@@ -55,5 +55,7 @@ def genPDF(link,lang_name):
 
 def main():
     link = "https://www.w3schools.com/html/default.asp"
-    genPDF(link, 'html')
+    #genPDF(link, 'html')
+   # print(get_all(link)[2])
+    pdfk.from_file('html.html','tes.pdf')
 main()
