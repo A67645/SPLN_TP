@@ -1,4 +1,5 @@
 from bs4 import BeautifulSoup as bs
+import sys
 
 import page_parser as pp
 import pdfkit as pdfk
@@ -53,7 +54,12 @@ def genPDF(link,lang_name):
     pdfk.from_string(html_final,lang_name+'.pdf')
 
 def main ():
-    link = "https://www.w3schools.com/html/default.asp"
-    genPDF(link,'html')
+    link = "https://www.w3schools.com/" + sys.argv[1] + "/default.asp"
+    if sys.argv[1] == 'cs':
+        link = "https://www.w3shcools.com/" + sys.argv[1] + "/index.php"
+    pdf = sys.argv[1]
+    if sys.argv[2] == '-o':
+        pdf = sys.argv[3]
+    genPDF(link, pdf)
 
 main()       
