@@ -5,7 +5,7 @@ from requests.api import get
 import sys
 import pdfkit as pdfk
 import re
-import warnings 
+import warnings
 
 def clearPage(soup):
     #remove w3-btn
@@ -41,17 +41,17 @@ def replaceImg(soup,link):
     #print(img_s)
     if img_s:
         for img in img_s:
-                if '/' in  img['src'] :    
+                if '/' in  img['src'] :
                     img['src']= link_w3 + img['src']
                 else :
-                    img['src']= prefix + img['src']   
-                
-        
+                    img['src']= prefix + img['src']
+
+
 def getPage(link):
     req = r.get(link)
     soup = bs(req.text,'html.parser')
     final_soup = soup.find("div", {"id":"main"})
-   
+
     clearPage(final_soup)
     replaceImg(final_soup,link)
 
@@ -104,19 +104,48 @@ def genPDF(link,lang_name):
 
     pdfk.from_string(html_final,lang_name+'.pdf')
 
+def list():
+    url = 'https://www.w3schools.com/'
+    pagina = r.get(url)
+    soup = bs(pagina.text, 'html.parser')
+
+    map = {}
+
+    divs = soup.find_all('div', class_ = 'w3-col l3 m6')
+    for div in divs:
+        for tutorial in div.find_all('a', class_ = 'w3-bar-item w3-button'):
+            item = tutorial['href']
+            split = item.split('/')
+            if split[1] not in map:
+                map[split[1]] = True
+
+    for key in map:
+        print(key)
+
 def main ():
+
     link = "https://www.w3schools.com/" + sys.argv[1] + "/default.asp"
+
     if sys.argv[1] == 'cs':
         link = "https://www.w3shcools.com/" + sys.argv[1] + "/index.php"
+
     pdf = sys.argv[1]
-    if sys.argv[2] == '-o':
+
+    size =  len(sys.argv)
+
+    if size >= 4 and sys.argv[2] == '-o':
         pdf = sys.argv[3]
 
     warnings.filterwarnings('error')
-    try:
-        genPDF(link, pdf)
-    except RuntimeWarning :
-        pass
+
+    if sys.argv[1] == '-l':
+        list()
+
+    else:
+        try:
+            genPDF(link, pdf)
+        except RuntimeWarning :
+            pass
 
 
 
