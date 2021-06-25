@@ -1,3 +1,6 @@
+#!/usr/bin/python3
+
+from os import remove
 import requests as r
 from bs4 import BeautifulSoup as bs
 from pathlib import Path
@@ -30,7 +33,11 @@ def clearPage(soup):
     if s_s :
         for s in s_s:
             s.decompose()
-
+    #remove links in buttons 
+    btsl_s = soup.find_all("div",class_="w3-col m12 l12")
+    if btsl_s :
+        for btsl in btsl_s:
+            btsl.decompose()
 
 def replaceImg(soup,link):
     link_w3 = "https://www.w3schools.com/"
@@ -62,6 +69,8 @@ def getLeftLinks(link) :
     pagIni = r.get(link)
 
     link_w3 = "https://www.w3schools.com"
+    #print(link.split("https://www.w3schools.com/"))
+
     lang_link = link.split("https://www.w3schools.com/")[1].split('/')[0]
 
     soup = bs(pagIni.text,'html.parser')
@@ -108,7 +117,8 @@ def list():
     url = 'https://www.w3schools.com/'
     pagina = r.get(url)
     soup = bs(pagina.text, 'html.parser')
-
+    remover = ['typingspeed','codegame','whatis','tryit','browsers',
+    'cert']
     map = {}
 
     divs = soup.find_all('div', class_ = 'w3-col l3 m6')
@@ -119,6 +129,10 @@ def list():
             if split[1] not in map:
                 map[split[1]] = True
 
+    for re in remover:
+        if re in map :
+            del map[re]
+
     for key in map:
         print(key)
 
@@ -126,8 +140,12 @@ def main ():
 
     link = "https://www.w3schools.com/" + sys.argv[1] + "/default.asp"
 
-    if sys.argv[1] == 'cs':
-        link = "https://www.w3shcools.com/" + sys.argv[1] + "/index.php"
+    if (sys.argv[1] == 'cs' or 'kotlin' or 'statistics'
+         or 'cybersecurity' or 'accessibility') :
+        link = "https://www.w3schools.com/" + sys.argv[1] + "/index.php"
+
+    if (sys.argv[1] == 'sass') :
+        link = "https://www.w3schools.com/" + sys.argv[1] + "/default.php"    
 
     pdf = sys.argv[1]
 
