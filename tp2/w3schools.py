@@ -106,7 +106,7 @@ def get_all(link):
 
 def genPDF(link,lang_name):
     html_s = get_all(link)
-
+   
     html_final = ""
     for html in html_s:
         html_final += str(html)
@@ -133,19 +133,29 @@ def list():
         if re in map :
             del map[re]
 
+    i=0
     for key in map:
+        
         print(key)
+        
+
 
 def main ():
 
-    link = "https://www.w3schools.com/" + sys.argv[1] + "/default.asp"
 
-    if (sys.argv[1] == 'cs' or 'kotlin' or 'statistics'
-         or 'cybersecurity' or 'accessibility') :
+    link = "https://www.w3schools.com/" + sys.argv[1] + "/default.asp"
+    
+    if (sys.argv[1] == 'cs' or
+        sys.argv[1] ==  'kotlin' or
+        sys.argv[1] ==  'statistics' or
+        sys.argv[1] ==  'cybersecurity' or 
+        sys.argv[1] == 'accessibility') :
         link = "https://www.w3schools.com/" + sys.argv[1] + "/index.php"
 
     if (sys.argv[1] == 'sass') :
         link = "https://www.w3schools.com/" + sys.argv[1] + "/default.php"    
+
+    
 
     pdf = sys.argv[1]
 
@@ -161,9 +171,11 @@ def main ():
 
     else:
         try:
+            print(link)
             genPDF(link, pdf)
+            
         except RuntimeWarning :
-            pass
+            print('erro')
 
 
 
