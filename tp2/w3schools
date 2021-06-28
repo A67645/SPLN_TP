@@ -120,7 +120,7 @@ def list():
     remover = ['typingspeed','codegame','whatis','tryit','browsers',
     'cert']
     map = {}
-
+    lista_final = []
     divs = soup.find_all('div', class_ = 'w3-col l3 m6')
     for div in divs:
         for tutorial in div.find_all('a', class_ = 'w3-bar-item w3-button'):
@@ -135,10 +135,10 @@ def list():
 
     i=0
     for key in map:
+        lista_final.append(key)
+        #print(key)
         
-        print(key)
-        
-
+    return lista_final
 
 def main ():
 
@@ -167,15 +167,21 @@ def main ():
     warnings.filterwarnings('error')
 
     if sys.argv[1] == '-l':
-        list()
+        print(list())
 
     else:
         try:
             print(link)
             genPDF(link, pdf)
             
-        except RuntimeWarning :
-            print('erro')
+        except Exception :
+            lista = list()
+            if(sys.argv[1] not in lista):
+                print('Tutorial not available choose one from list bellow: \n')
+                print(list())
+            else :
+                print('Unexpected error')    
+            pass
 
 
 
